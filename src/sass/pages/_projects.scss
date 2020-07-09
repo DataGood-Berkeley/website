@@ -1,0 +1,42 @@
+.project-gallery {
+	.card {
+		height: 435px;
+		width: 753px;
+		background-color: $grey;
+		position: relative;
+
+		.content {
+			h2 {
+				font-family: Gotham, serif;
+				font-size: 50px;
+				text-align: center;
+				color: $white;
+			}
+
+			p {
+				font-family: NotoSerifSC, serif;
+				font-size: 30px;
+				padding: 20px;
+				color: $white;
+			}
+		}
+
+		.img-container {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			opacity: 1;
+			pointer-events: none;
+			transition: opacity 0.3s;
+			z-index: 1;
+		}
+
+		&:hover {
+			.img-container {
+				opacity: 0;
+			}
+		}
+	}
+}

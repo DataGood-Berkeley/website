@@ -1,0 +1,28 @@
+.topics-table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid $black;
+
+	tr {
+		text-align: center;
+
+		th {
+			color: $black;
+			font-family: Gotham, serif;
+			font-size: 50px;
+			padding: 0 37px;
+			padding-top: 32px;
+			padding-bottom: 17px;
+			border: 1px solid $black;
+		}
+
+		td {
+			font-family: NotoSerifSC, serif;
+			font-size: 30px;
+			border-left: 1px solid $black;
+			border-right: 1px solid $black;
+			padding-top: 35px;
+			padding-bottom: 35px;
+		}
+	}
+}

@@ -1,0 +1,83 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	max-width: 100%;
+	padding: 100px;
+
+	.org-name {
+		font-family: Gotham, serif;
+		font-size: 40px;
+		line-height: 50px;
+		color: $black;
+	}
+
+	nav {
+		display: flex;
+
+		.nav-btn {
+			position: relative;
+			cursor: pointer;
+			font-family: NotoSerif, serif;
+			font-size: 25px;
+			line-height: 27px;
+			color: $grey;
+
+			.nav-txt {
+				background-color: white;
+				margin: 20px;
+				margin-bottom: 8px;
+				padding: 0 12px;
+				padding-bottom: 12px;
+
+				&:after {
+					bottom: 13px;
+					width: 0;
+					height: 0;
+					background-color: $grey;
+					content: "";
+					display: block;
+					position: absolute;
+					left: 50%;
+					transform: translateX(-50%);
+					transition: width 0.3s, height 0.3s;
+				}
+			}
+
+			svg {
+				height: 100%;
+				width: auto;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				position: absolute;
+				z-index: -1;
+
+				.svg-heart {
+					fill: none;
+					stroke: #ffa69e;
+					stroke-miterlimit: 10;
+					stroke-width: 6px;
+					stroke-dasharray: 400;
+					stroke-dashoffset: 400;
+					transition: stroke-dashoffset 0.3s linear;
+				}
+			}
+
+			&:hover {
+				svg {
+					.svg-heart {
+						stroke-dashoffset: 0;
+					}
+				}
+
+				.nav-txt {
+					&:after {
+						width: 40%;
+						height: 3px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{{> title-section}}
+
+<section>
+	<div class="text-container">
+		<h1>our mission.</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. 
+Turpis egestas sed tempus urna et pharetra pharetra massa. Est ante in nibh mauris cursus mattis molestie a. </p>
+	</div>
+	<div class="img-container">
+		<img src="/images/our-mission.png">
+	</div>	
+</section>
+
+<section>
+	<div class="img-container">
+		<img src="/images/our-organization.png">
+	</div>
+	<div class="text-container">
+		<h1>our organization.</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. 
+Turpis egestas sed tempus urna et pharetra pharetra massa. Est ante in nibh mauris cursus mattis.</p>
+	</div>
+</section>
+
+<section class="sponsors">
+	{{#each sponsor}}
+		<a class="img-container" href="{{link}}" target="_blank">
+			<img src="{{image}}">
+		</a>
+	{{/each}}
+</section>

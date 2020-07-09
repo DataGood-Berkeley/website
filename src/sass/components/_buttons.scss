@@ -1,0 +1,33 @@
+.btn {
+	font-family: Gotham, serif;
+	font-size: 30px;
+	line-height: 33px;
+	color: $white;
+	padding: 14px 39px;
+	border-radius: 1000px;
+
+	&.green-back {
+		background-color: $green;
+	}
+
+	&.blue-back {
+		background-color: $blue;
+	}
+
+	&.pink-back {
+		background-color: $pink;
+	}
+
+	&.purple-back {
+		background-color: $purple;
+	}
+}
+
+.btn-flexbox {
+	display: flex;
+	width: 100%;
+
+	.btn {
+		margin-right: 37px;
+	}
+}

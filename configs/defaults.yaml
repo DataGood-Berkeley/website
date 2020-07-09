@@ -1,0 +1,17 @@
+name: datagood
+tagline: datascience +
+  social good.
+logo: /images/heart-logo.png
+headers:
+  - name: About
+    link: /about
+  - name: Team
+    link: /team
+  - name: Events
+    link: /events
+  - name: Education
+    link: /education
+  - name: Projects
+    link: /projects
+  - name: Contact
+    link: /contact

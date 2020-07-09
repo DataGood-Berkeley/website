@@ -1,0 +1,41 @@
+h1 {
+	font-family: Gotham, serif;
+	font-size: 75px;
+	line-height: 150px;
+	color: $black;
+}
+
+p {
+	font-family: NotoSerifSC, serif;
+	font-size: 30px;
+	line-height: 60px;
+	color: $grey;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 100px;
+}
+
+.img-container {
+	height: 700px;
+
+	img {
+		height: 100%;
+	}
+
+	&.med {
+		height: 310px;
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+.center {
+	display: inline-block;
+	margin: 0 auto;
+}

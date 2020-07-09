@@ -1,0 +1,17 @@
+.title {
+	flex-direction: column;
+	align-content: center;
+	max-width: 100%;
+
+	.img-container {
+		height: 100px;
+	}
+
+	.page-title {
+		color: $black;
+		font-family: Gotham, serif;
+		font-size: 150px;
+		line-height: 150px;
+		text-align: center;
+	}
+}

@@ -1,0 +1,58 @@
+.member-gallery {
+	display: flex;
+	justify-content: space-around;
+
+	.card {
+		border-radius: 84px;
+		background-color: $black;
+		padding: 63px;
+
+		.img-container {
+			height: 284px;
+			width: 284px;
+			background-color: white;
+			border-radius: 100%;
+		}
+
+		.position {
+			color: $green;
+			font-family: Gotham, serif;
+			font-size: 50px;
+			text-align: center;
+			margin: 0;
+		}
+
+		.name {
+			color: $white;
+			font-family: NotoSerifSC, serif;
+			font-size: 30px;
+			text-align: center;
+			margin: 0;
+		}
+
+		.social-links {
+			display: flex;
+			justify-content: space-around;
+
+			.social {
+				height: 61px;
+				width: 61px;
+				background-position: center;
+				background-size: cover;
+				display: block;
+
+				&.github {
+					background-image: url("/images/github.png");
+				}
+
+				&.linkedin {
+					background-image: url("/images/linkedin.png");
+				}
+
+				&.facebook {
+					background-image: url("/images/facebook.png");
+				}
+			}
+		}
+	}
+}
