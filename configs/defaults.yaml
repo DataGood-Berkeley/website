@@ -4,7 +4,7 @@ tagline: datascience +
 logo: /images/heart-logo.png
 socials:
   - logo: /images/facebook.png
-    link: Link
+    link: https://www.facebook.com/datagoodberkeley/
   - logo: /images/instagram.png
     link: Link
   - logo: /images/linkedin.png
