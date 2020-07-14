@@ -1,20 +1,78 @@
+.menu-cover {
+	display: none;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
+	align-items: center;
 	max-width: 100%;
 	padding: 100px;
 
 	.org-name {
 		font-family: Gotham, serif;
 		font-size: 40px;
-		line-height: 50px;
 		color: $black;
+		transition: color 0.3s;
+		z-index: 3;
 	}
 
+	.hamburger {
+		display: none;
+		outline: none;
+		position: relative;
+		z-index: 2;
+		& > * {
+			z-index: 2;
+		}
+		svg {
+			height: 160%;
+			width: auto;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			position: absolute;
+			z-index: 2;
+
+			.svg-heart {
+				fill: none;
+				stroke: $pink;
+				stroke-miterlimit: 10;
+				stroke-width: 6px;
+				stroke-dasharray: 400;
+				stroke-dashoffset: 400;
+				transition: stroke-dashoffset 0.3s linear;
+			}
+		}
+		.cover {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background-color: $white;
+			box-shadow: 0 0 0 0vmax $pink, 0 0 0 0vmax $pink, 0 0 0 0vmax $pink;
+			border-radius: 50%;
+			z-index: 1;
+			width: 2px;
+			height: 2px;
+			transition: box-shadow 0.3s;
+		}
+		&.is-active {
+			.cover {
+				box-shadow: 0 0 0 30vmax $white, 0 0 0 90vmax $pink, 0 0 0 150vmax $white;
+			}
+		}
+		&:hover {
+			svg {
+				.svg-heart {
+					stroke-dashoffset: 0;
+				}
+			}
+		}
+	}
 	nav {
 		display: flex;
-
 		.nav-btn {
 			position: relative;
 			cursor: pointer;
@@ -22,14 +80,12 @@ header {
 			font-size: 25px;
 			line-height: 27px;
 			color: $grey;
-
 			.nav-txt {
-				background-color: white;
+				background-color: transparent;			
 				margin: 20px;
 				margin-bottom: 8px;
 				padding: 0 12px;
 				padding-bottom: 12px;
-
 				&:after {
 					bottom: 13px;
 					width: 0;
@@ -55,7 +111,7 @@ header {
 
 				.svg-heart {
 					fill: none;
-					stroke: #ffa69e;
+					stroke: $pink;
 					stroke-miterlimit: 10;
 					stroke-width: 6px;
 					stroke-dasharray: 400;
@@ -77,6 +133,80 @@ header {
 						height: 3px;
 					}
 				}
+			}
+		}
+	}
+	nav:not([reveal]) {
+		.nav-btn {
+			&:hover {
+				.nav-txt {
+					background-color: $white;
+					transition: background-color 0s;
+				}
+			}
+			.nav-txt {
+				transition: background-color 1s;				
+			}		
+		}
+	}
+	@media only screen and (max-width: 1200px) {
+		.hamburger {
+			display: block;
+		}
+		nav {
+			opacity: 0;
+			transition: opacity 0.3s;
+			pointer-events: none;
+			position: absolute;
+			flex-direction: column;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 2;
+			text-align: center;
+			.nav-btn {
+				.nav-txt {
+					transition: background-color 0.3s linear 0.3s;
+					background-color: transparent;
+					animation: unset;
+				}
+			}
+		}
+	}	
+}
+
+body[menu-active] {
+	.org-name {
+		color: $white;
+	}
+	.menu-cover {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+	}
+}
+
+nav[reveal] {
+	pointer-events: auto;
+	opacity: 1;
+	.nav-btn {
+		.nav-txt {
+			@include inline-animation(1s forwards) {
+				from {
+					background-color: transparent;
+				}
+				to {
+					background-color: $pink;
+				}
+			}			
+			color: $black;
+		}
+		svg {
+			.svg-heart {
+				stroke: $white;
 			}
 		}
 	}

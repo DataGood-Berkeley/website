@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch:express": "nodemon ./index.js",
+    "watch:express": "nodemon --watch configs --watch *.* -e yaml,js ./index.js",
     "build:sass": "node-sass src/sass -o public/css",
     "watch:sass": "node-sass -w src/sass -o public/css",
     "watch:browser": "browser-sync start --config bs-config.js",

@@ -1,0 +1,87 @@
+footer {
+	background-color: $black;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 69px 0;
+	flex-wrap: wrap;
+	width: 100%;
+	h3 {
+		color: $white;
+		font-family: Gotham, serif;
+		font-size: 30px;
+		margin: 0;
+		margin-bottom: 10px;	
+	}	
+	& > * {
+		margin: 0 20px;
+	}
+	.right {
+		flex-grow: 1;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		& > * {
+			margin: 20px 20px;
+		}
+		.logos {
+			flex: 1 1 0px;		
+			display: flex;
+			img {
+				height: calc(45px + 20px);
+			}
+			align-items: center;
+			justify-content: center;
+			.org {
+				margin-left: 35px;
+				display: flex;
+				flex-direction: column;
+				.name {
+					font-family: Gotham, serif;
+					font-size: 45px;
+					color: $white;
+				}
+				.tagline {
+					font-family: NotoSerifSC, serif;
+					font-size: 20px;
+					line-height: unset;				
+					color: $white;
+				}
+			}
+		}
+		.ocf-hosting {
+			flex: 1 1 0px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+	.left {
+		flex-grow: 1;		
+		display: flex;
+		flex-wrap: wrap;		
+		justify-content: space-evenly;
+		& > * {
+			margin: 20px 20px;
+		}
+		.socials {
+			.links {
+				display: flex;
+				img {
+					margin-right: 10px;
+					flex-shrink: 0;
+					height: 77px;
+				}
+			}
+		}
+		.contact {
+			flex-shrink: 1;		
+			.info {
+				font-family: NotoSerifSC, serif;
+				font-size: 20px;
+				color: $white;
+				height: 77px;
+			}
+		}
+	}
+}

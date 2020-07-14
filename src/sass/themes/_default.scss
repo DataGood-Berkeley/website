@@ -3,20 +3,71 @@ h1 {
 	font-size: 75px;
 	line-height: 150px;
 	color: $black;
+	padding-left: 50px;
 }
 
 p {
+	@keyframes slide {
+		0% {
+			width: 0;
+		}
+		50% {
+			width: 100%;
+			left: 0;
+		}
+		100% {
+			width: 100%;
+			left: 100%;
+		}
+	}
+
+	@keyframes color-change {
+		0% {
+			color: $grey;
+		}
+		50% {
+			color: $white;
+		}
+		100% {
+			color: $grey;
+		}
+	}
 	font-family: NotoSerifSC, serif;
 	font-size: 30px;
 	line-height: 60px;
 	color: $grey;
-}
-
-section {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding: 0 100px;
+	position: relative;
+	overflow: hidden;
+	padding: 0 50px;
+	$speed: 0.7s;
+	&[animate] {
+		animation: color-change $speed forwards;
+		&:after {
+			animation: slide $speed forwards;
+		}
+	}
+	@mixin after-back($name, $color) {
+		&.#{$name}-back {
+			&:after {
+				background-color: $color
+			}
+		}
+	}
+	@include after-back(purple, $purple);
+	@include after-back(pink, $pink);
+	@include after-back(blue, $blue);
+	@include after-back(green, $green);
+	@include after-back(yellow, $yellow);
+	&:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 0;
+		display: block;
+		z-index: -1;
+	}	
 }
 
 .img-container {
@@ -31,6 +82,25 @@ section {
 	}
 }
 
+section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 100px;
+	@media only screen and (max-width: 1440px) {
+		&:not(.face) {
+			flex-wrap: wrap;
+			justify-content: center;
+			.text-container {
+				order: 2;
+			}
+			.img-container {
+				order: 1;
+			}
+		}
+	}
+}
+
 a {
 	text-decoration: none;
 }
@@ -38,4 +108,11 @@ a {
 .center {
 	display: inline-block;
 	margin: 0 auto;
+}
+
+body {
+	margin: 0;
+	&[menu-active] {
+		overflow: hidden;
+	}
 }

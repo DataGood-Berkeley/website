@@ -19,7 +19,8 @@ module.exports = {
     "files": [
         "public/**/*",
         "./index.js",
-        "src/views/**/*"
+        "src/views/**/*",
+        "configs/*"
     ],
     "watchEvents": [
         "add",

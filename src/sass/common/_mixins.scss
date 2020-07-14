@@ -1,0 +1,7 @@
+@mixin inline-animation($opts) {
+	$name: inline-#{unique-id()};
+	@keyframes #{$name} {
+		@content;
+	}
+	animation: $name $opts;
+}

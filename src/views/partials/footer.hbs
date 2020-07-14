@@ -1,2 +1,33 @@
 <footer>
+	<div class="right">
+		<a class="logos" href="/">
+			<img src="{{config.logo}}">
+			<div class="org">
+				<div class="name">{{config.name}}</div>
+				<div class="tagline">{{config.tagline}}</div>
+			</div>
+		</a>
+		<div class="ocf-hosting">
+			<a href="https://www.ocf.berkeley.edu">
+				<img src="/images/ocf-hosted-penguin.svg" alt="Hosted by the OCF" style="border: 0;" />
+			</a>
+		</div>
+	</div>
+	<div class="left">
+		<div class="socials">
+			<h3>socials</h3>
+			<div class="links">
+				{{#each config.socials}}
+				<a href="{{link}}" target="_blank">
+					<img src="{{logo}}">
+				</a>
+				{{/each}}
+			</div>
+		</div>
+		<div class="contact">
+			<h3>contact us</h3>
+			<div class="info">Lorem ipsum dolor sit amet
+	consectetur adipiscing elit, </div>
+		</div>
+	</div>
 </footer>

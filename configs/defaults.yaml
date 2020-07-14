@@ -2,6 +2,15 @@ name: datagood
 tagline: datascience +
   social good.
 logo: /images/heart-logo.png
+socials:
+  - logo: /images/facebook.png
+    link: Link
+  - logo: /images/instagram.png
+    link: Link
+  - logo: /images/linkedin.png
+    link: Link
+  - logo: /images/github.png
+    link: Link
 headers:
   - name: About
     link: /about
