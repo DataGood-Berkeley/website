@@ -3,13 +3,15 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	padding: 69px 0;
+	padding-top: 20px;
 	flex-wrap: wrap;
 	width: 100%;
+	flex-direction: row;
+	margin-top: 50px;	
 	h3 {
 		color: $white;
 		font-family: Gotham, serif;
-		font-size: 30px;
+		@include fluid-type(300, 1536, 20, 25, px);		
 		margin: 0;
 		margin-bottom: 10px;	
 	}	
@@ -17,15 +19,14 @@ footer {
 		margin: 0 20px;
 	}
 	.right {
-		flex-grow: 1;
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
 		& > * {
 			margin: 20px 20px;
 		}
+		margin-right: 0;
 		.logos {
-			flex: 1 1 0px;		
 			display: flex;
 			img {
 				height: calc(45px + 20px);
@@ -38,31 +39,46 @@ footer {
 				flex-direction: column;
 				.name {
 					font-family: Gotham, serif;
-					font-size: 45px;
+					// font-size: 45px;
+					@include fluid-type(300, 1536, 35, 35, px);					
 					color: $white;
 				}
 				.tagline {
 					font-family: NotoSerifSC, serif;
-					font-size: 20px;
+					@include fluid-type(300, 1536, 20, 20, px);				
 					line-height: unset;				
 					color: $white;
 				}
 			}
+			@media only screen and (max-width: 475px) {
+				flex-direction: column;
+				.org {
+					margin-left: 0;
+					.name {
+						text-align: center;
+					}
+					.tagline {
+						text-align: center;
+					}
+				}
+			}
 		}
 		.ocf-hosting {
-			flex: 1 1 0px;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 		}
 	}
 	.left {
-		flex-grow: 1;		
 		display: flex;
 		flex-wrap: wrap;		
 		justify-content: space-evenly;
 		& > * {
 			margin: 20px 20px;
+		}
+		margin-left: 0;
+		@media only screen and (max-width: 600px) {
+			justify-content: flex-start;
 		}
 		.socials {
 			.links {
@@ -70,7 +86,7 @@ footer {
 				img {
 					margin-right: 10px;
 					flex-shrink: 0;
-					height: 77px;
+					@include fluid(width, 300, 1536, 50, 60, px);
 				}
 			}
 		}
@@ -78,9 +94,9 @@ footer {
 			flex-shrink: 1;		
 			.info {
 				font-family: NotoSerifSC, serif;
-				font-size: 20px;
+				@include fluid-type(300, 1536, 15, 18, px);	
+				@include fluid(width, 300, 1536, 50 * 4, 60 * 4, px);							
 				color: $white;
-				height: 77px;
 			}
 		}
 	}

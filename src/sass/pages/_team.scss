@@ -1,33 +1,36 @@
 .member-gallery {
 	display: flex;
 	justify-content: space-around;
+	margin-top: 20px;
 
 	.card {
-		border-radius: 84px;
+		border-radius: 20px;
 		background-color: $black;
-		padding: 63px;
+		padding: 30px;
+		margin: 20px;
 
 		.img-container {
-			height: 284px;
-			width: 284px;
+			height: 240px;
+			width: 240px;
 			background-color: white;
 			border-radius: 100%;
+			margin: 0 auto;
 		}
 
 		.position {
 			color: $green;
 			font-family: Gotham, serif;
-			font-size: 50px;
+			@include fluid-type(300, 1535, 30, 40, px);
 			text-align: center;
-			margin: 0;
+			margin: 10px 0;
 		}
 
 		.name {
 			color: $white;
 			font-family: NotoSerifSC, serif;
-			font-size: 30px;
+			@include fluid-type(300, 1535, 20, 30, px);
 			text-align: center;
-			margin: 0;
+			margin: 10px 0;
 		}
 
 		.social-links {
@@ -40,7 +43,8 @@
 				background-position: center;
 				background-size: cover;
 				display: block;
-
+				cursor: pointer;
+				margin: 0 5px;
 				&.github {
 					background-image: url("/images/github.png");
 				}
