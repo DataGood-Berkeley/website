@@ -1,7 +1,7 @@
 .btn {
 	font-family: Gotham, serif;
-	font-size: 30px;
-	line-height: 33px;
+	@include fluid-type(300, 1535, 18, 30, px);
+	@include molten-leading(300, 1535, 18, 33, px);
 	color: $white;
 	padding: 14px 39px;
 	border-radius: 1000px;

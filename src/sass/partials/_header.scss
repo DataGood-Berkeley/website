@@ -7,8 +7,8 @@ header {
 	justify-content: space-between;
 	align-content: center;
 	align-items: center;
-	max-width: 100%;
-	padding: 100px;
+	max-width: 80vw;
+	margin: 20px auto;
 
 	.org-name {
 		font-family: Gotham, serif;
@@ -22,6 +22,7 @@ header {
 		display: none;
 		outline: none;
 		position: relative;
+		margin-top: 4px;
 		z-index: 2;
 		& > * {
 			z-index: 2;
@@ -51,7 +52,7 @@ header {
 			left: 50%;
 			transform: translate(-50%, -50%);
 			background-color: $white;
-			box-shadow: 0 0 0 0vmax $pink, 0 0 0 0vmax $pink, 0 0 0 0vmax $pink;
+			box-shadow: 0 0 0 0vw $pink, 0 0 0 0vw $pink, 0 0 0 0vw $pink;
 			border-radius: 50%;
 			z-index: 1;
 			width: 2px;
@@ -60,7 +61,7 @@ header {
 		}
 		&.is-active {
 			.cover {
-				box-shadow: 0 0 0 30vmax $white, 0 0 0 90vmax $pink, 0 0 0 150vmax $white;
+				box-shadow: 0 0 0 18vw $white, 0 0 0 150vw $pink, 0 0 0 200vw $white;
 			}
 		}
 		&:hover {

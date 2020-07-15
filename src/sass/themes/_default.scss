@@ -1,6 +1,6 @@
 h1 {
 	font-family: Gotham, serif;
-	@include fluid-type(300, 1535, 30, 75, px);
+	@include fluid-type(300, 1535, 30, 70, px);
 	@include molten-leading(300, 1535, 30, 100, px);
 	color: $black;
 	padding-left: 1vw;
@@ -80,6 +80,9 @@ p {
 	&.med {
 		max-width: 30vw;
 		width: 310px;
+		@media only screen and (max-width: 1150px) {
+			max-width: 70vw;
+		}
 	}
 }
 

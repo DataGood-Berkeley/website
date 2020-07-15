@@ -1,6 +1,19 @@
+.face {
+	justify-content: center;
+	.img-container {
+		padding: 20px 0;
+		padding-right: 8vw;	
+	}
+	@media only screen and (max-width: 1150px) {
+		flex-direction: column;
+	}	
+}
+
 .tagline {
 	font-family: Gotham, serif;
-	line-height: 150px;
-	font-size: 150px;
+	@include fluid-type(300, 1535, 40, 100, px);
+	@include molten-leading(300, 1535, 40, 100, px);
+	flex-grow: 0;
+	padding: 20px 0;
 	color: $black;
 }

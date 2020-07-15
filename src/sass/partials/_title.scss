@@ -7,14 +7,15 @@
 	max-width: 100%;
 
 	.img-container {
-		height: 100px;
+		width: 100px;
+		max-width: 20vw;
 	}
-
+	
 	.page-title {
 		color: $black;
 		font-family: Gotham, serif;
-		font-size: 150px;
-		line-height: 150px;
+		@include fluid-type(300, 1535, 60, 100, px);
+		@include molten-leading(300, 1535, 60, 100, px);
 		text-align: center;
 	}
 }
