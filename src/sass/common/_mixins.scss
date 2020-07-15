@@ -5,3 +5,32 @@
 	}
 	animation: $name $opts;
 }
+
+@mixin fluid($key, $min-vw, $max-vw, $min-font-size, $max-font-size, $unit) {
+	$wu1: with-unit($min-vw, $unit);
+	$wu2: with-unit($max-vw, $unit);
+	$wu3: with-unit($min-font-size, $unit);
+	$wu4: with-unit($max-font-size, $unit);
+
+	& {
+		#{$key}: $wu3;
+		@media screen and (min-width: $wu1) {
+			#{$key}: calc(#{$wu3} + #{$max-font-size - $min-font-size} * ((100vw - #{$wu1}) / #{$max-vw - $min-vw}))
+		}
+		@media screen and (min-width: $wu2) {
+			#{$key}: $wu3;
+		}
+	}	
+}
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size, $unit) {
+	@include fluid(font-size, $min-vw, $max-vw, $min-font-size, $max-font-size, $unit);
+}
+
+@mixin molten-leading($min-vw, $max-vw, $min-font-size, $max-font-size, $unit) {
+	@include fluid(line-height, $min-vw, $max-vw, $min-font-size, $max-font-size, $unit);
+}
+
+@mixin fluid-box($min-vw, $max-vw, $min-font-size, $max-font-size, $unit) {
+	@include fluid(width, $min-vw, $max-vw, $min-font-size, $max-font-size, $unit);
+}
