@@ -18,7 +18,7 @@
 			#{$key}: calc(#{$wu3} + #{$max-font-size - $min-font-size} * ((100vw - #{$wu1}) / #{$max-vw - $min-vw}))
 		}
 		@media screen and (min-width: $wu2) {
-			#{$key}: $wu3;
+			#{$key}: $wu4;
 		}
 	}	
 }

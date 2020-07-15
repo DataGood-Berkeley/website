@@ -1,9 +1,9 @@
 h1 {
 	font-family: Gotham, serif;
-	font-size: 75px;
-	line-height: 150px;
+	@include fluid-type(300, 1535, 30, 75, px);
+	@include molten-leading(300, 1535, 30, 100, px);
 	color: $black;
-	padding-left: 50px;
+	padding-left: 1vw;
 }
 
 p {
@@ -33,12 +33,11 @@ p {
 		}
 	}
 	font-family: NotoSerifSC, serif;
-	font-size: 30px;
-	line-height: 60px;
+	@include fluid-type(300, 1535, 18, 30, px);
 	color: $grey;
 	position: relative;
 	overflow: hidden;
-	padding: 0 50px;
+	padding: 0 1vw;
 	$speed: 0.7s;
 	&[animate] {
 		animation: color-change $speed forwards;
@@ -71,14 +70,16 @@ p {
 }
 
 .img-container {
-	height: 700px;
-
+	max-width: 100vw;
+	width: 600px;
 	img {
-		height: 100%;
+		width: 100%;
+		height: auto;
 	}
 
 	&.med {
-		height: 310px;
+		max-width: 30vw;
+		width: 310px;
 	}
 }
 
@@ -86,7 +87,11 @@ section {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	padding: 0 100px;
+	margin: 0 auto;
+	max-width: 80vw;
+	.img-container {
+		flex-shrink: 0;
+	}
 	@media only screen and (max-width: 1440px) {
 		&:not(.face) {
 			flex-wrap: wrap;
