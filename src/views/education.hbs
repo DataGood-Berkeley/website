@@ -8,7 +8,7 @@
 		<h1>accessibility.</h1>
 		<p class="pink-back">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. 
 Turpis egestas sed tempus urna et pharetra pharetra massa. Est ante in nibh mauris cursus mattis molestie a. </p>
-		<a class="btn pink-back" href="<!--Insert Link-->">Syllabus</a>
+		<a class="btn pink-back" href="<!--Insert Link-->" rel="noreferrer noopener">Syllabus</a>
 	</div>
 </section>
 
@@ -23,7 +23,7 @@ Turpis egestas sed tempus urna et pharetra pharetra massa. Est ante in nibh maur
 		</tr>
 		{{#each topics}}
 		<tr>
-			<td>{{@index}}</td>
+			<td>{{add @index 1}}</td>
 			<td>{{this.date}}</td>
 			<td>{{this.title}}</td>
 			<td>{{this.lab}}</td>

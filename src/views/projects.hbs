@@ -13,14 +13,12 @@ Turpis egestas sed tempus urna et pharetra pharetra massa. Est ante in nibh maur
 
 <section class="project-gallery">
 	{{#each projects}}
-	<a class="card" href="{{link}}">
-		<div class="content">
+	<a class="card {{color}}-back" href="{{link}}" rel="noreferrer noopener">
+		<div class="project-description">
 			<h2>{{title}}</h2>
-			<p>{{description}}</p>			
+			<div class="description">{{description}}</div>			
 		</div>
-		<div class="img-container">
-			<img src="{{image}}">
-		</div>
+		<img src="{{image}}" alt="{{title}}">
 	</a>
 	{{/each}}
 </section>

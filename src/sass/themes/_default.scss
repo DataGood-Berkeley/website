@@ -33,7 +33,8 @@ p {
 		}
 	}
 	font-family: NotoSerifSC, serif;
-	@include fluid-type(300, 1535, 16, 30, px);
+	@include fluid-type(300, 1535, 16, 25, px);
+	@include molten-leading(300, 1535, 25, 40, px);
 	color: $grey;
 	position: relative;
 	overflow: hidden;
@@ -73,7 +74,7 @@ p {
 .img-container {
 	max-width: 100vw;
 	width: 600px;
-	@include fluid(width, 300, 1535, 100, 600, px);
+	@include fluid(width, 300, 1535, 300, 600, px);
 	img {
 		width: 100%;
 		height: auto;
@@ -125,4 +126,20 @@ body {
 	&[menu-active] {
 		overflow: hidden;
 	}
+	display: flex;
+	flex-direction: column;
+	.content {
+		flex: 1 0 auto;
+	}
+	header {
+		flex: 1;
+		min-width: 90vw;
+	}
+	footer {
+		flex-shrink: 0;
+	}
+}
+
+html, body {
+	height: 100%;
 }

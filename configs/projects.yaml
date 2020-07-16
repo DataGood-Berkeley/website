@@ -2,7 +2,9 @@
   title: Project
   description: Lorem ipsum
   image: null
+  color: pink
 - link: Link
   title: Project
   description: Lorem ipsum
   image: null
+  color: green

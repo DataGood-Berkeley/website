@@ -14,8 +14,8 @@
 	.page-title {
 		color: $black;
 		font-family: Gotham, serif;
-		@include fluid-type(300, 1535, 60, 100, px);
-		@include molten-leading(300, 1535, 60, 100, px);
+		@include fluid-type(300, 1535, 40, 100, px);
+		@include molten-leading(300, 1535, 40, 100, px);
 		text-align: center;
 	}
 }

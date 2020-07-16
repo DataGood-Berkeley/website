@@ -26,7 +26,7 @@ app.get('/team', (req, res) => {
 	res.render('team', {
 		title: 'meet the team.',
 		members: yaml.safeLoad(fs.readFileSync(`${__dirname}/configs/members.yaml`, 'utf8'))
-	})
+	});
 });
 
 app.get('/events', (req, res) => {
@@ -38,6 +38,11 @@ app.get('/events', (req, res) => {
 app.get('/education', (req, res) => {
 	res.render('education', {
 		title: 'education.',
+		helpers: {
+			add: function(val1, val2) {
+				return val1 + val2;
+			}
+		},
 		topics: yaml.safeLoad(fs.readFileSync(`${__dirname}/configs/topics.yaml`, 'utf8'))
 	});
 });
@@ -52,6 +57,20 @@ app.get('/projects', (req, res) => {
 app.get('/contact', (req, res) => {
 	res.render('contact', {
 		title: 'contact us.'
+	});
+});
+
+app.get('*', (req, res) => {
+	res.render('error', {
+		code: 404,
+		msg: 'Page not found!'
+	});
+});
+
+app.use((err, req, res, next) => {
+	res.render('error', {
+		code: 500,
+		msg: err.message
 	});
 });
 
