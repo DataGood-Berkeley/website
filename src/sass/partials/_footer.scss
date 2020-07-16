@@ -39,14 +39,15 @@ footer {
 				flex-direction: column;
 				.name {
 					font-family: Gotham, serif;
-					// font-size: 45px;
-					@include fluid-type(300, 1536, 35, 35, px);					
+					@include fluid-type(300, 1536, 35, 35, px);	
+					line-height: unset;				
 					color: $white;
 				}
 				.tagline {
 					font-family: NotoSerifSC, serif;
 					@include fluid-type(300, 1536, 20, 20, px);				
-					line-height: unset;				
+					line-height: unset;
+					padding: 5px 0;		
 					color: $white;
 				}
 			}
@@ -87,6 +88,19 @@ footer {
 					margin-right: 10px;
 					flex-shrink: 0;
 					@include fluid(width, 300, 1536, 50, 60, px);
+					transition: filter 0.3s linear;
+					@mixin link-color($name, $color) {
+						&[link-name="#{$name}"] {
+							filter: drop-shadow(0 0 0 $color);
+							&:hover {
+								filter: drop-shadow(3px 3px 0 $color);
+							}
+						}
+					}
+					@include link-color(Github, black);
+					@include link-color(Instagram, $pink);
+					@include link-color(Facebook, $blue);
+					@include link-color(Linkedin, $blue);
 				}
 			}
 		}

@@ -33,13 +33,13 @@ p {
 		}
 	}
 	font-family: NotoSerifSC, serif;
-	@include fluid-type(300, 1535, 18, 30, px);
+	@include fluid-type(300, 1535, 16, 30, px);
 	color: $grey;
 	position: relative;
 	overflow: hidden;
 	padding: 0 1vw;
 	$speed: 0.7s;
-	&[animate] {
+	&:hover {
 		animation: color-change $speed forwards;
 		&:after {
 			animation: slide $speed forwards;
@@ -73,6 +73,7 @@ p {
 .img-container {
 	max-width: 100vw;
 	width: 600px;
+	@include fluid(width, 300, 1535, 100, 600, px);
 	img {
 		width: 100%;
 		height: auto;
@@ -92,11 +93,11 @@ section {
 	flex-direction: row;
 	align-items: center;
 	margin: 0 auto;
-	max-width: 80vw;
+	max-width: 90vw;
 	.img-container {
 		flex-shrink: 0;
 	}
-	@media only screen and (max-width: 1440px) {
+	@media only screen and (max-width: 800px) {
 		&:not(.face) {
 			flex-wrap: wrap;
 			justify-content: center;

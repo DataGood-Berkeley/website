@@ -26,7 +26,4 @@
 			}
 		}
 	}
-	document.querySelectorAll('p').forEach(p => {
-		p.onmouseover = p.onmouseout = () => p.toggleAttribute('animate');
-	});
 }());

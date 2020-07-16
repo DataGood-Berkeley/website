@@ -5,12 +5,16 @@ logo: /images/heart-logo.png
 socials:
   - logo: /images/facebook.png
     link: https://www.facebook.com/datagoodberkeley/
+    name: Facebook
   - logo: /images/instagram.png
     link: Link
+    name: Instagram
   - logo: /images/linkedin.png
     link: Link
+    name: Linkedin
   - logo: /images/github.png
     link: Link
+    name: Github
 headers:
   - name: About
     link: /about

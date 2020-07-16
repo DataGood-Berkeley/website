@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-around;
 	margin-top: 20px;
-
+	flex-wrap: wrap;
 	.card {
 		border-radius: 20px;
 		background-color: $black;
@@ -45,17 +45,19 @@
 				display: block;
 				cursor: pointer;
 				margin: 0 5px;
-				&.github {
-					background-image: url("/images/github.png");
+				@mixin link($name, $img, $color) {
+					&.#{$name} {
+						background-image: url(#{$img});
+						filter: drop-shadow(0 0 0 $color);
+						transition: filter 0.3s linear;
+						&:hover {
+							filter: drop-shadow(3px 3px 0 $color);
+						}
+					}
 				}
-
-				&.linkedin {
-					background-image: url("/images/linkedin.png");
-				}
-
-				&.facebook {
-					background-image: url("/images/facebook.png");
-				}
+				@include link(github, "/images/github.png", black);
+				@include link(linkedin, "/images/linkedin.png", $blue);
+				@include link(facebook, "/images/facebook.png", $blue);
 			}
 		}
 	}

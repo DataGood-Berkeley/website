@@ -10,9 +10,9 @@
 			color: $black;
 			font-family: Gotham, serif;
 			@include fluid-type(300, 1535, 20, 40, px);			
-			padding: 0 20px;
-			padding-top: 20px;
-			padding-bottom: 10px;
+			padding: 0 40px;
+			padding-top: 30px;
+			padding-bottom: 15px;
 			border: 1px solid $black;
 		}
 

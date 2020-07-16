@@ -1,4 +1,5 @@
 .btn {
+	$border-size: 3px;
 	font-family: Gotham, serif;
 	@include fluid-type(300, 1535, 18, 30, px);
 	@include molten-leading(300, 1535, 18, 33, px);
@@ -8,20 +9,74 @@
 	margin: 10px 0;
 	display: inline-block;
 	cursor: pointer;
-	&.green-back {
-		background-color: $green;
+	position: relative;
+	border: $border-size solid transparent;
+    transition: background-color 0.4s, color 0.4s;	
+	&:after {
+		position: absolute;
+		top: -$border-size;
+		left: -$border-size;
+		border-radius: 1000px;
+		width: 100%;
+		height: 100%;    
+		display: block;
+		content: "";
+		clip-path: polygon(50% 0, 50% 0, 50% 0, 50% 0, 50% 50%, 50% 0, 50% 0, 50% 0, 50% 0);
+		@include inline-animation(0.4s linear forwards) {
+			100% {
+				clip-path: polygon(50% 0, 50% 0, 50% 0, 50% 0, 50% 50%, 50% 0, 50% 0, 50% 0, 50% 0);
+			}
+			75% {
+				clip-path: polygon(50% 0, 100% 0, 100% 0, 100% 0, 50% 50%, 0 0, 0 0, 0 0, 50% 0);
+			}
+			50% {
+				clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 50%, 50% 50%, 0 50%, 0 50%, 0 0, 50% 0);
+			}
+			25% {
+				clip-path: polygon(50% 0, 100% 0, 100% 100%, 100% 100%, 50% 50%, 0 100%, 0 100%, 0 0, 50% 0);
+			}
+			0% {
+				clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%, 50% 50%, 50% 100%, 0 100%, 0 0, 50% 0);
+			}			
+		}
 	}
-
-	&.blue-back {
-		background-color: $blue;
+	@mixin back($name, $color) {
+		&.#{$name}-back {
+			background-color: $color;
+			&:after {
+				border: $border-size solid $color;
+			}
+			&:hover {
+				color: $color;
+			}
+		}
 	}
-
-	&.pink-back {
-		background-color: $pink;
-	}
-
-	&.purple-back {
-		background-color: $purple;
+	@include back(green, $green);
+	@include back(blue, $blue);
+	@include back(yellow, $yellow);
+	@include back(pink, $pink);
+	@include back(purple, $purple);
+	&:hover {
+      background-color: $white;
+      &:after {
+		@include inline-animation(0.4s linear forwards) {
+			0% {
+				clip-path: polygon(50% 0, 50% 0, 50% 0, 50% 0, 50% 50%, 50% 0, 50% 0, 50% 0, 50% 0);
+			}
+			25% {
+				clip-path: polygon(50% 0, 100% 0, 100% 0, 100% 0, 50% 50%, 0 0, 0 0, 0 0, 50% 0);
+			}
+			50% {
+				clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 50%, 50% 50%, 0 50%, 0 50%, 0 0, 50% 0);
+			}
+			75% {
+				clip-path: polygon(50% 0, 100% 0, 100% 100%, 100% 100%, 50% 50%, 0 100%, 0 100%, 0 0, 50% 0);
+			}
+			100% {
+				clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%, 50% 50%, 50% 100%, 0 100%, 0 0, 50% 0);
+			}		
+		}
+      }
 	}
 }
 
