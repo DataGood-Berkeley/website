@@ -6,6 +6,7 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
+        flex-wrap: wrap;
 
         .img-container {
             @include fluid(width, 300, 1535, 200, 300, px);
