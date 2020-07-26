@@ -1,4 +1,6 @@
-- link: null
+- link: https://data.berkeley.edu/
   image: /images/sponsors/division.png
-- link: null
-  image: /images/sponsors/dlab.jpg
+- link: https://dlab.berkeley.edu/
+  image: /images/sponsors/dlab.png
+- link: https://data.berkeley.edu/research/discovery-program-home
+  image: /images/sponsors/discovery.png
