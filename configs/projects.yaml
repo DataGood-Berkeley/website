@@ -1,10 +1,10 @@
-- link: Link
-  title: Project
-  description: Lorem ipsum
+- link: https://gspp.berkeley.edu/centers/cepp/projects/mapping-for-environmental-justice
+  title: Mapping for Environmental Justice
+  description: Mapping for Environmental Justice (MEJ) is an initiative to create interactive and publicly-accessible maps displaying environmental justice data for individual states. With guidance from the residents of impacted communities, MEJ combines environmental, public health, and demographic data into an indicator of vulnerability for communities in every state.
   image: null
   color: pink
-- link: Link
-  title: Project
-  description: Lorem ipsum
+- link: https://drive.google.com/file/d/17H7RwBzqJkapkuvrDZlZlNULP5pLSnUZ/view?usp=sharing
+  title: DCGAN for Breast Cancer Augmentation
+  description: Although breast cancer is one of the leading causes of death worldwide, the diagnostic process is invaasive and expensive. Thus, this project aimed to streamline the detection process through the design and implementation of a Generative Adversarial Network.
   image: null
   color: green

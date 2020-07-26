@@ -1,15 +1,74 @@
-- date: Now
-  title: Topic
-  topic: Then
+- date: 9/15 - 9/21
+  title: NO  LECTURE
+  lab:
+  webcast:
+
+- date: 9/22 - 9/28
+  title: Introduction to Data Science, Social Good, Python Visualization
   lab: Link
   webcast: Link
-- date: Now
+
+- date: 9/29 - 10/5
   title: Topic
-  topic: Then
   lab: Link
   webcast: Link
-- date: Now
+
+- date: 9/29 - 10/5
   title: Topic
-  topic: Then
   lab: Link
   webcast: Link
+
+- date: 9/29 - 10/5
+  title: Topic
+  lab: Link
+  webcast: Link
+
+- date: 9/29 - 10/5
+  title: Topic
+  lab: Link
+  webcast: Link
+
+- date: 10/6 - 10/12
+  title: Topic
+  lab: Link
+  webcast: Link
+
+- date: 10/13 - 10/19
+  title: Topic
+  lab: Link
+  webcast: Link
+
+- date: 10/20 - 10/26
+  title: NO LECTURE
+  lab:
+  webcast:
+
+- date: 10/27 - 11/2
+  title: Topic
+  lab: Link
+  webcast: Link
+
+- date: 11/3 - 11/9
+  title: Topic
+  lab: Link
+  webcast: Link
+
+- date: 11/10 - 11/16
+  title: Topic
+  lab: Link
+  webcast: Link
+
+- date: 11/17 - 11/23
+  title: Topic
+  lab: Link
+  webcast: Link
+
+- date: 11/24 - 12/6
+  title: NO LECTURE
+  lab:
+  webcast: 
+
+- date: 12/7 - 12/13
+  title: NO LECTURE
+  lab:
+  webcast:

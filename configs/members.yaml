@@ -1,18 +1,51 @@
-- name: First Last
-  position: Position
-  image: null
+- name: Saumya Choudhary
+  position: President
+  image: images/team/saumya.png
   socials:
-    github: Link
-- name: First Last
-  position: Position
-  image: null
+    linkedin: https://www.linkedin.com/in/pulkit-bhasin-7a6026197/
+- name: Neha Hudait
+  position: President
+  image: images/team/neha.png
   socials:
-    github: Link
-    linkedin: Link
-- name: First Last
-  position: Position
-  image: null
+    linkedin: https://www.linkedin.com/in/nehahudait/
+- name: Pulkit Bhasin
+  position: External VP
+  image: images/team/none.png
   socials:
-    github: Link
-    linkedin: Link
-    facebook: Link
+    linkedin: https://www.linkedin.com/in/pulkit-bhasin-7a6026197/
+
+- name: Andrew Huang
+  position: Internal VP
+  image: images/team/none.png
+  socials:
+    linkedin: https://www.linkedin.com/in/andrew-huang-99b79519a/
+
+- name: Ashritha Eswaran
+  position: VP Education
+  image: images/team/ashritha.png
+  socials:
+    linkedin: https://www.linkedin.com/in/ashritha-e-703aba134/
+
+- name: Milleno Pan
+  position: VP Finance
+  image: images/team/none.png
+
+- name: Wilson Nguyen
+  position: Webmaster
+  image: images/team/wilson.png
+
+- name: Justin Kadi
+  position: Project Manager
+  image: images/team/none.png
+
+- name: Elda Pere
+  position: Project Manager
+  image: images/team/none.png
+
+- name: Calvin Chen
+  position: Project Manager
+  image: images/team/none.png
+
+- name: Kiernynn Grantham-Crum
+  position: Content Writer
+  image: images/team/none.png
