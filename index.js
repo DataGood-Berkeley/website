@@ -20,7 +20,8 @@ app.get('/', (req, res) => {
 
 app.get('/about', (req, res) => {
 	res.status(200).render('about', {
-		title: 'about us.'
+		title: 'about us.',
+		sponsors: yaml.safeLoad(fs.readFileSync(`${__dirname}/configs/sponsors.yaml`, 'utf8'))
 	});
 });
 

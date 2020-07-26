@@ -22,9 +22,11 @@
 
 <section class="sponsors">
 	<h1 class="purple-back">our sponsors.</h1>
-	{{#each sponsor}}
-		<a class="img-container" href="{{link}}" target="_blank" rel="noreferrer noopener">
-			<img src="{{image}}" alt="{{link}}">
-		</a>
-	{{/each}}
+	<div class="sponsor-list">
+		{{#each sponsors}}
+			<a class="img-container" href="{{link}}" target="_blank" rel="noreferrer noopener">
+				<img src="{{image}}" alt="{{link}}">
+			</a>
+		{{/each}}
+	</div>
 </section>
