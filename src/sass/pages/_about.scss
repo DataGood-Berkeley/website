@@ -1,4 +1,14 @@
 .sponsors {
-	flex-direction: column;
-	align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .sponsor-list {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+        .img-container {
+            @include fluid(width, 300, 1535, 200, 300, px);
+        }
+    }
 }
