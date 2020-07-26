@@ -1,40 +1,80 @@
+@keyframes slide {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 100%;
+        left: 0;
+    }
+
+    100% {
+        width: 100%;
+        left: 100%;
+    }
+}
+
+@keyframes color-change {
+    0% {
+        color: $grey;
+    }
+
+    50% {
+        color: $white;
+    }
+
+    100% {
+        color: $grey;
+    }
+}
+
 h1 {
-	font-family: Gotham, serif;
-	@include fluid-type(300, 1535, 30, 70, px);
-	@include molten-leading(300, 1535, 30, 100, px);
-	color: $black;
-	padding-left: 1vw;
+    font-family: Gotham, serif;
+    @include fluid-type(300, 1535, 30, 70, px);
+    @include molten-leading(300, 1535, 30, 100, px);
+    color: $black;
+    padding-left: 1vw;
+    position: relative;
+    $speed: 0.7s;
+    overflow: hidden;
+    &:hover {
+        animation: color-change $speed forwards;
+
+        &:after {
+            animation: slide $speed forwards;
+        }
+    }
+
+    @mixin after-back($name, $color) {
+        &.#{$name}-back {
+            &:after {
+                background-color: $color
+            }
+        }
+    }
+
+    @include after-back(purple, $purple);
+    @include after-back(pink, $pink);
+    @include after-back(blue, $blue);
+    @include after-back(green, $green);
+    @include after-back(yellow, $yellow);
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        display: block;
+        z-index: -1;
+    }
 }
 
 p {
-	@keyframes slide {
-		0% {
-			width: 0;
-		}
-		50% {
-			width: 100%;
-			left: 0;
-		}
-		100% {
-			width: 100%;
-			left: 100%;
-		}
-	}
-
-	@keyframes color-change {
-		0% {
-			color: $grey;
-		}
-		50% {
-			color: $white;
-		}
-		100% {
-			color: $grey;
-		}
-	}
 	font-family: NotoSerifSC, serif;
 	@include fluid-type(300, 1535, 16, 25, px);
-	@include molten-leading(300, 1535, 25, 40, px);
+	@include molten-leading(300, 1535, 35, 45, px);
 	color: $grey;
 	position: relative;
 	overflow: hidden;
@@ -69,6 +109,7 @@ p {
 		z-index: -1;
 	}
 	margin: 0;
+    margin-bottom: 20px;
 }
 
 .img-container {
@@ -93,12 +134,18 @@ section {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	margin: 0 auto;
+	margin: 70px auto;
+    &.alone {
+        margin: 35px auto;
+    }
 	max-width: 90vw;
 	.img-container {
 		flex-shrink: 0;
 	}
-	@media only screen and (max-width: 800px) {
+    &:not(.alone) > :first-child {
+        @include fluid(margin-right, 300, 1535, 0, 140, px);
+    }
+	@media only screen and (max-width: 1000px) {
 		&:not(.face) {
 			flex-wrap: wrap;
 			justify-content: center;
