@@ -16,7 +16,7 @@
 
 @keyframes color-change {
     0% {
-        color: $grey;
+        color: $black;
     }
 
     50% {
@@ -24,7 +24,7 @@
     }
 
     100% {
-        color: $grey;
+        color: $black;
     }
 }
 
@@ -37,6 +37,7 @@ h1 {
     position: relative;
     $speed: 0.7s;
     overflow: hidden;
+    display: inline-block;
     &:hover {
         animation: color-change $speed forwards;
 
@@ -79,35 +80,6 @@ p {
 	position: relative;
 	overflow: hidden;
 	padding: 0 1vw;
-	$speed: 0.7s;
-	&:hover {
-		animation: color-change $speed forwards;
-		&:after {
-			animation: slide $speed forwards;
-		}
-	}
-	@mixin after-back($name, $color) {
-		&.#{$name}-back {
-			&:after {
-				background-color: $color
-			}
-		}
-	}
-	@include after-back(purple, $purple);
-	@include after-back(pink, $pink);
-	@include after-back(blue, $blue);
-	@include after-back(green, $green);
-	@include after-back(yellow, $yellow);
-	&:after {
-		content: "";
-		position: absolute;
-		top: 0;
-		left: 0;
-		height: 100%;
-		width: 0;
-		display: block;
-		z-index: -1;
-	}
 	margin: 0;
     margin-bottom: 20px;
 }
