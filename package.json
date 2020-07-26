@@ -14,9 +14,12 @@
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
+    "@fullcalendar/core": "^5.1.0",
+    "@fullcalendar/daygrid": "^5.1.0",
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "express-handlebars": "^5.0.0",
+    "fullcalendar": "^5.1.0",
     "js-yaml": "^3.14.0"
   },
   "devDependencies": {
