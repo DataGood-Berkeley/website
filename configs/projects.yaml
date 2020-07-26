@@ -1,10 +1,11 @@
 - link: https://gspp.berkeley.edu/centers/cepp/projects/mapping-for-environmental-justice
   title: Mapping for Environmental Justice
   description: Mapping for Environmental Justice (MEJ) is an initiative to create interactive and publicly-accessible maps displaying environmental justice data for individual states. With guidance from the residents of impacted communities, MEJ combines environmental, public health, and demographic data into an indicator of vulnerability for communities in every state.
-  image: null
-  color: pink
+  image: images/projects/mapping.png
+  color: green
 
 - link:
-  description:
-  image:
-  color: green
+  title: Electronic Pathology Report Classification
+  description: Insert description here
+  image: images/projects/pathology.png
+  color: pink

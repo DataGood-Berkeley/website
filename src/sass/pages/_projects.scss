@@ -44,11 +44,12 @@
 			width: 100%;
 			pointer-events: none;
 			z-index: -1;
+			object-fit: contain;
 		}
 		&:before {
 			position: absolute;
 			content: "";
-			display: block;			
+			display: block;
 			bottom: 0;
 			left: 0;
 			height: 0;
@@ -65,7 +66,7 @@
 			height: 0;
 			width: 0;
 			transition: width 0.5s, height 0.5s;
-			z-index: 1;		
+			z-index: 1;
 		}
 		@mixin coloring($name, $text-color, $background-color) {
 			&.#{$name}-back {
@@ -93,8 +94,8 @@
 		@include coloring(pink, $white, $pink);
 		@include coloring(green, $grey, $green);
 		@include coloring(blue, $white, $blue);
-		@include coloring(purple, $white, $purple);	
-		@include coloring(yellow, $grey, $yellow);			
+		@include coloring(purple, $white, $purple);
+		@include coloring(yellow, $grey, $yellow);
 		&:hover {
 			.project-description {
 				transform: translateX(0);
@@ -111,6 +112,6 @@
 				border-top-width: 4px;
 				border-right-width: 4px;
 			}
-		}		
+		}
 	}
 }
