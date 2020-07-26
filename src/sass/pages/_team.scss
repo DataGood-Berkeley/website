@@ -6,21 +6,24 @@
 	.card {
 		border-radius: 20px;
 		background-color: $black;
-		padding: 30px;
+		padding: 20px;
 		margin: 20px;
+        width: 300px;
+        min-height: 440px;
 
 		.img-container {
-			height: 240px;
-			width: 240px;
+			height: 260px;
+			width: 260px;
 			background-color: white;
 			border-radius: 100%;
 			margin: 0 auto;
+            overflow: hidden;
 		}
 
 		.position {
 			color: $green;
 			font-family: Gotham, serif;
-			@include fluid-type(300, 1535, 30, 40, px);
+			@include fluid-type(300, 1535, 20, 30, px);
 			text-align: center;
 			margin: 10px 0;
 		}
@@ -28,7 +31,7 @@
 		.name {
 			color: $white;
 			font-family: NotoSerifSC, serif;
-			@include fluid-type(300, 1535, 20, 30, px);
+			@include fluid-type(300, 1535, 20, 25, px);
 			text-align: center;
 			margin: 10px 0;
 		}
@@ -36,6 +39,7 @@
 		.social-links {
 			display: flex;
 			justify-content: space-around;
+            padding: 0 20px;
 
 			.social {
 				height: 61px;
@@ -49,7 +53,7 @@
 					&.#{$name} {
 						background-image: url(#{$img});
 						filter: drop-shadow(0 0 0 $color);
-						transition: filter 0.3s linear;
+						transition: filter 0.1s linear;
 						&:hover {
 							filter: drop-shadow(3px 3px 0 $color);
 						}

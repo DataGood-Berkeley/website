@@ -88,7 +88,7 @@ footer {
 					margin-right: 10px;
 					flex-shrink: 0;
 					@include fluid(width, 300, 1536, 50, 60, px);
-					transition: filter 0.3s linear;
+					transition: filter 0.1s linear;
 					@mixin link-color($name, $color) {
 						&[link-name="#{$name}"] {
 							filter: drop-shadow(0 0 0 $color);

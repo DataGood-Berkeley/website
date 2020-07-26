@@ -33,6 +33,9 @@
 - name: Wilson Nguyen
   position: Webmaster
   image: images/team/wilson.png
+  socials:
+    github: https://github.com/potatoparser/
+    linkedin: https://www.linkedin.com/in/wilson-nguyen-4252b9163/
 
 - name: Justin Kadi
   position: Project Manager

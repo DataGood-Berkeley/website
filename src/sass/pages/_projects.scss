@@ -26,15 +26,13 @@
 				@include fluid-type(300, 1535, 40, 50, px);
 				text-align: center;
 				margin: 0;
-				white-space: nowrap;
 				padding: 10px 0;
 			}
 
 			.description {
 				font-family: NotoSerifSC, serif;
-				@include fluid-type(300, 1535, 16, 25, px);
+				@include fluid-type(300, 1535, 12, 20, px);
 				padding: 20px;
-				white-space: nowrap;
 			}
 		}
 
