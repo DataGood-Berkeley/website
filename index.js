@@ -1,3 +1,5 @@
+const PORT = process.env.PORT || 8080;
+
 const yaml = require('js-yaml');
 const fs = require('fs');
 
@@ -8,6 +10,7 @@ const exphbs = require('express-handlebars');
 const hbs = exphbs.create({
 	extname: '.hbs'
 });
+
 app.use(compression());
 app.engine('hbs', hbs.engine);
 app.set('view engine', 'hbs');
@@ -77,4 +80,4 @@ app.use((err, req, res, next) => {
 	});
 });
 
-app.listen(8080);
+app.listen(PORT);
