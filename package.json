@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prestart": "git pull && npm install && npm run build:sass",
+    "postinstall": "npm run build:sass",
+    "build": "npm run build:sass",
+    "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch:express": "nodemon ./index.js",
     "build:sass": "node-sass src/sass -o public/css",
@@ -17,6 +21,7 @@
     "@fullcalendar/core": "^5.1.0",
     "@fullcalendar/daygrid": "^5.1.0",
     "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.0.0",
     "fullcalendar": "^5.1.0",

@@ -1,7 +1,11 @@
+require('dotenv').config();
+
 const PORT = process.env.PORT || 8080;
+const SECRET = process.env.SECRET;
 
 const yaml = require('js-yaml');
 const fs = require('fs');
+const crypto = require('crypto');
 
 const compression = require('compression');
 const express = require('express');
@@ -64,6 +68,11 @@ app.get('/contact', (req, res) => {
 	res.status(200).render('contact', {
 		title: 'contact us.'
 	});
+});
+
+app.post('/webhook', (req, res) => {
+	let sig = 'sha1=' + crypto.createHmac('sha1', SECRET).update(req.body).digest('hex');
+	if (req.headers['x-hub-signature'] === sig) process.exit(0);
 });
 
 app.get('*', (req, res) => {
