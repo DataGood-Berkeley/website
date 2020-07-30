@@ -6,7 +6,7 @@
 
 - link: https://docs.google.com/presentation/d/1srR26ON6Vu-ygoowqm9AqW7AJcM6NW0Y03QRXd-njM4/edit#slide=id.g8292d9be50_0_1663
   title: Electronic Pathology Report Classification
-  description: In partnership with the Cancer Registry of Greater California, this project uses ML and NLP on electronic pathology records to identify reports missing critical diagnostic information especially for ethinic minorities in the state of California. 
+  description: In partnership with the Cancer Registry of Greater California, this project uses ML and NLP on electronic pathology records to identify reports missing critical diagnostic information especially for ethinic minorities in the state of California.
   image: images/projects/pathology.png
   color: pink
 
@@ -18,6 +18,6 @@
 
 - link: https://github.com/eldapere8/COVID_Analysis/blob/master/COVID19%20Visualizations.ipynb
   title: COVID-19 Spread by Country Analysis
-  description: Traacking the spread of COVID-19 across many different countries
+  description: Tracking the spread of COVID-19 across many different countries
   image: images/projects/country.png
   color: purple

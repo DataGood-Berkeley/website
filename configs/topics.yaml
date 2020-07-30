@@ -1,5 +1,5 @@
 - date: 9/15 - 9/21
-  title: NO  LECTURE
+  title: NO LECTURE
   lab:
   webcast:
 
@@ -9,32 +9,17 @@
   webcast: Link
 
 - date: 9/29 - 10/5
-  title: Topic
-  lab: Link
-  webcast: Link
-
-- date: 9/29 - 10/5
-  title: Topic
-  lab: Link
-  webcast: Link
-
-- date: 9/29 - 10/5
-  title: Topic
-  lab: Link
-  webcast: Link
-
-- date: 9/29 - 10/5
-  title: Topic
+  title: Linear Regression and Regularization
   lab: Link
   webcast: Link
 
 - date: 10/6 - 10/12
-  title: Topic
+  title: Modeling and Estimation in Gentrification and COVID-19
   lab: Link
   webcast: Link
 
 - date: 10/13 - 10/19
-  title: Topic
+  title: Geospatial Analysis in Environmental Justice
   lab: Link
   webcast: Link
 
@@ -44,29 +29,29 @@
   webcast:
 
 - date: 10/27 - 11/2
-  title: Topic
+  title: Deep Learning in MRI Image Modeling
   lab: Link
   webcast: Link
 
 - date: 11/3 - 11/9
-  title: Topic
+  title: Language Modeling and Racial Bias in Public Policy
   lab: Link
   webcast: Link
 
 - date: 11/10 - 11/16
-  title: Topic
-  lab: Link
-  webcast: Link
+  title: NO LECTURE
+  lab:
+  webcast:
 
 - date: 11/17 - 11/23
-  title: Topic
+  title: Computer Vision and Disaster Response
   lab: Link
   webcast: Link
 
 - date: 11/24 - 12/6
   title: NO LECTURE
   lab:
-  webcast: 
+  webcast:
 
 - date: 12/7 - 12/13
   title: NO LECTURE
