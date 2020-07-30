@@ -6,7 +6,7 @@
 
 - link: https://docs.google.com/presentation/d/1srR26ON6Vu-ygoowqm9AqW7AJcM6NW0Y03QRXd-njM4/edit#slide=id.g8292d9be50_0_1663
   title: Electronic Pathology Report Classification
-  description: We were tasked by the Cancer Registry of Greater California to use ML and NLP on electronic pathology records to identify reports missing critical diagnostic information. The purpose of this project was to improve the quality of information available to physicians treating bladder cancer and save hundreds of lives in California patients who are disproportionately of African American, South Asian, Japanese and non-Hispanic backgrounds
+  description: In partnership with the Cancer Registry of Greater California, this project uses ML and NLP on electronic pathology records to identify reports missing critical diagnostic information especially for ethinic minorities in the state of California. 
   image: images/projects/pathology.png
   color: pink
 

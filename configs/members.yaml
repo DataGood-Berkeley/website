@@ -2,7 +2,7 @@
   position: President
   image: images/team/saumya.png
   socials:
-    linkedin: https://www.linkedin.com/in/pulkit-bhasin-7a6026197/
+    linkedin: https://www.linkedin.com/in/saumya-choudhary-26893a186/
 - name: Neha Hudait
   position: President
   image: images/team/neha.png
@@ -36,10 +36,6 @@
   socials:
     github: https://github.com/potatoparser/
     linkedin: https://www.linkedin.com/in/wilson-nguyen-4252b9163/
-
-- name: Justin Kadi
-  position: Project Manager
-  image: images/team/none.png
 
 - name: Elda Pere
   position: Project Manager
