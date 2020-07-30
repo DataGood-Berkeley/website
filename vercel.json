@@ -1,17 +1,22 @@
 {
-	"name": "DataGood",
+  "name": "DataGood",
     "version": 2,
-  	"builds": [
-  		{ "src": "index.js", "use": "@now/node-server" }
-  	],
-  	"routes": [
+    "builds": [
+      { "src": "package.json", "use": "@now/static-build" },
+      { "src": "index.js", "use": "@now/node-server" }
+    ],
+    "routes": [
+      {
+        "src": "/scripts/(.*)",
+        "dest": "/public/scripts/$1"
+      },
       {
         "src": "/(.*)",
         "dest": "/index.js"
       },
-	  	{
-	  		"src": "/",
-	  		"dest": "/index.js"
-	  	}
-	  ]
+      {
+        "src": "/",
+        "dest": "/index.js"
+      }
+    ]
 }
