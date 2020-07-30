@@ -10,7 +10,7 @@
     linkedin: https://www.linkedin.com/in/nehahudait/
 - name: Pulkit Bhasin
   position: External VP
-  image: images/team/none.png
+  image: images/team/pulkit.png
   socials:
     linkedin: https://www.linkedin.com/in/pulkit-bhasin-7a6026197/
 
@@ -28,7 +28,9 @@
 
 - name: Milleno Pan
   position: VP Finance
-  image: images/team/none.png
+  image: images/team/milleno.png
+  socials:
+    linkedin: https://www.linkedin.com/in/milleno-pan/
 
 - name: Wilson Nguyen
   position: Webmaster
