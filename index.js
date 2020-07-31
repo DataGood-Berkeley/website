@@ -49,7 +49,7 @@ app.get('/education', (req, res) => {
 	res.status(200).render('education', {
 		title: 'education.',
 		helpers: {
-			add: function(val1, val2) {
+			add(val1, val2) {
 				return val1 + val2;
 			}
 		},
@@ -70,8 +70,9 @@ app.get('/contact', (req, res) => {
 	});
 });
 
-app.post('/webhook', (req, res) => {
-	let sig = 'sha1=' + crypto.createHmac('sha1', SECRET).update(req.body).digest('hex');
+app.post('/webhook', req => {
+	const sig = `sha1=${crypto.createHmac('sha1', SECRET).update(req.body)
+		.digest('hex')}`;
 	if (req.headers['x-hub-signature'] === sig) process.exit(0);
 });
 
@@ -82,7 +83,7 @@ app.get('*', (req, res) => {
 	});
 });
 
-app.use((err, req, res, next) => {
+app.use((err, req, res) => {
 	res.status(500).render('error', {
 		code: 500,
 		msg: err.message
