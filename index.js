@@ -74,7 +74,7 @@ app.get('/contact', (req, res) => {
 app.post('/webhook', (req, res) => {
 	const sig = `sha1=${crypto.createHmac('sha1', SECRET).update(JSON.stringify(req.body))
 		.digest('hex')}`;
-	if (req.headers['x-hub-signature'] === sig && req.body.payload.ref === 'refs/heads/master') {
+	if (req.headers['x-hub-signature'] === sig && req.body.ref === 'refs/heads/master') {
 		res.status(200).send('Success!');
 		process.exit(0);
 	} else {
