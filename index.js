@@ -16,6 +16,7 @@ const hbs = exphbs.create({
 });
 
 app.use(compression());
+app.use(express.urlencoded({ extended: true }));
 app.engine('hbs', hbs.engine);
 app.set('view engine', 'hbs');
 app.set('views', `${__dirname}/src/views`);
