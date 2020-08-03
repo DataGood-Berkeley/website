@@ -16,7 +16,7 @@ const hbs = exphbs.create({
 });
 
 app.use(compression());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 app.engine('hbs', hbs.engine);
 app.set('view engine', 'hbs');
 app.set('views', `${__dirname}/src/views`);
@@ -72,9 +72,14 @@ app.get('/contact', (req, res) => {
 });
 
 app.post('/webhook', req => {
-	const sig = `sha1=${crypto.createHmac('sha1', SECRET).update(req.body)
+	const sig = `sha1=${crypto.createHmac('sha1', SECRET).update(JSON.stringify(req.body))
 		.digest('hex')}`;
-	if (req.headers['x-hub-signature'] === sig) process.exit(0);
+	if (req.headers['x-hub-signature'] === sig) {
+		res.status(200).send('Success!');
+		process.exit(0);
+	} else {
+		res.status(403).send('Forbidden!');
+	}
 });
 
 app.get('*', (req, res) => {
