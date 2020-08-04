@@ -14,7 +14,7 @@ socials:
     link: Link
     name: Linkedin
   - logo: /images/github.png
-    link: Link
+    link: https://github.com/datagood-berkeley/
     name: Github
 headers:
   - name: About
