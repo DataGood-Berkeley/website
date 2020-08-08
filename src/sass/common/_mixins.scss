@@ -34,3 +34,27 @@
 @mixin fluid-box($min-vw, $max-vw, $min-font-size, $max-font-size, $unit) {
 	@include fluid(width, $min-vw, $max-vw, $min-font-size, $max-font-size, $unit);
 }
+
+@mixin underline($color, $height, $max-width) {
+    &:after {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: width 0.3s, max-width 0.3s;
+        content: "";
+        display: block;
+        background-color: $color;
+        max-width: 0;
+        width: 0;
+        height: $height;
+        overflow: hidden;
+        @content
+    }
+    &:hover {
+        &:after {
+            max-width: $max-width;
+            width: 100%;
+        }
+    }
+}
