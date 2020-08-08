@@ -10,7 +10,7 @@
         th {
             color: $black;
             font-family: Gotham, serif;
-            @include fluid-type(300, 1535, 20, 40, px);
+            @include fluid-type(300, 1535, 20, 30, px);
             padding: 0 40px;
             padding-top: 30px;
             padding-bottom: 15px;
@@ -23,7 +23,7 @@
 
         td {
             font-family: NotoSerifSC, serif;
-            @include fluid-type(300, 1535, 12, 30, px);
+            @include fluid-type(300, 1535, 12, 20, px);
             border-left: 1px solid $black;
             border-right: 1px solid $black;
             padding: 2vw 20px;

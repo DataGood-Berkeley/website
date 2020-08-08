@@ -1,117 +1,155 @@
 footer {
-	background-color: $black;
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
-	padding-top: 20px;
-	flex-wrap: wrap;
-	width: 100%;
-	flex-direction: row;
-	margin-top: 50px;	
-	h3 {
-		color: $white;
-		font-family: Gotham, serif;
-		@include fluid-type(300, 1536, 20, 25, px);		
-		margin: 0;
-		margin-bottom: 10px;	
-	}	
-	& > * {
-		margin: 0 20px;
-	}
-	.right {
-		display: flex;
-		justify-content: space-around;
-		flex-wrap: wrap;
-		& > * {
-			margin: 20px 20px;
-		}
-		margin-right: 0;
-		.logos {
-			display: flex;
-			img {
-				height: calc(45px + 20px);
-			}
-			align-items: center;
-			justify-content: center;
-			.org {
-				margin-left: 35px;
-				display: flex;
-				flex-direction: column;
-				.name {
-					font-family: Gotham, serif;
-					@include fluid-type(300, 1536, 35, 35, px);	
-					line-height: unset;				
-					color: $white;
-				}
-				.tagline {
-					font-family: NotoSerifSC, serif;
-					@include fluid-type(300, 1536, 20, 20, px);				
-					line-height: unset;
-					padding: 5px 0;		
-					color: $white;
-				}
-			}
-			@media only screen and (max-width: 475px) {
-				flex-direction: column;
-				.org {
-					margin-left: 0;
-					.name {
-						text-align: center;
-					}
-					.tagline {
-						text-align: center;
-					}
-				}
-			}
-		}
-		.ocf-hosting {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
-	}
-	.left {
-		display: flex;
-		flex-wrap: wrap;		
-		justify-content: space-evenly;
-		& > * {
-			margin: 20px 20px;
-		}
-		margin-left: 0;
-		@media only screen and (max-width: 600px) {
-			justify-content: flex-start;
-		}
-		.socials {
-			.links {
-				display: flex;
-				img {
-					margin-right: 10px;
-					flex-shrink: 0;
-					@include fluid(width, 300, 1536, 50, 60, px);
-					transition: filter 0.1s linear;
-					@mixin link-color($name, $color) {
-						&[link-name="#{$name}"] {
-							filter: drop-shadow(0 0 0 $color);
-							&:hover {
-								filter: drop-shadow(3px 3px 0 $color);
-							}
-						}
-					}
-					@include link-color(Github, black);
-					@include link-color(Instagram, $pink);
-					@include link-color(Facebook, $blue);
-					@include link-color(Linkedin, $blue);
-				}
-			}
-		}
-		.contact {
-			flex-shrink: 1;		
-			.info {
-				font-family: NotoSerifSC, serif;
-				@include fluid-type(300, 1536, 15, 18, px);	
-				@include fluid(width, 300, 1536, 50 * 4, 60 * 4, px);							
-				color: $white;
-			}
-		}
-	}
+    background-color: $black;
+    margin-top: 50px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+
+    h3 {
+        color: $white;
+        font-family: Gotham, serif;
+        @include fluid-type(300, 1536, 20, 25, px);
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    & > * {
+        margin: 0 20px;
+    }
+
+    .right {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        & > * {
+            margin: 20px 20px;
+        }
+
+        .logos {
+            display: flex;
+
+            img {
+                height: calc(45px + 20px);
+            }
+
+            align-items: center;
+            justify-content: center;
+
+            .org {
+                margin-left: 35px;
+                display: flex;
+                flex-direction: column;
+
+                .name {
+                    font-family: Gotham, serif;
+                    @include fluid-type(300, 1536, 35, 35, px);
+                    line-height: unset;
+                    color: $white;
+                }
+
+                .tagline {
+                    font-family: NotoSerifSC, serif;
+                    @include fluid-type(300, 1536, 20, 20, px);
+                    line-height: unset;
+                    padding: 5px 0;
+                    color: $white;
+                }
+            }
+
+            @media only screen and (max-width: 475px) {
+                flex-direction: column;
+
+                .org {
+                    margin-left: 0;
+
+                    .name {
+                        text-align: center;
+                    }
+
+                    .tagline {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .ocf-hosting {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .left {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-grow: 1;
+        & > * {
+            margin: 20px 20px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            justify-content: flex-start;
+        }
+
+        .socials {
+            .links {
+                display: flex;
+
+                img {
+                    margin-right: 10px;
+                    flex-shrink: 0;
+                    @include fluid(width, 300, 1536, 50, 60, px);
+                    transition: filter 0.1s linear;
+
+                    @mixin link-color($name, $color) {
+                        &[link-name="#{$name}"] {
+                            filter: drop-shadow(0 0 0 $color);
+
+                            &:hover {
+                                filter: drop-shadow(3px 3px 0 $color);
+                            }
+                        }
+                    }
+
+                    @include link-color(Github, black);
+                    @include link-color(Instagram, $pink);
+                    @include link-color(Facebook, $blue);
+                    @include link-color(Linkedin, $blue);
+                }
+            }
+        }
+
+        .contact {
+            flex-shrink: 1;
+
+            .info {
+                font-family: NotoSerifSC, serif;
+                @include fluid-type(300, 1536, 15, 18, px);
+                @include fluid(width, 300, 1536, 50 * 4, 60 * 4, px);
+                position: relative;
+                color: $white;
+                text-decoration: none;
+                @include underline($white, 1px, 90%);
+                padding-bottom: 5px;
+            }
+
+            .copyright {
+                font-family: Gotham, serif;
+                display: block;
+                text-align: center;
+                @include fluid-type(300, 1536, 11, 14, px);
+                letter-spacing: 1px;
+                color: $white;
+                padding-top: 15px;
+                padding-bottom: 10px;
+            }
+        }
+    }
 }

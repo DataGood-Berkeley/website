@@ -3,6 +3,7 @@ title: Data Good
 tagline: data science +
   social good.
 logo: /images/heart-logo.png
+email: datagood@berkeley.edu
 socials:
   - logo: /images/facebook.png
     link: https://www.facebook.com/datagoodberkeley/
@@ -11,7 +12,7 @@ socials:
     link: https://www.instagram.com/datagoodberkeley/
     name: Instagram
   - logo: /images/linkedin.png
-    link: https://www.instagram.com/datagoodberkeley/
+    link: https://www.linkedin.com/groups/13889217/
     name: Linkedin
   - logo: /images/github.png
     link: https://github.com/datagood-berkeley/
