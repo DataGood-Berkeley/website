@@ -3,11 +3,13 @@
   image: /images/team/saumya.png
   socials:
     linkedin: https://www.linkedin.com/in/saumya-choudhary-26893a186/
+
 - name: Neha Hudait
   position: President
   image: /images/team/neha.png
   socials:
     linkedin: https://www.linkedin.com/in/nehahudait/
+
 - name: Pulkit Bhasin
   position: External VP
   image: /images/team/pulkit.png
@@ -41,12 +43,18 @@
 
 - name: Elda Pere
   position: Project Manager
-  image: /images/heart-thumbnail.png
+  image: /images/team/elda.png
+  socials:
+    linkedin: https://www.linkedin.com/in/elda-pere/
 
 - name: Calvin Chen
   position: Project Manager
-  image: /images/heart-thumbnail.png
+  image: /images/team/calvin.png
+  socials:
+    linkedin: https://www.linkedin.com/in/chencalvin99/
 
 - name: Kiernynn Grantham-Crum
   position: Content Writer
-  image: /images/heart-thumbnail.png
+  image: /images/team/kiernynn.png
+  socials:
+    linkedin: https://www.linkedin.com/in/kiernynn-gc/
