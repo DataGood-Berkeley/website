@@ -12,7 +12,7 @@
 	</button>
 	<nav>
 		{{#each config.headers}}
-			<a class="nav-btn" href="{{link}}">
+			<a class="nav-btn" href="{{link}}" {{#if external}}rel="noreferrer noopener" target="_blank"{{/if}}>
 				<div class="nav-txt">{{name}}</div>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126.25 111.91">
 					<path class="svg-heart" d="M114.36,11.89C102.11-.37,81.59.11,68.75,13l-5.63,5.63L57.49,13C44.66.11,24.14-.37,11.89,11.89S.11,44.66,13,57.49l5.63,5.63,44.54,44.55,44.55-44.55,5.63-5.63C126.13,44.66,126.61,24.14,114.36,11.89Z" />
