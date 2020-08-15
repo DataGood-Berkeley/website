@@ -28,5 +28,8 @@ headers:
     link: /education
   - name: Projects
     link: /projects
+  - name: Blog
+    link: https://medium.com/@datagoodatberkeley
+    external: true
   - name: Contact
     link: /contact
