@@ -21,3 +21,13 @@
   description: Tracking the spread of COVID-19 across many different countries
   image: images/projects/country.png
   color: purple
+
+- link: /404
+  title: Nehemiah Gateway USA
+  image: images/projects/nehemiah_gateway.png
+  color: yellow
+
+- link: /404
+  title: California Institute For Energy And Environment
+  image: images/projects/ciee.png
+  color: blue
