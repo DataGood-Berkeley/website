@@ -185,4 +185,31 @@ body {
 
 html, body {
 	height: 100%;
+    overflow-x: hidden;
+}
+
+.left-enter {
+    @include inline-animation(1s) {
+        from {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+}
+
+.right-enter {
+    @include inline-animation(1s) {
+        from {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
 }
