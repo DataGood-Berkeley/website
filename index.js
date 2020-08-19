@@ -61,7 +61,7 @@ app.get('/education', (req, res) => {
 app.get('/projects', (req, res) => {
 	res.status(200).render('projects', {
 		title: 'projects.',
-		projects: yaml.safeLoad(fs.readFileSync(`${__dirname}/configs/projects.yaml`, 'utf8'))
+		projectGroups: yaml.safeLoad(fs.readFileSync(`${__dirname}/configs/projects.yaml`, 'utf8'))
 	});
 });
 

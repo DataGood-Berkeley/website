@@ -11,7 +11,10 @@
 	</div>
 </section>
 
-<section class="project-gallery alone">
+{{#each projectGroups}}
+<section class="project-group alone">
+	<h1 class="yellow-back">{{title}}</h1>
+	<div class="project-gallery">
 	{{#each projects}}
 	<a class="card {{color}}-back" href="{{link}}" target="_blank" rel="noreferrer noopener">
 		<div class="project-description">
@@ -21,4 +24,6 @@
 		<img src="{{image}}" alt="{{title}}">
 	</a>
 	{{/each}}
+	</div>
 </section>
+{{/each}}
