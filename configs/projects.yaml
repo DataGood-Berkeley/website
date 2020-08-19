@@ -1,33 +1,37 @@
-- link: https://gspp.berkeley.edu/centers/cepp/projects/mapping-for-environmental-justice
-  title: Mapping for Environmental Justice
-  description: Mapping for Environmental Justice (MEJ) is an initiative to create interactive and publicly-accessible maps displaying environmental justice data for individual states. With guidance from the residents of impacted communities, MEJ combines environmental, public health, and demographic data into an indicator of vulnerability for communities in every state.
-  image: images/projects/mapping.png
-  color: green
+- title: Current Projects
+  projects:
+  - link: /404
+    title: Nehemiah Gateway USA
+    image: /images/projects/nehemiah_gateway.png
+    color: yellow
 
-- link: https://docs.google.com/presentation/d/1srR26ON6Vu-ygoowqm9AqW7AJcM6NW0Y03QRXd-njM4/edit#slide=id.g8292d9be50_0_1663
-  title: Electronic Pathology Report Classification
-  description: In partnership with the Cancer Registry of Greater California, this project uses ML and NLP on electronic pathology records to identify reports missing critical diagnostic information especially for ethinic minorities in the state of California.
-  image: images/projects/pathology.png
-  color: pink
+  - link: /404
+    title: California Institute For Energy And Environment
+    image: /images/projects/ciee.png
+    color: blue
 
-- link: https://cp101assignment4.wordpress.com/minority-vulnerability/
-  title: Minority Vulnerability and COVID-19
-  description: Are there factors in Los Angeles County that may be contributing to an increased vulnerability for minorities who have contracted COVID-19?
-  image: images/projects/minority.png
-  color: blue
+- title: Past Projects
+  projects:
+  - link: https://gspp.berkeley.edu/centers/cepp/projects/mapping-for-environmental-justice
+    title: Mapping for Environmental Justice
+    description: Mapping for Environmental Justice (MEJ) is an initiative to create interactive and publicly-accessible maps displaying environmental justice data for individual states. With guidance from the residents of impacted communities, MEJ combines environmental, public health, and demographic data into an indicator of vulnerability for communities in every state.
+    image: /images/projects/mapping.png
+    color: green
 
-- link: https://github.com/eldapere8/COVID_Analysis/blob/master/COVID19%20Visualizations.ipynb
-  title: COVID-19 Spread by Country Analysis
-  description: Tracking the spread of COVID-19 across many different countries
-  image: images/projects/country.png
-  color: purple
+  - link: https://docs.google.com/presentation/d/1srR26ON6Vu-ygoowqm9AqW7AJcM6NW0Y03QRXd-njM4/edit#slide=id.g8292d9be50_0_1663
+    title: Electronic Pathology Report Classification
+    description: In partnership with the Cancer Registry of Greater California, this project uses ML and NLP on electronic pathology records to identify reports missing critical diagnostic information especially for ethinic minorities in the state of California.
+    image: /images/projects/pathology.png
+    color: pink
 
-- link: /404
-  title: Nehemiah Gateway USA
-  image: images/projects/nehemiah_gateway.png
-  color: yellow
+  - link: https://cp101assignment4.wordpress.com/minority-vulnerability/
+    title: Minority Vulnerability and COVID-19
+    description: Are there factors in Los Angeles County that may be contributing to an increased vulnerability for minorities who have contracted COVID-19?
+    image: /images/projects/minority.png
+    color: blue
 
-- link: /404
-  title: California Institute For Energy And Environment
-  image: images/projects/ciee.png
-  color: blue
+  - link: https://github.com/eldapere8/COVID_Analysis/blob/master/COVID19%20Visualizations.ipynb
+    title: COVID-19 Spread by Country Analysis
+    description: Tracking the spread of COVID-19 across many different countries
+    image: /images/projects/country.png
+    color: purple

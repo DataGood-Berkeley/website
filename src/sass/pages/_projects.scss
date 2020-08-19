@@ -1,117 +1,142 @@
-.project-gallery {
-	justify-content: space-around;
-	flex-wrap: wrap;
-	margin-top: 20px;
-	.card {
-		height: 25vw;
-		width: 40vw;
-		margin: 20px 0;
-		position: relative;
-		@media only screen and (max-width: 800px) {
-			height: 45vw;
-			width: 80vw;
-		}
-		overflow: hidden;
-		position: relative;
+.project-group {
+    flex-direction: column;
+    max-width: 90vw;
 
-		.project-description {
-			transition: opacity 0.3s;
-			height: 100%;
-			overflow: hidden;
-			transition: max-width 0.3s;
-			transform: translateX(calc(-100% + 15px));
-			transition: transform 0.3s;
-			h2 {
-				font-family: Gotham, serif;
-				@include fluid-type(300, 1535, 40, 50, px);
-				text-align: center;
-				margin: 0;
-				padding: 10px;
-			}
+    .project-gallery {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 20px;
 
-			.description {
-				font-family: NotoSerifSC, serif;
-				@include fluid-type(300, 1535, 12, 20, px);
-				padding: 20px;
-			}
-		}
+        .card {
+            height: 25vw;
+            width: 40vw;
+            margin: 20px 0;
+            position: relative;
 
-		img {
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 100%;
-			width: 100%;
-			pointer-events: none;
-			z-index: -1;
-			object-fit: contain;
-		}
-		&:before {
-			position: absolute;
-			content: "";
-			display: block;
-			bottom: 0;
-			left: 0;
-			height: 0;
-			width: 0;
-			transition: width 0.5s, height 0.5s;
-			z-index: 1;
-		}
-		&:after {
-			position: absolute;
-			content: "";
-			display: block;
-			top: 0;
-			right: 0;
-			height: 0;
-			width: 0;
-			transition: width 0.5s, height 0.5s;
-			z-index: 1;
-		}
-		@mixin coloring($name, $text-color, $background-color) {
-			&.#{$name}-back {
-				$border-color: darken($background-color, 15%);
-				$background-color: rgba($background-color, 0.9);
-				.project-description {
-					background-color: $background-color;
-					h2 {
-						color: $text-color;
-					}
-					.description {
-						color: $text-color;
-					}
-				}
-				&:before {
-					border-bottom: 0 solid $border-color;
-					border-left: 0 solid $border-color;
-				}
-				&:after {
-					border-top: 0 solid $border-color;
-					border-right: 0 solid $border-color;
-				}
-			}
-		}
-		@include coloring(pink, $white, $pink);
-		@include coloring(green, $grey, $green);
-		@include coloring(blue, $white, $blue);
-		@include coloring(purple, $white, $purple);
-		@include coloring(yellow, $grey, $yellow);
-		&:hover {
-			.project-description {
-				transform: translateX(0);
-			}
-			&:before {
-				width: 100%;
-				height: 100%;
-				border-bottom-width: 4px;
-				border-left-width: 4px;
-			}
-			&:after {
-				width: 100%;
-				height: 100%;
-				border-top-width: 4px;
-				border-right-width: 4px;
-			}
-		}
-	}
+            @media only screen and (max-width: 800px) {
+                height: 45vw;
+                width: 80vw;
+            }
+
+            overflow: hidden;
+            position: relative;
+
+            .project-description {
+                transition: opacity 0.3s;
+                height: 100%;
+                overflow: hidden;
+                transition: max-width 0.3s;
+                transform: translateX(calc(-100% + 15px));
+                transition: transform 0.3s;
+
+                h2 {
+                    font-family: Gotham, serif;
+                    @include fluid-type(300, 1535, 40, 50, px);
+                    text-align: center;
+                    margin: 0;
+                    padding: 10px;
+                }
+
+                .description {
+                    font-family: NotoSerifSC, serif;
+                    @include fluid-type(300, 1535, 12, 20, px);
+                    padding: 20px;
+                }
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                pointer-events: none;
+                z-index: -1;
+                object-fit: contain;
+            }
+
+            &:before {
+                position: absolute;
+                content: "";
+                display: block;
+                bottom: 0;
+                left: 0;
+                height: 0;
+                width: 0;
+                transition: width 0.5s, height 0.5s;
+                z-index: 1;
+            }
+
+            &:after {
+                position: absolute;
+                content: "";
+                display: block;
+                top: 0;
+                right: 0;
+                height: 0;
+                width: 0;
+                transition: width 0.5s, height 0.5s;
+                z-index: 1;
+            }
+
+            @mixin coloring($name, $text-color, $background-color) {
+                &.#{$name}-back {
+                    $border-color: darken($background-color, 15%);
+                    $background-color: rgba($background-color, 0.9);
+
+                    .project-description {
+                        background-color: $background-color;
+
+                        h2 {
+                            color: $text-color;
+                        }
+
+                        .description {
+                            color: $text-color;
+                        }
+                    }
+
+                    &:before {
+                        border-bottom: 0 solid $border-color;
+                        border-left: 0 solid $border-color;
+                    }
+
+                    &:after {
+                        border-top: 0 solid $border-color;
+                        border-right: 0 solid $border-color;
+                    }
+                }
+            }
+
+            @include coloring(pink, $white, $pink);
+            @include coloring(green, $grey, $green);
+            @include coloring(blue, $white, $blue);
+            @include coloring(purple, $white, $purple);
+            @include coloring(yellow, $grey, $yellow);
+
+            &:hover {
+                .project-description {
+                    transform: translateX(0);
+                }
+
+                &:before {
+                    width: 100%;
+                    height: 100%;
+                    border-bottom-width: 4px;
+                    border-left-width: 4px;
+                }
+
+                &:after {
+                    width: 100%;
+                    height: 100%;
+                    border-top-width: 4px;
+                    border-right-width: 4px;
+                }
+            }
+        }
+    }
 }
