@@ -17,24 +17,12 @@
 			<th>week</th>
 			<th class="date">date</th>
 			<th>topic</th>
-			<th>lab</th>
-			<th>webcast</th>
 		</tr>
 		{{#each topics}}
 		<tr>
 			<td>{{add @index 1}}</td>
 			<td>{{this.date}}</td>
 			<td>{{this.title}}</td>
-			<td>
-				{{#if this.lab}}
-					<a href="{{this.lab.link}}" target="_blank"  rel="noreferrer noopener">{{this.lab.title}}</a>
-				{{/if}}
-			</td>
-			<td>
-				{{#if this.webcast}}
-					<a href="{{this.webcast.link}}" target="_blank"  rel="noreferrer noopener">{{this.webcast.title}}</a>
-				{{/if}}
-			</td>
 		</tr>
 		{{/each}}
 	</table>
