@@ -112,6 +112,7 @@ rules:
   no-label-var: error
   no-undef-init: error
   no-undefined: error
+  no-undef: warn
   no-use-before-define: warn
   array-bracket-spacing:
     - error
