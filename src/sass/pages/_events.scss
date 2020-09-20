@@ -6,3 +6,23 @@
 	justify-content: center;
     margin-top: 40px;
 }
+
+#calendar {
+	width: 100%;
+	font-family: Gotham, serif;
+	color: $black;
+	.fc-daygrid-event {
+		color: $black;
+	}
+}
+
+:root {
+	--fc-event-border-color: #{$pink};
+	--fc-event-bg-color: #{$pink};
+	--fc-button-bg-color: #{$black};
+	--fc-button-border-color: #{$black};
+	--fc-button-hover-bg-color: #{darken($black, 10%)};
+	--fc-button-hover-border-color: #{darken($black, 10%)};
+	--fc-button-active-bg-color: #{darken($black, 20%)};
+	--fc-button-active-border-color: transparent;
+}
