@@ -1,11 +1,14 @@
 - date: 9/19
   title: NO LECTURE
-  webcast:
-      link: https://drive.google.com/file/d/1vkS4fqZFay-yMA1jtJ0tezgclGeIKU0f/view?usp=sharing
-      title: Webcast
 
 - date: 9/24
   title: Introduction to Data Science, Social Good, Python Visualization
+  lab:
+    link: https://drive.google.com/drive/folders/1uYz7rWNK0UGxt1_g7M_bEHNP62iu3c1f?usp=sharing
+    title: Assets
+  webcast:
+      link: https://drive.google.com/file/d/1vkS4fqZFay-yMA1jtJ0tezgclGeIKU0f/view?usp=sharing
+      title: Webcast
 
 - date: 10/1
   title: Linear Regression and Regularization
