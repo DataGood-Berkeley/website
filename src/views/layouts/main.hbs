@@ -5,11 +5,15 @@
 	<meta charset="utf-8">
 	<meta name="description" content="{{config.tagline}}">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0">
-	<meta property="og:title" content="{{config.title}}">
+	<meta property="og:title" content="{{config.title}}{{#if title}}: {{title}}{{/if}}">
 	<meta property="og:description" content="{{config.tagline}}">
 	<meta property="og:image" content="https://datagood.berkeley.edu/images/heart-thumbnail.png">
 	<meta property="og:url" content="https://datagood.berkeley.edu">
-	<meta name="twitter:card" content="summary_large_image">	
+	<meta name="twitter:card" content="summary_large_image">
+
+	<link rel="preload" href="/css/all.css" as="style">
+	<link rel="preload" href="/scripts/all.js" as="script">
+
 	<link rel="stylesheet" type="text/css" href="/css/all.css">
 	<link rel="icon" type="image/png" href="/images/heart-logo.png">
 </head>

@@ -1,107 +1,38 @@
 - date: 9/19
   title: NO LECTURE
-  lab:
-      link: Link
-      title: Title
   webcast:
-      link: Link
-      title: Title
+      link: https://drive.google.com/file/d/1vkS4fqZFay-yMA1jtJ0tezgclGeIKU0f/view?usp=sharing
+      title: Webcast
 
 - date: 9/24
   title: Introduction to Data Science, Social Good, Python Visualization
-  lab:
-      link: Link
-      title: Title
-  webcast:
-      link: Link
-      title: Title
 
 - date: 10/1
   title: Linear Regression and Regularization
-  lab:
-      link: Link
-      title: Title
-  webcast:
-      link: Link
-      title: Title
 
-- date: 10/8
+- date: 10/6
   title: Modeling and Estimation in Gentrification and COVID-19
-  lab:
-      link: Link
-      title: Title
-  webcast:
-      link: Link
-      title: Title
 
 - date: 10/15
   title: Geospatial Analysis in Environmental Justice
-  lab:
-      link: Link
-      title: Title
-  webcast:
-      link: Link
-      title: Title
 
 - date: 10/22
   title: NO LECTURE
-  lab:
-      link: Link
-      title: Title
-  webcast:
-      link: Link
-      title: Title
 
 - date: 10/29
-  title: Deep Learning in MRI Image Modeling
-  lab:
-      link: Link
-      title: Title
-  webcast:
-      link: Link
-      title: Title
+  title: Language Modeling and Racial Bias in Public Policy
 
 - date: 11/5
-  title: Language Modeling and Racial Bias in Public Policy
-  lab:
-      link: Link
-      title: Title
-  webcast:
-      link: Link
-      title: Title
+  title: Deep Learning in MRI Image Modeling
 
 - date: 11/12
   title: NO LECTURE
-  lab:
-      link: Link
-      title: Title
-  webcast:
-      link: Link
-      title: Title
 
 - date: 11/19
   title: Computer Vision and Disaster Response
-  lab:
-      link: Link
-      title: Title
-  webcast:
-      link: Link
-      title: Title
 
 - date: 11/26
   title: NO LECTURE
-  lab:
-      link: Link
-      title: Title
-  webcast:
-      link: Link
-      title: Title
 
 - date: 12/9
   title: NO LECTURE
-  lab:
-      link: Link
-      title: Title
-  webcast:
-      link: Link
-      title: Title

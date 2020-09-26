@@ -84,9 +84,6 @@
 	display: flex;
 	width: 100%;
 	flex-wrap: wrap;
-	& > * {
-		flex-shrink: 0;
-	}
 	.btn {
 		margin-right: 37px;
 	}
