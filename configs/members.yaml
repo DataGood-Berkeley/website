@@ -1,60 +1,60 @@
 - name: Saumya Choudhary
   position: President
-  image: /images/team/saumya.png
+  image: /images/team/saumya.jpg
   socials:
     linkedin: https://www.linkedin.com/in/saumya-choudhary-26893a186/
 
 - name: Neha Hudait
   position: President
-  image: /images/team/neha.png
+  image: /images/team/neha.jpg
   socials:
     linkedin: https://www.linkedin.com/in/nehahudait/
 
 - name: Pulkit Bhasin
   position: External VP
-  image: /images/team/pulkit.png
+  image: /images/team/pulkit.jpg
   socials:
     linkedin: https://www.linkedin.com/in/pulkit-bhasin-7a6026197/
 
 - name: Andrew Huang
   position: Internal VP
-  image: /images/team/andrew.png
+  image: /images/team/andrew.jpg
   socials:
     linkedin: https://www.linkedin.com/in/andrew-huang-99b79519a/
 
 - name: Ashritha Eswaran
   position: VP Education
-  image: /images/team/ashritha.png
+  image: /images/team/ashritha.jpg
   socials:
     linkedin: https://www.linkedin.com/in/ashritha-e-703aba134/
 
 - name: Milleno Pan
   position: VP Finance
-  image: /images/team/milleno.png
+  image: /images/team/milleno.jpg
   socials:
     linkedin: https://www.linkedin.com/in/milleno-pan/
 
 - name: Wilson Nguyen
   position: Webmaster
-  image: /images/team/wilson.png
+  image: /images/team/wilson.jpg
   socials:
     github: https://github.com/potatoparser/
     linkedin: https://www.linkedin.com/in/wilson-nguyen-4252b9163/
 
 - name: Elda Pere
   position: Project Manager
-  image: /images/team/elda.png
+  image: /images/team/elda.jpg
   socials:
     linkedin: https://www.linkedin.com/in/elda-pere/
 
 - name: Calvin Chen
   position: Project Manager
-  image: /images/team/calvin.png
+  image: /images/team/calvin.jpg
   socials:
     linkedin: https://www.linkedin.com/in/chencalvin99/
 
 - name: Kiernynn Grantham-Crum
   position: Content Writer
-  image: /images/team/kiernynn.png
+  image: /images/team/kiernynn.jpg
   socials:
     linkedin: https://www.linkedin.com/in/kiernynn-gc/

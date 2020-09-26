@@ -1,7 +1,7 @@
 (function() {
 	const hamburger = document.querySelector('.hamburger');
 	const nav = document.querySelector('nav');
-	const MIN_WIDTH = 1200;
+	const MIN_WIDTH = 1060;
 	hamburger.onclick = () => {
 		console.log('fire');
 		if (hamburger.classList.contains('is-active')) {
