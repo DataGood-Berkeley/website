@@ -12,6 +12,12 @@
 
 - date: 10/2
   title: Linear Regression and Regularization
+  lab:
+    link: https://drive.google.com/drive/folders/1hxbwB2EtQNcpe3E9o8mbd2nQU7AunOFu?usp=sharing
+    title: Assets
+  webcast:
+      link: https://drive.google.com/file/d/1vjnoGb1O33ofWE9uMBmM0k1hl2mOZaf6/view?usp=sharing
+      title: Webcast
 
 - date: 10/6
   title: Modeling and Estimation in Gentrification and COVID-19
