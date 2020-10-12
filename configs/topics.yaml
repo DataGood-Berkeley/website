@@ -1,4 +1,4 @@
-- date: 9/19
+- date: 9/17
   title: NO LECTURE
 
 - date: 9/24
@@ -19,25 +19,31 @@
       link: https://drive.google.com/file/d/1vjnoGb1O33ofWE9uMBmM0k1hl2mOZaf6/view?usp=sharing
       title: Webcast
 
-- date: 10/6
+- date: 10/9
   title: Modeling and Estimation in Gentrification and COVID-19
+  lab:
+    link: https://drive.google.com/drive/folders/1e5nXcIxb3l0M6dYbgNcW9dIBKGUWpQaF?usp=sharing
+    title: Assets
+  webcast:
+      link: https://drive.google.com/file/d/1FVChpxNFEC1pjyS1Vx7ZSZY8uAijPuNa/view?usp=sharing
+      title: Webcast
 
-- date: 10/15
+- date: 10/16
   title: Geospatial Analysis in Environmental Justice
 
 - date: 10/22
   title: NO LECTURE
 
-- date: 10/29
+- date: 10/30
   title: Language Modeling and Racial Bias in Public Policy
 
-- date: 11/5
+- date: 11/6
   title: Deep Learning in MRI Image Modeling
 
 - date: 11/12
   title: NO LECTURE
 
-- date: 11/19
+- date: 11/20
   title: Computer Vision and Disaster Response
 
 - date: 11/26
