@@ -20,7 +20,7 @@
       title: Webcast
 
 - date: 10/9
-  title: Modeling and Estimation in Gentrification and COVID-19
+  title: Modeling & Estimation (Gentrification/COVID19)
   lab:
     link: https://drive.google.com/drive/folders/1e5nXcIxb3l0M6dYbgNcW9dIBKGUWpQaF?usp=sharing
     title: Assets
@@ -29,22 +29,28 @@
       title: Webcast
 
 - date: 10/16
-  title: Geospatial Analysis in Environmental Justice
+  title: Intro to Pandas
+  lab:
+    link: https://drive.google.com/drive/folders/15XfJPNPgX_x3oFUs3oTZMXckDJT5qdqN?usp=sharing
+    title: Assets
+  webcast:
+      link: https://berkeley.zoom.us/rec/play/JJP0HAPjnMv_zFKqrrVbuR0dOtdVEbQrMOqtWqG5frluCFtzt3RZI3hv8G1ha1XXxVji-pUbKENPbw47.WXscG_a_8Eq8xsdr
+      title: Webcast
 
 - date: 10/22
   title: NO LECTURE
 
 - date: 10/30
-  title: Language Modeling and Racial Bias in Public Policy
+  title: Geospatial Analysis (Environmental Justice)
 
 - date: 11/6
-  title: Deep Learning in MRI Image Modeling
+  title: Intro to Machine Learning
 
 - date: 11/12
   title: NO LECTURE
 
 - date: 11/20
-  title: Computer Vision and Disaster Response
+  title: Language Modeling (Racial Bias in Public Policy)
 
 - date: 11/26
   title: NO LECTURE
