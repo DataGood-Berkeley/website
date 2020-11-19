@@ -42,6 +42,12 @@
 
 - date: 10/30
   title: Geospatial Analysis (Environmental Justice)
+  lab:
+		link: https://drive.google.com/drive/u/1/folders/1V93GKYp9ta_W7PdGk3urqD4JqAL1bK-Q?safe=active
+		title: Assets
+	webcast:
+		link: https://berkeley.zoom.us/rec/play/MsPdnWrhme6J3vhvktGPnsQPxCXF5J_RgStmtfzkbTrKDgthbGL-Gs4nnk8mPWIVJy84vUYT0wr4qhZ1.jiUZyimQ2XFJa-Xc
+		title: Webcast
 
 - date: 11/6
   title: Intro to Machine Learning
