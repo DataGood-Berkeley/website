@@ -9,7 +9,7 @@
     }
 
     100% {
-        width: 100%;
+        width: 0;
         left: 100%;
     }
 }
@@ -60,7 +60,7 @@ h1 {
     @include after-back(green, $green);
     @include after-back(yellow, $yellow);
 
-    &:after {
+    &:after, [active] {
         content: "";
         position: absolute;
         top: 0;
@@ -211,5 +211,33 @@ html, body {
             transform: translateX(0);
             opacity: 1;
         }
+    }
+}
+
+.quote {
+    font-family: NotoSerifSC, serif;
+    @include fluid-type(300, 1535, 11, 20, px);
+    @include molten-leading(300, 1535, 30, 40, px);
+    color: $grey;
+    border-left: 5px solid $pink;
+    margin: 0 8vw;
+    .content {
+        position: relative;
+        overflow: hidden;
+        padding: 0 4vw;
+        margin: 0;
+        margin-bottom: 20px;
+        @include fluid(line-height, 300, 1535, 39, 49, px);
+        &:before, &:after {
+            content: "\"";
+            display: inline-block;
+            font-family: NotoSerifSC, serif;
+            @include fluid-type(300, 1535, 20, 29, px);
+            @include molten-leading(300, 1535, 39, 49, px);
+            color: $grey;
+        }
+    }
+    .author {
+        margin-left: 8vw;
     }
 }

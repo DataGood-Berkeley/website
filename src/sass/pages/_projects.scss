@@ -118,7 +118,7 @@
             @include coloring(purple, $white, $purple);
             @include coloring(yellow, $grey, $yellow);
 
-            &:hover {
+            &:hover, [active] {
                 .project-description {
                     transform: translateX(0);
                 }

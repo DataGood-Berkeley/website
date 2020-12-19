@@ -1,0 +1,32 @@
+[flicker] {
+    position: relative;
+    $speed: 0.7s;
+    overflow: hidden;
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        display: block;
+        z-index: -1;
+        background-color: $pink;
+    }
+	&[flicker=active] {
+	    @include inline-animation($speed forwards) {
+	    	0% {
+	    		color: $grey;
+	    	}
+	    	50% {
+	    		color: $white;
+	    	}
+	    	100% {
+	    		color: $grey;
+	    	}
+	    }   
+	    &:after {
+	        animation: slide $speed forwards;
+	    }
+	}
+}

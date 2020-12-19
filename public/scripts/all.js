@@ -3,7 +3,6 @@
 	const nav = document.querySelector('nav');
 	const MIN_WIDTH = 1060;
 	hamburger.onclick = () => {
-		console.log('fire');
 		if (hamburger.classList.contains('is-active')) {
 			hamburger.addEventListener('transitionend', () => {
 				document.body.toggleAttribute('menu-active');
@@ -31,4 +30,24 @@
 			}
 		}
 	};
+	document.querySelectorAll('[flicker]').forEach(e => {
+		const parent = e.parentElement;
+		let animation = false;
+		parent.addEventListener('mouseover', async () => {
+			if (animation) return;
+			animation = true;
+			for (const e of parent.querySelectorAll('[flicker]')) {
+				e.setAttribute('flicker', 'active');
+				await new Promise(resolve => {
+					e.addEventListener('animationend', () => {
+						e.setAttribute('flicker', '');
+						resolve();
+					}, {
+						once: true
+					});
+				});
+			}
+			animation = false;
+		});
+	});
 }());
