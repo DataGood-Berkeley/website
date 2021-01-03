@@ -1,4 +1,4 @@
-- title: Current Projects
+- title: past projects
   projects:
   - link: /404
     title: Nehemiah Gateway USA
@@ -12,8 +12,6 @@
     image: /images/projects/ciee.png
     color: blue
 
-- title: Past Projects
-  projects:
   - link: https://gspp.berkeley.edu/centers/cepp/projects/mapping-for-environmental-justice
     title: Mapping for Environmental Justice
     description: Mapping for Environmental Justice (MEJ) is an initiative to create interactive and publicly-accessible maps displaying environmental justice data for individual states. With guidance from the residents of impacted communities, MEJ combines environmental, public health, and demographic data into an indicator of vulnerability for communities in every state.
