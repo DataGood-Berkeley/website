@@ -1,60 +1,74 @@
 - name: Saumya Choudhary
-  position: President
+  position: External Projects Lead
   image: /images/team/saumya.jpg
   socials:
     linkedin: https://www.linkedin.com/in/saumya-choudhary-26893a186/
 
+- name: Milleno Pan
+  position: Internal Projects Lead
+  image: /images/team/milleno.jpg
+  socials: 
+    linkedin: https://www.linkedin.com/in/milleno-pan/
+
 - name: Neha Hudait
-  position: President
+  position: Outeach Technical Lead
   image: /images/team/neha.jpg
   socials:
     linkedin: https://www.linkedin.com/in/nehahudait/
 
-- name: Pulkit Bhasin
-  position: External VP
-  image: /images/team/pulkit.jpg
-  socials:
-    linkedin: https://www.linkedin.com/in/pulkit-bhasin-7a6026197/
-
 - name: Andrew Huang
-  position: Internal VP
+  position: Outreach Social Lead
   image: /images/team/andrew.jpg
   socials:
     linkedin: https://www.linkedin.com/in/andrew-huang-99b79519a/
 
-- name: Ashritha Eswaran
-  position: VP Education
-  image: /images/team/ashritha.jpg
+- name: Elda Pere
+  position: External Project Manager
+  image: /images/team/elda.jpg
   socials:
-    linkedin: https://www.linkedin.com/in/ashritha-e-703aba134/
+    linkedin: https://www.linkedin.com/in/elda-pere/
 
-- name: Milleno Pan
-  position: VP Finance
-  image: /images/team/milleno.jpg
+- name: Kiernynn Grantham-Crum
+  position: External Project Manager
+  image: /images/team/kiernynn.jpg
   socials:
-    linkedin: https://www.linkedin.com/in/milleno-pan/
+    linkedin: https://www.linkedin.com/in/kiernynn-gc/
+
+- name: Pavan Gowda
+  position: External Project Manager
+  image:
+  socials:
+
+- name: Gloria Zhang
+  position: Internal Project Manager
+  image:
+  socials:
+
+- name: Isabella Borkovic
+  position: Internal Project Manager
+  image:
+  socials:
+
+- name: Shani Lyubomirsky
+  position: Outreach Technical
+  image:
+  socials:
 
 - name: Wilson Nguyen
-  position: Webmaster
+  position: Outreach Technical
   image: /images/team/wilson.jpg
   socials:
     github: https://github.com/potatoparser/
     linkedin: https://www.linkedin.com/in/wilson-nguyen-4252b9163/
 
-- name: Elda Pere
-  position: Project Manager
-  image: /images/team/elda.jpg
+- name: Ashritha Eswaran
+  position: Outreach Social
+  image: /images/team/ashritha.jpg
   socials:
-    linkedin: https://www.linkedin.com/in/elda-pere/
+    linkedin: https://www.linkedin.com/in/ashritha-e-703aba134/
 
-- name: Calvin Chen
-  position: Project Manager
-  image: /images/team/calvin.jpg
+- name: Molisha Shah
+  position: Outreach Social
+  image:
   socials:
-    linkedin: https://www.linkedin.com/in/chencalvin99/
-
-- name: Kiernynn Grantham-Crum
-  position: Content Writer
-  image: /images/team/kiernynn.jpg
-  socials:
-    linkedin: https://www.linkedin.com/in/kiernynn-gc/
+    linkedin: https://www.linkedin.com/in/molishashah/
