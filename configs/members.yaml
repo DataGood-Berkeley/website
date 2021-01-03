@@ -38,10 +38,11 @@
   position: External Project Manager
   image: /images/team/pavan.png
   socials:
+    linkedin: https://www.linkedin.com/in/pavangowda/
 
 - name: Gloria Zhang
   position: Internal Project Manager
-  image: /images/team/none.png
+  image: /images/team/gloria.png
   socials:
 
 - name: Isabella Borkovic
