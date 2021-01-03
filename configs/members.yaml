@@ -1,6 +1,6 @@
 - name: Saumya Choudhary
   position: External Projects Lead
-  image: /images/team/saumya.jpg
+  image: /images/team/saumya.png
   socials:
     linkedin: https://www.linkedin.com/in/saumya-choudhary-26893a186/
 
@@ -11,8 +11,8 @@
     linkedin: https://www.linkedin.com/in/milleno-pan/
 
 - name: Neha Hudait
-  position: Outeach Technical Lead
-  image: /images/team/neha.jpg
+  position: Outreach Technical Lead
+  image: /images/team/neha.png
   socials:
     linkedin: https://www.linkedin.com/in/nehahudait/
 
@@ -44,6 +44,7 @@
   position: Internal Project Manager
   image: /images/team/gloria.png
   socials:
+    linkedin: https://www.linkedin.com/in/gloria-zhang-b4399a202/
 
 - name: Isabella Borkovic
   position: Internal Project Manager
