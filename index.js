@@ -82,6 +82,15 @@ app.post('/webhook', (req, res) => {
 	}
 });
 
+app.get('/zoom', (req, res) => {
+	res.redirect('https://berkeley.zoom.us/j/98351933735?pwd=dE0yeEl5OEZyd05MOC9VbWxKOXUxQT09');
+});
+
+app.get('/discord', (req, res) => {
+	res.redirect('https://discord.com/invite/j6WDA75k7s');
+});
+
+
 app.get('*', (req, res) => {
 	res.status(404).render('error', {
 		code: 404,
