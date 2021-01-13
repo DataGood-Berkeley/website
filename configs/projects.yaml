@@ -35,6 +35,7 @@
     title: Medical Insurance Analysis and Classifer
     description: Created data science project that utilized a Python GUI to visualize different data science techniques on insurance health charges data using Pandas, Sklearn, and Tkinter
     image: /images/projects/insurance.png
+    color: green
 
   - link: https://gspp.berkeley.edu/centers/cepp/projects/mapping-for-environmental-justice
     title: Mapping for Environmental Justice
