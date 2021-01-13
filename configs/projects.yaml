@@ -1,16 +1,40 @@
+- title: external projects - coming soon
+- title: internal projects
+  projects:
+  - link: /404
+    title: DC + Chicago Crime Analysis
+    description: Leveraging DC + Chicago crime data to visualize trends across factors such as race, socioeconomic status using regression and geospatial analysis
+    image: /images/projects/crime.png
+    color: pink
+  - link: /404
+    title: Natural Language Processing on US Legislature
+    description: This project aims to analyze Pennsylvania legislature using NLP techniques such as TF-IDF, Part of Speech tagging, and more
+    image: /images/projects/legislature.png
+    color: yellow
+  - link: /404
+    title: Cardiovascular Disease Classifer
+    description: Building a classifer to predict various severities of cardiovascular disease in patients
+    image: /images/projects/disease.png
+    color: pink
+
 - title: past projects
   projects:
   - link: /404
     title: Nehemiah Gateway USA
-    description: Provide actionable information that will increase donor reach and engagement using data science and NLP.
+    description: Provide actionable information that will increase donor reach and engagement using data science and NLP
     image: /images/projects/nehemiah_gateway.png
     color: yellow
 
   - link: /404
     title: California Institute For Energy And Environment
-    description: In this project, we will be exploring racial biases/implications in solar energy and equity with respect to credit score data. We will be investigating datasets containing FICO (credit) scores to see whether or not solar PV installations have a widening gap with respect to different racial/ethnic groups.
+    description: Exploring racial biases/implications in solar energy and equity with respect to credit score data
     image: /images/projects/ciee.png
     color: blue
+
+  - link: /404
+    title: Medical Insurance Analysis and Classifer
+    description: Created data science project that utilized a Python GUI to visualize different data science techniques on insurance health charges data using Pandas, Sklearn, and Tkinter
+    image: /images/projects/insurance.png
 
   - link: https://gspp.berkeley.edu/centers/cepp/projects/mapping-for-environmental-justice
     title: Mapping for Environmental Justice
@@ -23,15 +47,3 @@
     description: In partnership with the Cancer Registry of Greater California, this project uses ML and NLP on electronic pathology records to identify reports missing critical diagnostic information especially for ethinic minorities in the state of California.
     image: /images/projects/pathology.png
     color: pink
-
-  - link: https://cp101assignment4.wordpress.com/minority-vulnerability/
-    title: Minority Vulnerability and COVID-19
-    description: Are there factors in Los Angeles County that may be contributing to an increased vulnerability for minorities who have contracted COVID-19?
-    image: /images/projects/minority.png
-    color: blue
-
-  - link: https://github.com/eldapere8/COVID_Analysis/blob/master/COVID19%20Visualizations.ipynb
-    title: COVID-19 Spread by Country Analysis
-    description: Tracking the spread of COVID-19 across many different countries
-    image: /images/projects/country.png
-    color: purple
