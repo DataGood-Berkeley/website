@@ -163,7 +163,7 @@ rules:
   keyword-spacing: error
   linebreak-style:
     - error
-    - windows
+    - unix
   lines-around-comment:
     - error
     - beforeLineComment: true
