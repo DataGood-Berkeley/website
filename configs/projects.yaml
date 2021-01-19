@@ -9,6 +9,7 @@
     title: Anonymous Company
     description: The company would like to stay anonymous. This project entails building a classifier to predict agriculture needs.
     image: /image/projects/classified.jpg
+    color: blue
 - title: spring 2021 internal projects
   projects:
   - link: /404
