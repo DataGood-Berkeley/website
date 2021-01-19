@@ -1,0 +1,27 @@
+# This configuration is used for the pages on the website
+# The pages of each route is by default, set to the route itself, ie: /about -> about, /about/wilson -> about-wilson, etc.
+
+/:
+  page: home
+
+/about:
+  title: about us.
+  sponsors: sponsors.yml
+
+/team:
+  title: meet the team.
+  members: members.yml
+
+/events:
+  title: upcoming events.
+
+/education:
+  title: education.
+  topics: topics.yml
+
+/projects:
+  title: projects
+  projectGroups: projects.yml
+
+/contact:
+  title: contact us.
