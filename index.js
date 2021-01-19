@@ -86,6 +86,10 @@ app.get('/zoom', (req, res) => {
 	res.redirect('https://berkeley.zoom.us/j/98351933735?pwd=dE0yeEl5OEZyd05MOC9VbWxKOXUxQT09');
 });
 
+app.get('/mtm', (req, res) => {
+	res.redirect('https://tinyurl.com/y3qqkdnl');
+});
+
 app.get('/discord', (req, res) => {
 	res.redirect('https://discord.com/invite/j6WDA75k7s');
 });
