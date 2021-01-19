@@ -1,4 +1,15 @@
-- title: spring 2021 external projects - coming soon
+- title: spring 2021 external projects
+  projects:
+  - link: /404
+    title: Firewatch Chatbot
+    description: The Firewatch Chatbot aims to: provide reliable info on fires close by, answer fire preparedness questions, and aid CalSAFE’s donor engagement and outreach
+    image: /images/projects/fire.jpg
+    color: yellow
+  - link: /404
+    title: Anonymous Company
+    description: The company would like to stay anonymous. This project entails building a classifier to predict agriculture needs.
+    image: /image/projects/classified.jpg
+    color: blue
 - title: spring 2021 internal projects
   projects:
   - link: /404
