@@ -15,61 +15,38 @@ const hbs = exphbs.create({
 	extname: '.hbs'
 });
 
+const readConfig = path => yaml.load(fs.readFileSync(`${__dirname}/configs/${path}`, 'utf8'));
+
 app.use(compression());
 app.use(express.json());
 app.engine('hbs', hbs.engine);
 app.set('view engine', 'hbs');
 app.set('views', `${__dirname}/src/views`);
 app.use(express.static(`${__dirname}/public`));
-app.locals.config = yaml.safeLoad(fs.readFileSync(`${__dirname}/configs/defaults.yaml`, 'utf8'));
-app.get('/', (req, res) => {
-	res.status(200).render('home');
-});
+app.locals.config = readConfig('defaults.yml');
 
-app.get('/about', (req, res) => {
-	res.status(200).render('about', {
-		title: 'about us.',
-		sponsors: yaml.safeLoad(fs.readFileSync(`${__dirname}/configs/sponsors.yaml`, 'utf8'))
+const pages = readConfig('pages.yml');
+for (const route in pages) {
+	const page = pages[route];
+	page.page = page.page || (route
+		.substring(1)
+		.replace(/\//g, '-')
+		.toLowerCase());
+	for (const key in page) {
+		if (key === 'title') continue;
+		if (page[key].includes('.yml')) page[key] = readConfig(page[key]);
+	}
+	app.get(route, (req, res) => {
+		res.status(200).render(page.page, page);
 	});
-});
+}
 
-app.get('/team', (req, res) => {
-	res.status(200).render('team', {
-		title: 'meet the team.',
-		members: yaml.safeLoad(fs.readFileSync(`${__dirname}/configs/members.yaml`, 'utf8'))
+const routes = readConfig('routes.yml');
+for (const path in routes) {
+	app.get(path, (req, res) => {
+		res.redirect(routes[path]);
 	});
-});
-
-app.get('/events', (req, res) => {
-	res.status(200).render('events', {
-		title: 'upcoming events.'
-	});
-});
-
-app.get('/education', (req, res) => {
-	res.status(200).render('education', {
-		title: 'education.',
-		helpers: {
-			add(val1, val2) {
-				return val1 + val2;
-			}
-		},
-		topics: yaml.safeLoad(fs.readFileSync(`${__dirname}/configs/topics.yaml`, 'utf8'))
-	});
-});
-
-app.get('/projects', (req, res) => {
-	res.status(200).render('projects', {
-		title: 'projects.',
-		projectGroups: yaml.safeLoad(fs.readFileSync(`${__dirname}/configs/projects.yaml`, 'utf8'))
-	});
-});
-
-app.get('/contact', (req, res) => {
-	res.status(200).render('contact', {
-		title: 'contact us.'
-	});
-});
+}
 
 app.post('/webhook', (req, res) => {
 	const sig = `sha1=${crypto.createHmac('sha1', SECRET).update(JSON.stringify(req.body))
@@ -93,7 +70,6 @@ app.get('/mtm', (req, res) => {
 app.get('/discord', (req, res) => {
 	res.redirect('https://discord.com/invite/j6WDA75k7s');
 });
-
 
 app.get('*', (req, res) => {
 	res.status(404).render('error', {

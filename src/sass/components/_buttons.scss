@@ -81,10 +81,15 @@
 }
 
 .btn-flexbox {
-	display: flex;
-	width: 100%;
-	flex-wrap: wrap;
-	.btn {
-		margin-right: 37px;
-	}
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+    .btn {
+        margin: 20px 18px;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        justify-content: center;
+    }
 }
