@@ -2,7 +2,7 @@
   projects:
   - link: /404
     title: Firewatch Chatbot
-    description: The Firewatch Chatbot aims to: provide reliable info on fires close by, answer fire preparedness questions, and aid CalSAFE’s donor engagement and outreach
+    description: "The Firewatch Chatbot aims to: provide reliable info on fires close by, answer fire preparedness questions, and aid CalSAFE’s donor engagement and outreach"
     image: /images/projects/fire.jpg
     color: yellow
   - link: /404
