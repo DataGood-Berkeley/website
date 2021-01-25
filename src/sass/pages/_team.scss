@@ -59,9 +59,9 @@
 						}
 					}
 				}
-				@include link(github, "/images/github.png", black);
-				@include link(linkedin, "/images/linkedin.png", $blue);
-				@include link(facebook, "/images/facebook.png", $blue);
+				@include link(github, "/images/socials/github.png", black);
+				@include link(linkedin, "/images/socials/linkedin.png", $blue);
+				@include link(facebook, "/images/socials/facebook.png", $blue);
 			}
 		}
 	}

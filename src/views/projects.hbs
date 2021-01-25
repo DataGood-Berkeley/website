@@ -3,33 +3,30 @@
 <section class="right-enter">
 	<div class="text-container">
 		<h1 class="yellow-back">internal.</h1>
-		<p>We provide students from all technical backgrounds with the opportunity to learn and apply various techniques, packages, and concepts in data science. Through a hands-on project with one to two other teammates, you will go through the entire data science life cycle to create a product that impacts daily lives in social good sectors and bridges the gap between technical and practical knowledge.
-</p>
+		<p>We provide students from all technical backgrounds with the opportunity to learn and apply various techniques, packages, and concepts in data science. Through a hands-on project with one to two other teammates, you will go through the entire data science life cycle to create a product that impacts daily lives in social good sectors and bridges the gap between technical and practical knowledge.</p>
 	</div>
 	<div class="img-container hover">
-		<img src="/images/impact-driven.png" alt="Impact Driven">
+		<img src="/images/pages/impact-driven.png" alt="Impact Driven">
 	</div>
 </section>
 
 <section class="left-enter">
 	<div class="img-container hover">
-		<img src="/images/our-organization.png" alt="Our Organization">
+		<img src="/images/pages/our-organization.png" alt="Our Organization">
 	</div>
 	<div class="text-container">
 		<h1 class="blue-back">external.</h1>
-		<p>We partner with nonprofit organizations, medical centers, research institutes, progress-driven companies, and more to deliver technical projects that help them better serve their communities. With one or two Project Managers and four other teammates, you will sharpen your skills and be able to impact organizations within 10 weeks.
- </p>
+		<p>We partner with nonprofit organizations, medical centers, research institutes, progress-driven companies, and more to deliver technical projects that help them better serve their communities. With one or two Project Managers and four other teammates, you will sharpen your skills and be able to impact organizations within 10 weeks.</p>
 	</div>
 </section>
 
 <section class="right-enter">
 	<div class="img-container hover">
-		<img src="/images/education.png" alt="Education">
+		<img src="/images/pages/education.png" alt="Education">
 	</div>
 	<div class="text-container">
 		<h1 class = "green-back">the right fit.</h1>
-		<p> When joining an internal or external project, the main difference boils down to the number of team members working on each project and whether there is an external organization involved. Each project is supported by the DataGood team and allows members the same levels of mentorship, guidance, and growth catered to their learning style. We encourage our members to survey the project offerings in both internal and external areas each semester and apply to those in areas where they would like to develop and sharpen their skills in.
-</p>
+		<p> When joining an internal or external project, the main difference boils down to the number of team members working on each project and whether there is an external organization involved. Each project is supported by the DataGood team and allows members the same levels of mentorship, guidance, and growth catered to their learning style. We encourage our members to survey the project offerings in both internal and external areas each semester and apply to those in areas where they would like to develop and sharpen their skills in.</p>
 	</div>
 </section>
 
@@ -38,7 +35,7 @@
 	<h1 class="yellow-back">{{title}}</h1>
 	<div class="project-gallery">
 	{{#each projects}}
-	<a class="card {{color}}-back" href="{{link}}" target="_blank" rel="noreferrer noopener">
+	<a class="card {{color}}-back" {{#if link}}href="{{link}}"{{/if}} target="_blank" rel="noreferrer noopener">
 		<div class="project-description">
 			<h2>{{title}}</h2>
 			<div class="description">{{description}}</div>

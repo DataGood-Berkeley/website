@@ -2,3 +2,4 @@ node_modules
 public/css
 .env
 .vercel
+.DS_Store

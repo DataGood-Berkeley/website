@@ -1,5 +1,6 @@
 # This configuration is used for the pages on the website
 # The pages of each route is by default, set to the route itself, ie: /about -> about, /about/wilson -> about-wilson, etc.
+# Changing pages does not change the header navigation bar. To do that, modify /configs/default.yml
 
 /:
   page: home
