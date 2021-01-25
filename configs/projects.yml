@@ -1,28 +1,30 @@
+# Configuration for all projects
+
 - title: spring 2021 external projects
   projects:
-  - link: /404
+  - link:
     title: Firewatch Chatbot
     description: "The Firewatch Chatbot aims to: provide reliable info on fires close by, answer fire preparedness questions, and aid CalSAFE’s donor engagement and outreach"
     image: /images/projects/fire.webp
     color: yellow
-  - link: /404
+  - link:
     title: Anonymous Company
     description: The company would like to stay anonymous. This project entails building a classifier to predict agriculture needs.
-    image: /image/projects/classified.webp
+    image: /images/projects/classified.svg
     color: blue
 - title: spring 2021 internal projects
   projects:
-  - link: /404
+  - link:
     title: DC + Chicago Crime Analysis
     description: Leveraging DC + Chicago crime data to visualize trends across factors such as race, socioeconomic status using regression and geospatial analysis
     image: /images/projects/crime.webp
     color: pink
-  - link: /404
+  - link:
     title: Natural Language Processing on US Legislature
     description: This project aims to analyze Pennsylvania legislature using NLP techniques such as TF-IDF, Part of Speech tagging, and more
     image: /images/projects/legislature.webp
     color: yellow
-  - link: /404
+  - link:
     title: Cardiovascular Disease Classifer
     description: Building a classifer to predict various severities of cardiovascular disease in patients
     image: /images/projects/disease.webp
@@ -30,19 +32,19 @@
 
 - title: past projects
   projects:
-  - link: /404
+  - link: https://ng-usa.org/
     title: Nehemiah Gateway USA
     description: Provide actionable information that will increase donor reach and engagement using data science and NLP
     image: /images/projects/nehemiah_gateway.webp
     color: yellow
 
-  - link: /404
+  - link: https://uc-ciee.org/
     title: California Institute For Energy And Environment
     description: Exploring racial biases/implications in solar energy and equity with respect to credit score data
     image: /images/projects/ciee.webp
     color: blue
 
-  - link: /404
+  - link:
     title: Medical Insurance Analysis and Classifer
     description: Created data science project that utilized a Python GUI to visualize different data science techniques on insurance health charges data using Pandas, Sklearn, and Tkinter
     image: /images/projects/insurance.webp

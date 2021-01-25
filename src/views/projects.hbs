@@ -35,7 +35,7 @@
 	<h1 class="yellow-back">{{title}}</h1>
 	<div class="project-gallery">
 	{{#each projects}}
-	<a class="card {{color}}-back" href="{{link}}" target="_blank" rel="noreferrer noopener">
+	<a class="card {{color}}-back" {{#if link}}href="{{link}}"{{/if}} target="_blank" rel="noreferrer noopener">
 		<div class="project-description">
 			<h2>{{title}}</h2>
 			<div class="description">{{description}}</div>
