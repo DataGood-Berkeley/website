@@ -7,11 +7,11 @@
     description: "The Firewatch Chatbot aims to: provide reliable info on fires close by, answer fire preparedness questions, and aid CalSAFE’s donor engagement and outreach"
     image: /images/projects/fire.webp
     color: yellow
-  - link:
-    title: Anonymous Company
-    description: The company would like to stay anonymous. This project entails building a classifier to predict agriculture needs.
-    image: /images/projects/classified.svg
-    color: blue
+  - link: https://www.ptk.org/
+    title: Transfer Student Classification
+    description: Building an NLU topic model using over 10 years of scholarship submissions to both identify the problems students speak about in an unsupervised manner and analyze growth and evolution of them in time-series text data.
+    image: /images/projects/transfer.webp
+    color: purple
 - title: spring 2021 internal projects
   projects:
   - link:
