@@ -3,3 +3,4 @@ public/css
 .env
 .vercel
 .DS_Store
+package-lock.json
