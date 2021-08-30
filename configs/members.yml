@@ -1,64 +1,31 @@
 # Configuration for all current members
-
-- name: Saumya Choudhary
-  position: External Projects Lead
-  image: /images/team/saumya.webp
+- name: Shani Lyubomirsky
+  position: Co-President
+  image: /images/team/shani.webp
   socials:
-    linkedin: https://www.linkedin.com/in/saumya-choudhary-26893a186/
+    linkedin: https://www.linkedin.com/in/shani-lyubomirsky-9583bb198/
 
-- name: Milleno Pan
-  position: Internal Projects Lead
-  image: /images/team/milleno.webp
-  socials:
-    linkedin: https://www.linkedin.com/in/milleno-pan/
-
-- name: Neha Hudait
-  position: Outreach Technical Lead
-  image: /images/team/neha.webp
-  socials:
-    linkedin: https://www.linkedin.com/in/nehahudait/
-
-- name: Andrew Huang
-  position: Outreach Social Lead
-  image: /images/team/andrew.webp
-  socials:
-    linkedin: https://www.linkedin.com/in/andrew-huang-99b79519a/
-
-- name: Elda Pere
-  position: External Project Manager
-  image: /images/team/elda.webp
-  socials:
-    linkedin: https://www.linkedin.com/in/elda-pere/
-
-- name: Kiernynn Grantham-Crum
-  position: External Project Manager
-  image: /images/team/kiernynn.webp
-  socials:
-    linkedin: https://www.linkedin.com/in/kiernynn-gc/
-
-- name: Jack Stehn
-  position: External Project Manager
-  image: /images/team/jack.webp
-  socials:
-    linkedin: https://www.linkedin.com/in/jack-stehn/
+- name: Hailey Choe
+  position: Co-President
+  image: /images/heart-logo.png
 
 - name: Gloria Zhang
-  position: Internal Project Manager
+  position: Internal Co-Lead
   image: /images/team/gloria.webp
   socials:
     linkedin: https://www.linkedin.com/in/gloria-zhang-b4399a202/
 
 - name: Isabella Borkovic
-  position: Internal Project Manager
+  position: Internal Co-Lead
   image: /images/team/isabella.webp
   socials:
     linkedin: https://www.linkedin.com/in/isabella-borkovic-8a921534/
 
-- name: Shani Lyubomirsky
-  position: Outreach Technical
-  image: /images/team/shani.webp
+- name: Selena Lu
+  position: External Lead
+  image: /images/team/selena.webp
   socials:
-    linkedin: https://www.linkedin.com/in/shani-lyubomirsky-9583bb198/
+    linkedin: https://www.linkedin.com/in/selenaalu/
 
 - name: Wilson Nguyen
   position: Outreach Technical
@@ -66,15 +33,3 @@
   socials:
     github: https://github.com/potatoparser/
     linkedin: https://www.linkedin.com/in/wilson-nguyen-4252b9163/
-
-- name: Ashritha Eswaran
-  position: Outreach Social
-  image: /images/team/ashritha.webp
-  socials:
-    linkedin: https://www.linkedin.com/in/ashritha-e-703aba134/
-
-- name: Molisha Shah
-  position: Outreach Social
-  image: /images/team/molisha.webp
-  socials:
-    linkedin: https://www.linkedin.com/in/molishashah/
