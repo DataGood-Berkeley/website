@@ -21,8 +21,8 @@
   topics: topics.yml
 
 /projects:
-  title: projects
+  title: projects.
   projectGroups: projects.yml
 
-/contact:
-  title: contact us.
+/join:
+  title: join us.
