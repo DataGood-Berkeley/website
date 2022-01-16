@@ -5,6 +5,7 @@ const SECRET = process.env.SECRET;
 
 const yaml = require('js-yaml');
 const fs = require('fs');
+const path = require('path');
 const crypto = require('crypto');
 
 const compression = require('compression');
@@ -15,7 +16,31 @@ const hbs = exphbs.create({
 	extname: '.hbs'
 });
 
-const readConfig = path => yaml.load(fs.readFileSync(`${__dirname}/configs/${path}`, 'utf8'));
+const CONFIG_FOLDER = path.join(__dirname, 'configs');
+
+function readConfig(file) {
+	const contents = yaml.load(fs.readFileSync(path.join(CONFIG_FOLDER, file), 'utf8'));
+
+	switch (path.basename(file)) {
+	case 'members.yml': {
+		const teamFolder = path.join(__dirname, '/public/images/team');
+
+		contents.forEach(content => {
+			const {
+				name
+			} = content;
+			const names = name.toLowerCase().split(' ');
+			const paths = [`${names[0]}.webp`, `${names.join('_')}.webp`];
+			const file = paths.find(p => fs.existsSync(path.join(teamFolder, p)));
+			if (!file) throw new Error(`Missing Image for ${name}`);
+			content.image = `/images/team/${file}`;
+		});
+		break;
+	}
+	default: break;
+	}
+	return contents;
+}
 
 app.use(compression());
 app.use(express.json());

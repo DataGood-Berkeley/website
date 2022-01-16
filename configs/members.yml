@@ -1,35 +1,56 @@
 # Configuration for all current members
 - name: Shani Lyubomirsky
-  position: Outreach Co-Lead
-  image: /images/team/shani.webp
+  position: President
   socials:
     linkedin: https://www.linkedin.com/in/shani-lyubomirsky-9583bb198/
 
 - name: Hailey Choe
-  position: Outreach Co-Lead
-  image: /images/team/hailey.webp
+  position: Co-Vice President
+
+- name: Sarah Xu
+  position: Co-Vice President
+
+- name: Wilson Nguyen
+  position: Web-Dev Lead
+  socials:
+    github: https://github.com/potatoparser/
+    linkedin: https://www.linkedin.com/in/wilson-nguyen-4252b9163/
 
 - name: Gloria Zhang
   position: Internal Co-Lead
-  image: /images/team/gloria.webp
   socials:
     linkedin: https://www.linkedin.com/in/gloria-zhang-b4399a202/
 
 - name: Isabella Borkovic
   position: Internal Co-Lead
-  image: /images/team/isabella.webp
   socials:
     linkedin: https://www.linkedin.com/in/isabella-borkovic-8a921534/
 
+- name: Vaidehi Bulusu
+  position: Internal Co-Lead
+
 - name: Selena Lu
   position: External Lead
-  image: /images/team/selena.webp
   socials:
     linkedin: https://www.linkedin.com/in/selenaalu/
 
-- name: Wilson Nguyen
-  position: Outreach Technical
-  image: /images/team/wilson.webp
-  socials:
-    github: https://github.com/potatoparser/
-    linkedin: https://www.linkedin.com/in/wilson-nguyen-4252b9163/
+- name: Angelina (Lina) Wang
+  position: External Project Manager
+
+- name: Huy Ho
+  position: External Project Manager
+
+- name: Ichchitaa Sawrikar
+  position: External Project Manager
+
+- name: Riti Pathak
+  position: External Project Manager
+
+- name: Arjun Kshirsagar
+  position: Internal Project Manager
+
+- name: Laila Walker
+  position: Internal Project Manager
+
+- name: Steven Deng
+  position: Internal Project Manager
