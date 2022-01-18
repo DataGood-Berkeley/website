@@ -1,4 +1,23 @@
 # Configuration for all projects
+
+- title: spring 2021 internal projects
+  projects:
+    - link: 
+      title: Anomaly Detection in Healthcare Providers
+      description: 'This project focuses on using data science methods such as data visualization, regression, and classification to identify and predict fraudulent entries in healthcare provider data. Suggested prereq: Data 8'
+      image: /images/projects/anomaly.webp
+      color: yellow
+    - link:
+      title: Climate Change Data Analysis
+      description: 'This project aims to create a model to predict future CO2 levels globally, or other indicators of climate change, while reviewing important packages and tools for analyzing and visualizing data. Suggested prereq: Data 8'
+      image: /images/heart-logo.png
+      color: pink
+    - link: 
+      title: Online Learning Effect on Student Performance
+      description: 'This project aims to understand the effects of online learning on student performance. Using important data science techniques such as regression, we will look at how various factors affect student performance in both online and in-person learning environments. Suggested prereq: Data 8'
+      image: /images/projects/online.webp
+      color: blue
+
 - title: fall 2021 external projects
   projects:
     - link:
