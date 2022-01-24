@@ -3,66 +3,110 @@
   position: President
   socials:
     linkedin: https://www.linkedin.com/in/shani-lyubomirsky-9583bb198/
+    coffee: https://calendly.com/shani-lyubomirsky/datagood-1-on-1
 
 - name: Hailey Choe
   position: Co-Vice President
+  socials:
+    coffee: https://calendly.com/hailschoe
 
 - name: Sarah Xu
   position: Co-Vice President
+  socials:
+    linkedin: https://www.linkedin.com/in/sarahxu0/
+    coffee: https://calendly.com/sarah-xu/15min
 
 - name: Wilson Nguyen
   position: Web-Dev Lead
   socials:
     github: https://github.com/potatoparser/
     linkedin: https://www.linkedin.com/in/wilson-nguyen-4252b9163/
+    coffee: https://calendly.com/wilsonnguyen/15min-1 
 
 - name: Gloria Zhang
   position: Internal Co-Lead
   socials:
     linkedin: https://www.linkedin.com/in/gloria-zhang-b4399a202/
+    coffee: https://calendly.com/gloriazhang-1
 
 - name: Isabella Borkovic
   position: Internal Co-Lead
   socials:
     linkedin: https://www.linkedin.com/in/isabella-borkovic-8a921534/
+    coffee: https://calendly.com/isabella-borkovic
 
 - name: Vaidehi Bulusu
   position: Internal Co-Lead
+  socials:
+    linkedin: https://www.linkedin.com/in/vaidehi-bulusu-6750b1226/
+    coffee: https://calendly.com/vaidehi1830
 
 - name: Selena Lu
   position: External Lead
   socials:
     linkedin: https://www.linkedin.com/in/selenaalu/
+    coffee: https://calendly.com/selenalu/datagood-1-on-1
 
 - name: Angelina (Lina) Wang
   position: External Project Manager
+  socials:
+    linkedin: https://www.linkedin.com/in/angelina-wang
+    coffee: https://calendly.com/lina-wang/15min
 
 - name: Huy Ho
   position: External Project Manager
+  socials:
+    linkedin: https://www.linkedin.com/in/huydhho/
+    coffee: https://calendly.com/huyho/15min
 
 - name: Ichchitaa Sawrikar
   position: External Project Manager
+  socials:
+    coffee: https://calendly.com/ichchitaa/15min
 
 - name: Riti Pathak
   position: External Project Manager
+  socials:
+    linkedin: https://www.linkedin.com/in/riti-pathak-2022
+    coffee: https://calendly.com/ritipathak
 
 - name: Arjun Kshirsagar
   position: Internal Project Manager
+  socials:
+    linkedin: https://www.linkedin.com/in/arjun-kshirsagar/
+    coffee: https://calendly.com/arjunkshirsagar
 
 - name: Laila Walker
   position: Internal Project Manager
 
 - name: Steven Deng
   position: Internal Project Manager
+  socials:
+    linkedin: https://linkedin.com/in/stevendeng8
+    coffee: https://calendly.com/stevendeng/15min
 
 - name: Jon Sulit
   position: Internal Project Manager
+  socials:
+    linkedin: http://www.linkedin.com/in/jon-sulit
+    coffee: https://calendly.com/jonsulit
 
 - name: Stanley Kwon
   position: Internal Project Manager
+  socials:
+    linkedin: http://linkedin.com/in/seung-hyun-kwon
 
 - name: Thao Le
   position: Internal Project Manager
+  socials:
+    coffee: https://calendly.com/tlthao
 
 - name: Ron Wang
   position: Internal Project Manager
+  socials:
+    linkedin: https://www.linkedin.com/in/ronyifengwang/
+
+- name: Hannah Abraham
+  position: Internal Project Manager
+  socials:
+    linkedin: https://www.linkedin.com/in/hannah-abraham-7b548a191/

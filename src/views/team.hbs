@@ -18,6 +18,9 @@
 			</div>
 			<div class="position">{{position}}</div>
 			<div class="name">{{name}}</div>
+			{{#if socials.coffee}}
+			<a class="coffee" href="{{socials.coffee}}" target="_blank" rel="noreferrer noopener"><img src="/images/coffee-cup.png"></a>
+			{{/if}}
 			<div class="social-links">
 				{{#if socials.github}}
 					<a class="social github" href="{{socials.github}}" target="_blank" rel="noreferrer noopener"></a>

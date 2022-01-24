@@ -17,6 +17,12 @@
       description: 'This project aims to understand the effects of online learning on student performance. Using important data science techniques such as regression, we will look at how various factors affect student performance in both online and in-person learning environments. Suggested prereq: Data 8'
       image: /images/projects/online.webp
       color: blue
+    - link:
+      title: Tracking COVID-19 Vaccine Equity
+      description: 'In this project, we aim to employ national vaccination data to analyze COVID-19 vaccination programs in different countries. We would like to answer important questions about how the world is dealing with the surging virus. Do richer and poorer countries have very differing access to COVID-19 vaccines? Which country has the most efficient vaccination program? Does the type of vaccine being used matter? Or are there any geopolitical factors in play? Thanks to the comprehensive dataset from Our World in Data (OWID), there’s plenty of room for us to track COVID-19 vaccine equity across the globe.
+Difficulty level: Easy to medium. Will cover the basics of everything. No prior technical experience required.'
+      image: /images/projects/tracking.webp
+      color: purple
 
 - title: fall 2021 external projects
   projects:
