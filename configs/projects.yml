@@ -1,6 +1,19 @@
 # Configuration for all projects
 
-- title: spring 2021 internal projects
+- title: spring 2022 external projects
+  projects:
+    - link:
+      title: Interactive Map to Detect Environmental Inequities in Communities
+      description: This project is an interactive map that layers data about demographics and environmental issues to detect inequities between communities.
+      color: blue
+      image: /images/projects/waternow.webp
+    - link:
+      title: NMDC
+      description: This project is a deliverable where we will support the team at NMDC to clean data, update their API, and provide relevant information to promote collaboration and open-science.
+      color: pink
+      image: /images/projects/nmdc.webp
+
+- title: spring 2022 internal projects
   projects:
     - link: 
       title: Anomaly Detection in Healthcare Providers
