@@ -8,10 +8,10 @@
 }
 
 #calendar {
-	width: 100%;
+	width: 80%;
 	font-family: Gotham, serif;
 	color: $black;
-    overflow-x: auto;
+  overflow-x: auto;
 	.fc-daygrid-event {
 		color: $black;
 	}
