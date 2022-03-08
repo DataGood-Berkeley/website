@@ -9,7 +9,7 @@
       image: /images/projects/waternow.webp
     - link:
       title: NMDC
-      description: This project is a deliverable where we will support the team at NMDC to clean data, update their API, and provide relevant information to promote collaboration and open-science.
+      description: This project will contribute to the NMDC's sample-annotator API for repairing biosample metadata that doesn't adhere to standards like MIxS. The repaired data will drive collaboration and open science.
       color: pink
       image: /images/projects/nmdc.webp
 
