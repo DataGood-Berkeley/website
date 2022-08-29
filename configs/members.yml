@@ -1,114 +1,176 @@
 # Configuration for all current members
-- name: Shani Lyubomirsky
+- name: Stanley Kwon
   position: President
+  year: Junior
+  majors:  Computer Science, Economics
+  interests: Education, healthcare, wealth equality
+  hobbies: Juggling, skateboarding, reading
+  fun-fact: I unironically eat Chipotle every other week
   socials:
-    linkedin: https://www.linkedin.com/in/shani-lyubomirsky-9583bb198/
-    coffee: https://calendly.com/shani-lyubomirsky/datagood-1-on-1
+    linkedin: https://www.linkedin.com/in/seung-hyun-kwon/ 
+    coffee: calendly.com/stanley-kwon-15mins
 
-- name: Hailey Choe
+- name: Nikil Sunku
   position: Co-Vice President
+  year: Junior
+  majors: Data Science
+  interests: Mental Health, Environment, Education
+  hobbies: cooking, working out, coffee 
+  fun_fact: My tiktok feed consists entirely of Regular Show Episodes
   socials:
-    coffee: https://calendly.com/hailschoe
+    linkedin: https://www.linkedin.com/in/nikil-sunku-50705a204/
+    coffee: https://calendly.com/nikils
 
-- name: Sarah Xu
+- name: Shannon Zhong
   position: Co-Vice President
+  year: Senior	
+  majors: Data Science
+  interests: Increasing Accessibility to Education, Public Health, Mental Health
+  hobbies: gaming, puzzles, watching kdramas, and making drinks!
+  fun-fact: I am a certified caffeine addict.
   socials:
-    linkedin: https://www.linkedin.com/in/sarahxu0/
-    coffee: https://calendly.com/sarah-xu/15min
+    linkedin: https://www.linkedin.com/in/shannon-z/
+    coffee: https://calendly.com/shannonzhong
 
-- name: Wilson Nguyen
-  position: Web-Dev Lead
-  socials:
-    github: https://github.com/potatoparser/
-    linkedin: https://www.linkedin.com/in/wilson-nguyen-4252b9163/
-    coffee: https://calendly.com/wilsonnguyen/15min-1 
-
-- name: Gloria Zhang
-  position: Internal Co-Lead
-  socials:
-    linkedin: https://www.linkedin.com/in/gloria-zhang-b4399a202/
-    coffee: https://calendly.com/gloriazhang-1
-
-- name: Isabella Borkovic
-  position: Internal Co-Lead
-  socials:
-    linkedin: https://www.linkedin.com/in/isabella-borkovic-8a921534/
-    coffee: https://calendly.com/isabella-borkovic
-
-- name: Vaidehi Bulusu
-  position: Internal Co-Lead
-  socials:
-    linkedin: https://www.linkedin.com/in/vaidehi-bulusu-6750b1226/
-    coffee: https://calendly.com/vaidehi1830
-
-- name: Selena Lu
+- name: Angelina Wang
   position: External Lead
-  socials:
-    linkedin: https://www.linkedin.com/in/selenaalu/
-    coffee: https://calendly.com/selenalu/datagood-1-on-1
-
-- name: Angelina (Lina) Wang
-  position: External Project Manager
+  year: senior
+  majors:  Cognitive Science, Data Science Minor
+  interests: Gender equality, accessible education, environmental protection
+  hobbies: Dance, gaming, reading, hiking, crocheting
+  fun-fact:  I speak 4 languages!
   socials:
     linkedin: https://www.linkedin.com/in/angelina-wang
     coffee: https://calendly.com/lina-wang/15min
-
-- name: Huy Ho
-  position: External Project Manager
-  socials:
-    linkedin: https://www.linkedin.com/in/huydhho/
-    coffee: https://calendly.com/huyho/15min
-
-- name: Ichchitaa Sawrikar
-  position: External Project Manager
-  socials:
-    coffee: https://calendly.com/ichchitaa/15min
-
-- name: Riti Pathak
-  position: External Project Manager
-  socials:
-    linkedin: https://www.linkedin.com/in/riti-pathak-2022
-    coffee: https://calendly.com/ritipathak
-
-- name: Arjun Kshirsagar
-  position: Internal Project Manager
-  socials:
-    linkedin: https://www.linkedin.com/in/arjun-kshirsagar/
-    coffee: https://calendly.com/arjunkshirsagar
-
-- name: Laila Walker
-  position: Internal Project Manager
-
-- name: Steven Deng
-  position: Internal Project Manager
-  socials:
-    linkedin: https://linkedin.com/in/stevendeng8
-    coffee: https://calendly.com/stevendeng/15min
-
-- name: Jon Sulit
-  position: Internal Project Manager
-  socials:
-    linkedin: http://www.linkedin.com/in/jon-sulit
-    coffee: https://calendly.com/jonsulit
-
-- name: Stanley Kwon
-  position: Internal Project Manager
-  socials:
-    linkedin: http://linkedin.com/in/seung-hyun-kwon
-    coffee: https://calendly.com/stanley-kwon-15mins/datagood-1-on-1
-
-- name: Thao Le
-  position: Internal Project Manager
-  socials:
-    linkedin: https://www.linkedin.com/in/thao-le-52bb54227/
-    coffee: https://calendly.com/tlthao
-
-- name: Ron Wang
-  position: Internal Project Manager
-  socials:
-    linkedin: https://www.linkedin.com/in/ronyifengwang/
-
+  
 - name: Hannah Abraham
-  position: Internal Project Manager
+  position: Internal Lead
+  Year: Senior
+  majors:  Computer Science
+  interests: Environmental Issues
+  hobbies: Golf, watching movies
+  fun-fact: Loves DIY crafts!
   socials:
     linkedin: https://www.linkedin.com/in/hannah-abraham-7b548a191/
+    coffee: https://calendly.com/hsabraham28/30min
+
+- name: Quang Nguyen
+  position: Committee Chair
+  year: Sophomore
+  majors: EECS, Economics
+  interests: Education, Environment
+  hobbies: cooking, working out, food, tennis
+  fun-fact: I’ve never been to Canada or Mexico.
+  socials:
+    linkedin: www.linkedin.com/in/quang-nguyenln
+
+- name: Julia Sun
+  position: Committee Chair
+  description: Hi!! My name is Julia and I’m a second year majoring in computer science. I was born and raised in the Bay Area so I love getting boba! Some of my other hobbies include hiking, cooking, and doing gymnastics!
+  socials:
+    linkedin: https://www.linkedin.com/in/julia-sun-1bb41b21a/
+
+- name: Rohan Agarwal
+  position: External Project Manager
+  year: Junior
+  majors: EECS, Economics 
+  interests: Health, Environment, Education
+  hobbies: tennis, music, movies 
+  fun_fact: I’m from NJ.
+  project_title: Food Bank Interactive Map and Dashboard
+  project_description: The main goal for this project is to help the Food Bank of Contra Costa & Solano better understand the communities they are serving. In order to accomplish this, an interactive map and dashboard will be built to visualize and analyze food distribution and needs. 
+  socials:
+    linkedin: https://www.linkedin.com/in/rohan-agarwal-2908321a1/
+    coffee: https://calendly.com/ro96/15min
+
+- name: Mina Baghai
+  position: External Project Manager
+  year: Senior
+  majors: Cognitive Science 
+  interests: Health, Environment, crime, cognitive psychology
+  hobbies: tennis, soccer, baking, drinking coffee :)
+  fun_fact: I love eating spicy food!
+  project_title: Food Bank Interactive Map and Dashboard
+  project_description: The main goal for this project is to help the Food Bank of Contra Costa & Solano better understand the communities they are serving. In order to accomplish this, an interactive map and dashboard will be built to visualize and analyze food distribution and needs. 
+  socials:
+    linkedin: https://www.linkedin.com/in/minabaghai/
+    coffee: https://calendly.com/mina-baghai/coffee-chat-with-mina 
+
+- name: Jasmine Lin
+  position: External Project Manager
+  year: Junior
+  majors: Data Science
+  interests: Education, Health, Environment, 
+  hobbies: cooking, music, teaching 
+  fun_fact: I am indeed a boba addict. 
+  socials:
+    linkedin: https://www.linkedin.com/in/jas-lin/ 
+
+- name: Wayson Lee
+  position: External Project Manager
+  year: Junior
+  majors: Computer Science
+  interests: Education, Medicine
+  hobbies: Poker, Lifting, Music
+  fun_fact: My dad’s name is Wai
+  project_title: CRS Survey Analysis and Visualizations
+  project_description: The main goal of this project is to help the Community Resources for Science (CRS) analyze survey data from 10+ years of surveys stored in CSV files, possibly selecting only certain years to look at. CRS anticipates looking at 6-8 key questions - teachers who are newer vs more experienced; teachers from 3 different school districts, teachers' level of confidence and amount of time spent on teaching science, etc.
+  socials:
+    linkedin: https://www.linkedin.com/in/waysonlee 
+    coffee: https://calendly.com/waysonlee
+
+- name: Arielle Santos
+  position: Internal Project Manager
+  description: Arielle is a third year data science student at UC Berkeley pursuing an emphasis in geospatial information and technology. Her social good interests include environment and sustainability as well as social justice. She is from San Diego, CA and in her free time she likes to watch movies, go shopping, and pet cats on the street.
+  socials:
+    linkedin: https://www.linkedin.com/in/arielle-santos/
+    coffee: https://calendly.com/ariellesantos
+
+- name: Garima Gupta
+  position: Internal Project Manager
+  description: Hi! My name is Garima and I’m a junior studying cognitive science and data science! I am very interested in AI and Human-Computer interactions. I am a big sports fan and love to play basketball as well! In my free time I enjoy watching movies (especially Marvel), listening to music/going to concerts and going to the gym.
+  socials:
+    linkedin: https://www.linkedin.com/in/garima-gupta-a78a66183
+    coffee: https://calendly.com/01garimagupta
+
+- name: Ramisha Kabir
+  position: Internal Project Manager
+  description: Hey, I'm Ramisha, a sophomore from Dhaka, Bangladesh, and Assam, India, studying Data Science and CS. I enjoy exploring new places (and making tiktoks about them), working out, and watching a lot of tv. I am so excited for you to join Datagood and become a datagoodie! (ps. we are the best)
+  socials:
+    linkedin: https://www.linkedin.com/in/ramisha-kabir-624288160/ 
+    coffee: https://calendly.com/ramishakabir 
+
+- name: Ryan Boone
+  position: Internal Project Manager
+  description: Hey! I'm a third-year at Berkeley studying data science with an emphasis in business. Outside of school, some of my interests are traveling, exploring Berkeley/SF, and hiking. Super excited for DataGood this semester!
+  socials:
+    linkedin: www.linkedin.com/in/ryanwboone
+    coffee: https://calendly.com/ryanboone
+
+- name: Sarah Tang
+  position: Internal Project Manager
+  description: Hi! My name is Sarah Tang and I am an upcoming junior majoring in computer science and cognitive science. I enjoy going on hikes, trying new foods, weight lifting, and cooking in my free time. Some of my favorite music artists are Giveon, Jeremey Zucker, and Fiji Blue.
+  socials:
+    linkedin: https://www.linkedin.com/in/sarahntang/
+    coffee: https://calendly.com/sarahtang1
+
+- name: Susan Yang
+  position: Internal Project Manager
+  description: Hi! I’m Susan Yang a sophomore right now. My major is data science and economics. I love gym, music, and 🐈!
+  socials:
+    linkedin: https://www.linkedin.com/mwlite/in/shuran-yang-289209221
+    coffee: https://calendly.com/shuran1030
+
+- name: Akira Chou
+  position: Internal Project Manager
+  description: Heya I hail from San Francisco. If everything goes according to plan, I will graduate with a data science and economics double major. Cal is the 4th university I am attending. I love getting to know people, so please talk to me. 
+  socials:
+    linkedin: https://www.linkedin.com/in/akirachou/
+    coffee: https://calendly.com/akirachou
+
+- name: Michael Yip
+  position: Internal Project Manager
+  description: What's up guys! My name is Michael, a sophomore at UC Berkeley majoring in Data Science. I'm originally from Hong Kong but I went to high school in Toronto. This is my second semester at DataGood and I'm excited to lead one of the internal projects this semester with Susan. I look forward to expanding my networking and communication skills with people across diverse backgrounds at Berkeley. In my free time, I enjoy listening to canto and mandopop. Hope to see y'all soon!
+  socials:
+    linkedin: www.linkedin.com/in/michaelyip0219 
+    coffee: https://calendly.com/michaelyip0219/datagood-coffee-chat-fall-22

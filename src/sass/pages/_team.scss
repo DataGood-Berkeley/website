@@ -8,79 +8,110 @@
 		background-color: $black;
 		padding: 20px;
 		margin: 20px;
-    width: 300px;
-    min-height: 440px;
+		width: 300px;
+		min-height: 440px;
 		position: relative;
 
-		.img-container {
-			height: 260px;
-			width: 260px;
-			background-color: white;
-			border-radius: 100%;
-			margin: 0 auto;
-            overflow: hidden;
-		}
-
-		.position {
-			color: $green;
-			font-family: Gotham, serif;
-			@include fluid-type(300, 1535, 20, 30, px);
-			text-align: center;
-			margin: 10px 0;
-		}
-
-		.name {
-			color: $white;
-			font-family: NotoSerifSC, serif;
-			@include fluid-type(300, 1535, 20, 25, px);
-			text-align: center;
-			margin: 10px 0;
-		}
-
-		.coffee {
-			width: 48px;
-			height: 48px;
-			display: block;
-			position: absolute;
-			top: 10px;
-			right: 10px;
-			img {
-				height: 100%;
-				width: 100%;
-				transition: transform 0.1s;
-				&:hover {
-					transform: scale(1.25);
-				}
+		.card-top {
+			.img-container {
+				height: 260px;
+				width: 260px;
+				background-color: white;
+				border-radius: 100%;
+				margin: 0 auto;
+				overflow: hidden;
 			}
-		}
-
-		.social-links {
-			display: flex;
-			justify-content: space-around;
-      padding: 0 20px;
-
-			.social {
-				height: 61px;
-				width: 61px;
-				background-position: center;
-				background-size: cover;
+	
+			.position {
+				color: $green;
+				font-family: Gotham, serif;
+				@include fluid-type(300, 1535, 20, 30, px);
+				text-align: center;
+				margin: 10px 0;
+			}
+	
+			.name {
+				color: $white;
+				font-family: NotoSerifSC, serif;
+				@include fluid-type(300, 1535, 20, 25, px);
+				text-align: center;
+				margin: 10px 0;
+			}
+	
+			.coffee {
+				width: 48px;
+				height: 48px;
 				display: block;
-				cursor: pointer;
-				margin: 0 5px;
-				@mixin link($name, $img, $color) {
-					&.#{$name} {
-						background-image: url(#{$img});
-						filter: drop-shadow(0 0 0 $color);
-						transition: filter 0.1s linear;
-						&:hover {
-							filter: drop-shadow(3px 3px 0 $color);
-						}
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				img {
+					height: 100%;
+					width: 100%;
+					transition: transform 0.1s;
+					&:hover {
+						transform: scale(1.25);
 					}
 				}
-				@include link(github, "/images/socials/github.png", black);
-				@include link(linkedin, "/images/socials/linkedin.png", $blue);
-				@include link(facebook, "/images/socials/facebook.png", $blue);
 			}
+	
+			.social-links {
+				display: flex;
+				justify-content: space-around;
+				  padding: 0 20px;
+	
+				.social {
+					height: 61px;
+					width: 61px;
+					background-position: center;
+					background-size: cover;
+					display: block;
+					cursor: pointer;
+					margin: 0 5px;
+					@mixin link($name, $img, $color) {
+						&.#{$name} {
+							background-image: url(#{$img});
+							filter: drop-shadow(0 0 0 $color);
+							transition: filter 0.1s linear;
+							&:hover {
+								filter: drop-shadow(3px 3px 0 $color);
+							}
+						}
+					}
+					@include link(github, "/images/socials/github.png", black);
+					@include link(linkedin, "/images/socials/linkedin.png", $blue);
+					@include link(facebook, "/images/socials/facebook.png", $blue);
+				}
+			}
+		}
+
+		.content-bot {
+			color: $white;
+			font-family: NotoSerifSC, serif;
+			@include fluid-type(300, 1300, 20, 10, px);
+			position: absolute;
+			top: 49%;
+			left: 40%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			overflow: hidden;
+		}
+
+		.card-bot {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: red;
+			width: 100%;
+			height: 0;
+			transition: .5s ease;
+			// overflow: hidden;
+		}
+
+		.card:hover .card-bot{
+			display: block;
+			height: 100%;
 		}
 	}
 }
