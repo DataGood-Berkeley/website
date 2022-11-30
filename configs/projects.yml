@@ -11,7 +11,7 @@
       title: Food Bank of Contra Costa & Solano
       description: The main goal for this project is to help the Food Bank of Contra Costa & Solano better understand the communities they are serving. In order to accomplish this, we will add layers to the existing Tableau dashboard that is currently being used to map and visualize food distribution and needs. Adding more demographic layers to the map will allow the Food Bank of Contra Costa & Solano to better understand what specific communities they are reaching. Additionally, we would help analyze impact through more detailed visualizations in a dashboard. 
       color: pink
-      image: /images/projects/nmdc.webp
+      image: /images/projects/fbccs.webp
 
 - title: fall 2022 internal projects
   projects:
