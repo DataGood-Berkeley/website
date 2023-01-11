@@ -1,5 +1,41 @@
 # Configuration for all projects
 
+- title: fall 2022 external projects
+  projects:
+    - link:
+      title: Community Resources for Science (CRS)
+      description: The main goal of this project is to help the Community Resources for Science (CRS) analyze survey data from 10+ years of surveys stored in CSV files, possibly selecting only certain years to look at. CRS anticipates looking at 6-8 key questions like teachers who are newer vs more experienced; teachers from 3 different school districts, teachers' level of confidence and amount of time spent on teaching science, etc. The primary reason for looking more into these key questions is to help CRS better understand the trends and differentiations among these key questions. 
+      color: blue
+      image: /images/projects/crs.webp
+    - link:
+      title: Food Bank of Contra Costa & Solano
+      description: The main goal for this project is to help the Food Bank of Contra Costa & Solano better understand the communities they are serving. In order to accomplish this, we will add layers to the existing Tableau dashboard that is currently being used to map and visualize food distribution and needs. Adding more demographic layers to the map will allow the Food Bank of Contra Costa & Solano to better understand what specific communities they are reaching. Additionally, we would help analyze impact through more detailed visualizations in a dashboard. 
+      color: pink
+      image: /images/projects/fbccs.webp
+
+- title: fall 2022 internal projects
+  projects:
+    - link: 
+      title: Anomaly Detection in Healthcare Providers
+      description: 'This project focuses on utilizing data science techniques such as data visualization and exploratory data analysis to find trends in climate data. We will examine the factors which affect the Earth’s temperature in various locations.'
+      image: /images/projects/detection.webp
+      color: yellow
+    - link:
+      title: COVID sentiment analysis using NLP
+      description: 'As we move into a world that has seen the numerous waves of COVID-19, we want to learn more about how people have adjusted to the global pandemic we are enduring. Topics of interest include: mental health, healthcare, politics, vaccines, employment etc.'
+      image:  /images/projects/sentiment.webp
+      color: green
+    - link: 
+      title: Unemployment Rate Analysis
+      description: 'The goal of this project is to utilize multiple datasets to learn important techniques in data science, and educate students on how to provide clear, presentable data. The final project will use datasets on the general US unemployment rate from 1948 to 2022 and more detailed percentages classified based on age, race, education level.'
+      image: /images/projects/unemployment.webp
+      color: blue
+    - link:
+      title: Gender Income Inequality
+      description: 'The goal of this project is to utilize multiple datasets to learn important techniques in data science, and educate students on how to provide clear, presentable data. The final project will use datasets on the income of men and women in various tech jobs where members will be taking a look at how various factors such as seniority, level of education and age can contribute to gender inequality in income.'
+      image: /images/projects/inequality.webp
+      color: purple
+
 - title: spring 2022 external projects
   projects:
     - link:
@@ -11,12 +47,12 @@
       title: NMDC
       description: This project will contribute to the NMDC's sample-annotator API for repairing biosample metadata that doesn't adhere to standards like MIxS. The repaired data will drive collaboration and open science.
       color: pink
-      image: /images/projects/nmdc.webp
+      image: /images/projects/fbccs.webp
 
 - title: spring 2022 internal projects
   projects:
     - link: 
-      title: Anomaly Detection in Healthcare Providers
+      title: Tracking Causes of Climate Change
       description: 'This project focuses on using data science methods such as data visualization, regression, and classification to identify and predict fraudulent entries in healthcare provider data. Suggested prereq: Data 8'
       image: /images/projects/anomaly.webp
       color: yellow
