@@ -73,6 +73,7 @@ for (const path in routes) {
 	});
 }
 
+// DO NOT CHANGE - this is required for website to update
 app.post('/webhook', (req, res) => {
 	const sig = `sha1=${crypto.createHmac('sha1', SECRET).update(JSON.stringify(req.body))
 		.digest('hex')}`;

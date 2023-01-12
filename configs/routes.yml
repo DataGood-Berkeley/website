@@ -1,5 +1,6 @@
 # This configuration is used for the redirects on the website
 
+# custom redirects are create with /blank
 /zoom: https://berkeley.zoom.us/meeting/register/tJwucuihrTgtGdEQb-M4EfHDkByHwUxEr1Ki
 /discord: https://discord.gg/KyhSB9c9um
 /mtm: https://tinyurl.com/y3qqkdnl
