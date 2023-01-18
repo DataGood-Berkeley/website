@@ -1,5 +1,3 @@
-# TODO: update every semester for new exec team
-
 - name: Stanley Kwon
   position: President
   year: Junior
@@ -135,7 +133,7 @@
     linkedin: https://www.linkedin.com/in/manan-bhargava/
     coffee: https://calendly.com/manan-bhargava/datagood-coffee-chat-manan-bhargava 
 
-- name: Sailesh	Kethepalli
+- name: Sailesh Kethepalli
   position: Industry PM
   Year: Senior
   majors: Data Science
@@ -145,25 +143,25 @@
     linkedin: https://www.linkedin.com/in/saileshketh/
     coffee: https://calendly.com/saileshk/15minutes
 
-- name: Ricky Shishodia
-  position: Industry PM
-  Year: Sophomore
-  majors: Computer Science & Economics
-  hobbies: Tennis, board games, music, exploring
-  fun-fact: I have traveled to 10 foreign countries
-  socials:
-    linkedin: 
-    coffee: 
+# - name: Ricky Shishodia
+#   position: Industry PM
+#   Year: Sophomore
+#   majors: Computer Science & Economics
+#   hobbies: Tennis, board games, music, exploring
+#   fun-fact: I have traveled to 10 foreign countries
+#   socials:
+#     linkedin: 
+#     coffee: 
 
-- name: Riya Singhal
-  position: Industry PM
-  Year: Sophomore
-  majors: Computer Science
-  hobbies: Painting, Hiking, Listening to Taylor Swift, Calligraphy
-  fun-fact: I have a twin sister and love koalas!
-  socials:
-    linkedin: https://www.linkedin.com/in/riyasinghal-/
-    coffee: https://calendly.com/riya-singhal/datagood-coffee-chat-riya-singhal?month=2023-01
+# - name: Riya Singhal
+#   position: Industry PM
+#   Year: Sophomore
+#   majors: Computer Science
+#   hobbies: Painting, Hiking, Listening to Taylor Swift, Calligraphy
+#   fun-fact: I have a twin sister and love koalas!
+#   socials:
+#     linkedin: https://www.linkedin.com/in/riyasinghal-/
+#     coffee: https://calendly.com/riya-singhal/datagood-coffee-chat-riya-singhal?month=2023-01
 
 - name: Charles Luo
   position: Industry PM
