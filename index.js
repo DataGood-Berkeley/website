@@ -36,7 +36,7 @@ function readConfig(file) {
 				if (!file) return name;
 				content.image = `/images/team/${file}`;
 			}
-			return;
+			return null;
 		}).filter(i => i);
 
 		if (missing.length) throw new Error(`Missing Images for [${missing.join(', ')}]`);
