@@ -25,16 +25,21 @@ function readConfig(file) {
 	case 'members.yml': {
 		const teamFolder = path.join(__dirname, '/public/images/team');
 
-		contents.forEach(content => {
+		const missingImages = contents.forEach(content => {
 			const {
 				name
 			} = content;
-			const names = name.toLowerCase().split(' ');
-			const paths = [`${names[0]}.webp`, `${names.join('_')}.webp`];
-			const file = paths.find(p => fs.existsSync(path.join(teamFolder, p)));
-			if (!file) throw new Error(`Missing Image for ${name}`);
-			content.image = `/images/team/${file}`;
-		});
+			if (!content.image) {
+				const names = name.toLowerCase().split(' ');
+				const paths = [`${names.join('_')}.webp`, `${names[0]}.webp`];
+				const file = paths.find(p => fs.existsSync(path.join(teamFolder, p)));
+				if (!file) return name;
+				content.image = `/images/team/${file}`;
+			}
+		}).filter(i => i);
+
+		throw new Error(`Missing Images for [${missingImages.join(', ')}]`);
+
 		break;
 	}
 	default: break;
