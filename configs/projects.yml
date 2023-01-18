@@ -2,18 +2,18 @@
 
 # TODO copy paste for spring 2023 internal and external projects
 
-- title: spring 2023 external projects
-  projects:
-    - link:
-      title: TBA
-      description: 
-      color: blue
-      image: 
-    - link:
-      title: TBA
-      description: 
-      color: pink
-      image: 
+# - title: spring 2023 external projects
+#   projects:
+#     - link:
+#       title: TBA
+#       description: 
+#       color: blue
+#       image: 
+#     - link:
+#       title: TBA
+#       description: 
+#       color: pink
+#       image: 
 
 - title: spring 2023 internal projects
   projects:

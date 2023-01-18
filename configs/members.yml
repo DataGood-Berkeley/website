@@ -143,35 +143,35 @@
     linkedin: https://www.linkedin.com/in/saileshketh/
     coffee: https://calendly.com/saileshk/15minutes
 
-# - name: Ricky Shishodia
-#   position: Industry PM
-#   Year: Sophomore
-#   majors: Computer Science & Economics
-#   hobbies: Tennis, board games, music, exploring
-#   fun-fact: I have traveled to 10 foreign countries
-#   socials:
-#     linkedin: 
-#     coffee: 
+- name: Ricky Shishodia
+  position: Industry PM
+  Year: Sophomore
+  majors: Computer Science & Economics
+  hobbies: Tennis, board games, music, exploring
+  fun-fact: I have traveled to 10 foreign countries
+  socials:
+    linkedin: 
+    coffee: https://calendly.com/rkshishodia/coffee-chat-with-ricky
 
-# - name: Riya Singhal
-#   position: Industry PM
-#   Year: Sophomore
-#   majors: Computer Science
-#   hobbies: Painting, Hiking, Listening to Taylor Swift, Calligraphy
-#   fun-fact: I have a twin sister and love koalas!
-#   socials:
-#     linkedin: https://www.linkedin.com/in/riyasinghal-/
-#     coffee: https://calendly.com/riya-singhal/datagood-coffee-chat-riya-singhal?month=2023-01
+- name: Riya Singhal
+  position: Industry PM
+  Year: Sophomore
+  majors: Computer Science
+  hobbies: Painting, Hiking, Listening to Taylor Swift, Calligraphy
+  fun-fact: I have a twin sister and love koalas!
+  socials:
+    linkedin: https://www.linkedin.com/in/riyasinghal-/
+    coffee: https://calendly.com/riya-singhal/datagood-coffee-chat-riya-singhal?month=2023-01
 
-# - name: Charles Luo
-#   position: Industry PM
-#   Year: 
-#   majors: 
-#   hobbies: 
-#   fun-fact: 
-#   socials:
-#     linkedin: 
-#     coffee: 
+- name: Charles Luo
+  position: Industry PM
+  Year: Senior
+  majors: Industrial Engineering & Operations Research
+  hobbies: Gym, raves, video games, politics
+  fun-fact: I have a twin sister and our birthdays are on Christmas!
+  socials:
+    linkedin: https://www.linkedin.com/in/charlesluo1225/
+    coffee: https://calendly.com/charlesluo/datagood-coffee-chat
 
 - name: Rose Lee
   position: Research PM
@@ -211,7 +211,7 @@
   fun-fact: I hit a three pointer playing basketball at the Staples Center
   socials: 
     linkedin: https://www.linkedin.com/in/yesenia-morales-1010ucb/
-    coffee: 
+    coffee: https://calendly.com/ymorales10/datagood-coffee-chat-yesenia-morales 
 
 - name: Jack Swenson
   position: Research PM
