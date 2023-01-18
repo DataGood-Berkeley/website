@@ -25,7 +25,7 @@ function readConfig(file) {
 	case 'members.yml': {
 		const teamFolder = path.join(__dirname, '/public/images/team');
 
-		const missingImages = contents.forEach(content => {
+		const missing = contents.forEach(content => {
 			const {
 				name
 			} = content;
@@ -38,7 +38,7 @@ function readConfig(file) {
 			}
 		}).filter(i => i);
 
-		throw new Error(`Missing Images for [${missingImages.join(', ')}]`);
+		if (missing.length) throw new Error(`Missing Images for [${missing.join(', ')}]`);
 
 		break;
 	}
