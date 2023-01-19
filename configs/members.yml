@@ -1,28 +1,27 @@
-# Configuration for all current members
 - name: Stanley Kwon
   position: President
   year: Junior
   majors:  Computer Science, Economics
   interests: Education, healthcare, wealth equality
-  hobbies: Juggling, skateboarding, reading
-  fun-fact: I unironically eat Chipotle every other week
+  hobbies: Reading, Juggling, Traveling, Badminton, One Piece 
+  fun-fact: I cannot roll my tongue
   socials:
     linkedin: https://www.linkedin.com/in/seung-hyun-kwon/ 
-    coffee: https://calendly.com/stanley-kwon-15mins
+    coffee: https://calendly.com/stanley-kwon-15mins/datagood-coffee-chat
 
 - name: Nikil Sunku
-  position: Co-Vice President
+  position: External VP
   year: Junior
   majors: Data Science
   interests: Mental Health, Environment, Education
   hobbies: cooking, working out, coffee 
-  fun_fact: My tiktok feed consists entirely of Regular Show Episodes
+  fun-fact: My tiktok feed consists entirely of Regular Show Episodes
   socials:
     linkedin: https://www.linkedin.com/in/nikil-sunku-50705a204/
     coffee: https://calendly.com/nikils
 
 - name: Shannon Zhong
-  position: Co-Vice President
+  position: Internal VP
   year: Senior	
   majors: Data Science
   interests: Increasing Accessibility to Education, Public Health, Mental Health
@@ -33,7 +32,7 @@
     coffee: https://calendly.com/shannonzhong
 
 - name: Angelina Wang
-  position: External Lead
+  position: VP of Industry
   year: senior
   majors:  Cognitive Science, Data Science Minor
   interests: Gender equality, accessible education, environmental protection
@@ -44,133 +43,182 @@
     coffee: https://calendly.com/lina-wang/15min
   
 - name: Hannah Abraham
-  position: Internal Lead
+  position: Co-VP of Research
   Year: Senior
   majors:  Computer Science
   interests: Environmental Issues
-  hobbies: Golf, watching movies
-  fun-fact: Loves DIY crafts!
+  hobbies: DIY projects (making soap, lotion, plushies, etc)
+  fun-fact: I want to own a petting zoo one day
   socials:
     linkedin: https://www.linkedin.com/in/hannah-abraham-7b548a191/
-    coffee: https://calendly.com/hsabraham28/30min
-
-- name: Quang Nguyen
-  position: Committee Chair
-  year: Sophomore
-  majors: EECS, Economics
-  interests: Education, Environment
-  hobbies: cooking, working out, food, tennis
-  fun-fact: I’ve never been to Canada or Mexico.
-  socials:
-    linkedin: https://www.linkedin.com/in/quang-nguyenln
-
-- name: Julia Sun
-  position: Committee Chair
-  description: Hi!! My name is Julia and I’m a second year majoring in computer science. I was born and raised in the Bay Area so I love getting boba! Some of my other hobbies include hiking, cooking, and doing gymnastics!
-  socials:
-    linkedin: https://www.linkedin.com/in/julia-sun-1bb41b21a/
-
-- name: Rohan Agarwal
-  position: External Project Manager
-  year: Junior
-  majors: EECS, Economics 
-  interests: Health, Environment, Education
-  hobbies: tennis, music, movies 
-  fun_fact: I’m from NJ.
-  project_title: Food Bank Interactive Map and Dashboard
-  project_description: The main goal for this project is to help the Food Bank of Contra Costa & Solano better understand the communities they are serving. In order to accomplish this, an interactive map and dashboard will be built to visualize and analyze food distribution and needs. 
-  socials:
-    linkedin: https://www.linkedin.com/in/rohan-agarwal-2908321a1/
-    coffee: https://calendly.com/ro96/15min
-
-- name: Mina Baghai
-  position: External Project Manager
-  year: Senior
-  majors: Cognitive Science 
-  interests: Health, Environment, crime, cognitive psychology
-  hobbies: tennis, soccer, baking, drinking coffee :)
-  fun_fact: I love eating spicy food!
-  project_title: Food Bank Interactive Map and Dashboard
-  project_description: The main goal for this project is to help the Food Bank of Contra Costa & Solano better understand the communities they are serving. In order to accomplish this, an interactive map and dashboard will be built to visualize and analyze food distribution and needs. 
-  socials:
-    linkedin: https://www.linkedin.com/in/minabaghai/
-    coffee: https://calendly.com/mina-baghai/coffee-chat-with-mina 
-
-- name: Jasmine Lin
-  position: External Project Manager
-  year: Junior
-  majors: Data Science
-  interests: Education, Health, Environment, 
-  hobbies: cooking, music, teaching 
-  fun_fact: I am indeed a boba addict. 
-  socials:
-    linkedin: https://www.linkedin.com/in/jas-lin/ 
-
-- name: Wayson Lee
-  position: External Project Manager
-  year: Junior
-  majors: Computer Science
-  interests: Education, Medicine
-  hobbies: Poker, Lifting, Music
-  fun_fact: My dad’s name is Wai
-  project_title: CRS Survey Analysis and Visualizations
-  project_description: The main goal of this project is to help the Community Resources for Science (CRS) analyze survey data from 10+ years of surveys stored in CSV files, possibly selecting only certain years to look at. CRS anticipates looking at 6-8 key questions - teachers who are newer vs more experienced; teachers from 3 different school districts, teachers' level of confidence and amount of time spent on teaching science, etc.
-  socials:
-    linkedin: https://www.linkedin.com/in/waysonlee 
-    coffee: https://calendly.com/waysonlee
-
-- name: Arielle Santos
-  position: Internal Project Manager
-  description: Arielle is a third year data science student at UC Berkeley pursuing an emphasis in geospatial information and technology. Her social good interests include environment and sustainability as well as social justice. She is from San Diego, CA and in her free time she likes to watch movies, go shopping, and pet cats on the street.
-  socials:
-    linkedin: https://www.linkedin.com/in/arielle-santos/
-    coffee: https://calendly.com/ariellesantos
-
-- name: Garima Gupta
-  position: Internal Project Manager
-  description: Hi! My name is Garima and I’m a junior studying cognitive science and data science! I am very interested in AI and Human-Computer interactions. I am a big sports fan and love to play basketball as well! In my free time I enjoy watching movies (especially Marvel), listening to music/going to concerts and going to the gym.
-  socials:
-    linkedin: https://www.linkedin.com/in/garima-gupta-a78a66183
-    coffee: https://calendly.com/01garimagupta
+    coffee: https://calendly.com/hsabraham28/datagood-coffee-chat-hannah-abraham 
 
 - name: Ramisha Kabir
-  position: Internal Project Manager
-  description: Hey, I'm Ramisha, a sophomore from Dhaka, Bangladesh, and Assam, India, studying Data Science and CS. I enjoy exploring new places (and making tiktoks about them), working out, and watching a lot of tv. I am so excited for you to join Datagood and become a datagoodie! (ps. we are the best)
+  position: Co-VP of Research
+  Year: Sophomore
+  majors: Data Science, Computer Science
+  hobbies: gym, travelling and reading in cafes
+  fun-fact: I lived in 4 countries last year
   socials:
     linkedin: https://www.linkedin.com/in/ramisha-kabir-624288160/ 
-    coffee: https://calendly.com/ramishakabir 
-
-- name: Ryan Boone
-  position: Internal Project Manager
-  description: Hey! I'm a third-year at Berkeley studying data science with an emphasis in business. Outside of school, some of my interests are traveling, exploring Berkeley/SF, and hiking. Super excited for DataGood this semester!
-  socials:
-    linkedin: https://www.linkedin.com/in/ryanwboone
-    coffee: https://calendly.com/ryanboone
-
-- name: Sarah Tang
-  position: Internal Project Manager
-  description: Hi! My name is Sarah Tang and I am an upcoming junior majoring in computer science and cognitive science. I enjoy going on hikes, trying new foods, weight lifting, and cooking in my free time. Some of my favorite music artists are Giveon, Jeremey Zucker, and Fiji Blue.
-  socials:
-    linkedin: https://www.linkedin.com/in/sarahntang/
-    coffee: https://calendly.com/sarahtang1
-
-- name: Susan Yang
-  position: Internal Project Manager
-  description: Hi! I’m Susan Yang a sophomore right now. My major is data science and economics. I love gym, music, and 🐈!
-  socials:
-    linkedin: https://www.linkedin.com/mwlite/in/shuran-yang-289209221
-    coffee: https://calendly.com/shuran1030
+    coffee: https://calendly.com/ramishakabir/datagood-coffee-chat 
 
 - name: Akira Chou
-  position: Internal Project Manager
-  description: Heya I hail from San Francisco. If everything goes according to plan, I will graduate with a data science and economics double major. Cal is the 4th university I am attending. I love getting to know people, so please talk to me. 
+  position: Co-VP of Finance
+  Year: Senior
+  majors: Data Science, Economics
+  hobbies: taking unnecessary naps, folding modular origami, talking with homo sapiens
+  fun-fact: I can wiggle my ears, but only when no one is watching
   socials:
     linkedin: https://www.linkedin.com/in/akirachou/
-    coffee: https://calendly.com/akirachou
+    coffee: https://calendly.com/akirachou/15min
 
-- name: Michael Yip
-  position: Internal Project Manager
-  description: What's up guys! My name is Michael, a sophomore at UC Berkeley majoring in Data Science. I'm originally from Hong Kong but I went to high school in Toronto. This is my second semester at DataGood and I'm excited to lead one of the internal projects this semester with Susan. I look forward to expanding my networking and communication skills with people across diverse backgrounds at Berkeley. In my free time, I enjoy listening to canto and mandopop. Hope to see y'all soon!
+- name: Jack Goodman
+  position: Co-VP of Finance
+  Year: Freshman
+  majors: Computer Science
+  hobbies: Gym, Skiing, Music Production, Clothing Design
+  fun-fact: I have a dog named Giuseppe
   socials:
-    linkedin: https://www.linkedin.com/in/michaelyip0219 
-    coffee: https://calendly.com/michaelyip0219/datagood-coffee-chat-fall-22
+    linkedin: https://www.linkedin.com/in/jack-goodman-862629257/
+    coffee: https://calendly.com/jgoodman4/datagood-coffee-chat-jack 
+
+- name: Maxmillion Song
+  position: Co-VP of Marketing
+  Year: Freshman
+  majors: Data Science
+  hobbies: piano, singing, watching tiktok, listening to k-pop
+  fun-fact: I love to go cafe hopping in my free time, and take aesthetic pictures!
+  socials:
+    linkedin: https://www.linkedin.com/in/maxmillion-song-75391824a/
+    coffee: https://calendly.com/maxmillionsong
+
+- name: Sarah Tang
+  position: Co-VP of Marketing
+  Year: Junior
+  majors: Computer Science & Cognitive Science
+  hobbies: Basketball, water polo, hiking, cooking
+  fun-fact: All of my fingers are double jointed!
+  socials:
+    linkedin: https://www.linkedin.com/in/sarahntang/
+    coffee: https://calendly.com/sarahtang1/datagood-coffee-chat-sarah-tang
+
+- name: Jennifer Ly
+  position: Co-VP of Social
+  Year: Freshman
+  majors: Computer Science & Data Science
+  hobbies: Valorant, WordHunt, collecting stationery, boba, R&B music
+  fun-fact: I used to have pet peacocks
+  socials:
+    linkedin: https://www.linkedin.com/in/jennifertrinhly/
+    coffee: https://calendly.com/jennifertrinhly/datagood-coffee-chat-jennifer-ly
+
+- name: Julia Sun
+  position: Co-VP of Social
+  Year: Sophomore
+  majors: Computer Science
+  hobbies: getting boba, cooking, watching kdramas, gymnastics
+  fun-fact: I hate all condiments except bbq sauce
+  socials:
+    linkedin: https://www.linkedin.com/in/julia-sun-1bb41b21a/
+    coffee: https://calendly.com/jsun28/15min
+
+- name: Manan Bhargava
+  position: Industry PM and Webmaster
+  Year: Sophomore
+  majors: Computer Science & Data Science
+  hobbies: Photography, Burn Pen Art (calligraphy with a 900 degree F tip on wood), hiking, traveling, and baking
+  fun-fact: I’m level 2500 (superstar class maximum) in Wii sports table tennis
+  socials:
+    linkedin: https://www.linkedin.com/in/manan-bhargava/
+    coffee: https://calendly.com/manan-bhargava/datagood-coffee-chat-manan-bhargava 
+
+- name: Sailesh Kethepalli
+  position: Industry PM
+  Year: Senior
+  majors: Data Science
+  hobbies: Cooking, Fitness and Nutrition, Gaming, Reading, Manga/Anime
+  fun-fact: I'm a teacher on the side
+  socials:
+    linkedin: https://www.linkedin.com/in/saileshketh/
+    coffee: https://calendly.com/saileshk/15minutes
+
+- name: Ricky Shishodia
+  position: Industry PM
+  Year: Sophomore
+  majors: Computer Science & Economics
+  hobbies: Tennis, board games, music, exploring
+  fun-fact: I have traveled to 10 foreign countries
+  socials:
+    linkedin: 
+    coffee: https://calendly.com/rkshishodia/coffee-chat-with-ricky
+
+- name: Riya Singhal
+  position: Industry PM
+  Year: Sophomore
+  majors: Computer Science
+  hobbies: Painting, Hiking, Listening to Taylor Swift, Calligraphy
+  fun-fact: I have a twin sister and love koalas!
+  socials:
+    linkedin: https://www.linkedin.com/in/riyasinghal-/
+    coffee: https://calendly.com/riya-singhal/datagood-coffee-chat-riya-singhal?month=2023-01
+
+- name: Charles Luo
+  position: Industry PM
+  Year: Senior
+  majors: Industrial Engineering & Operations Research
+  hobbies: Gym, raves, video games, politics
+  fun-fact: I have a twin sister and our birthdays are on Christmas!
+  socials:
+    linkedin: https://www.linkedin.com/in/charlesluo1225/
+    coffee: https://calendly.com/charlesluo/datagood-coffee-chat
+
+- name: Rose Lee
+  position: Research PM
+  Year: Sophomore
+  majors: Data Science & Cognitive Science
+  hobbies: Getting Philz, Learning new recipes, Thrifting
+  fun-fact: I have damaged or broken every Apple product I own
+  socials:
+    linkedin: https://www.linkedin.com/in/rose-lee-0492141b5/
+    coffee: https://calendly.com/rroselee/datagood 
+
+- name: Jasmine Ma
+  position: Research PM
+  Year: Freshman
+  majors: Data Science & Computer Science
+  hobbies: Watching KDramas, Running, Creating art, Being a foodie
+  fun-fact: Double-jointed
+  socials:
+    linkedin: https://www.linkedin.com/in/jasmine-ma10/
+    coffee: https://calendly.com/jasminema-1/datagood-coffee-chat-jasmine
+
+- name: Sinead McCaffery
+  position: Research PM
+  Year: Sophomore
+  majors: Computer Science
+  hobbies: Dance, Working out, Reading, Animals, CS
+  fun-fact: I was an Irish dancer for 15 years!
+  socials:
+    linkedin: https://www.linkedin.com/in/sineadmccaffery/
+    coffee: https://calendly.com/sineadmccaffery/datagood-coffee-chat-sinead-mccaffery
+
+- name: Yesenia Morales
+  position: Research PM
+  Year: Sophomore
+  majors: Data Science
+  hobbies: Hanging out with friends, going to concerts, and watching sports
+  fun-fact: I hit a three pointer playing basketball at the Staples Center
+  socials: 
+    linkedin: https://www.linkedin.com/in/yesenia-morales-1010ucb/
+    coffee: https://calendly.com/ymorales10/datagood-coffee-chat-yesenia-morales 
+
+- name: Jack Swenson
+  position: Research PM
+  Year: Sophomore
+  majors: Data Science & Economics
+  hobbies: Tennis/Chess/Film/Hiking/Watching Youtube/Hip Hop Music
+  fun-fact: I can play chess blindfolded
+  socials:
+    linkedin: https://www.linkedin.com/in/jack-swenson-744883210/
+    coffee: https://calendly.com/jack-swenson/15min?month=2023-01&date=2023-01-23

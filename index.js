@@ -25,16 +25,22 @@ function readConfig(file) {
 	case 'members.yml': {
 		const teamFolder = path.join(__dirname, '/public/images/team');
 
-		contents.forEach(content => {
+		const missing = contents.map(content => {
 			const {
 				name
 			} = content;
-			const names = name.toLowerCase().split(' ');
-			const paths = [`${names[0]}.webp`, `${names.join('_')}.webp`];
-			const file = paths.find(p => fs.existsSync(path.join(teamFolder, p)));
-			if (!file) throw new Error(`Missing Image for ${name}`);
-			content.image = `/images/team/${file}`;
-		});
+			if (!content.image) {
+				const names = name.toLowerCase().split(' ');
+				const paths = [`${names.join('_')}.webp`, `${names[0]}.webp`];
+				const file = paths.find(p => fs.existsSync(path.join(teamFolder, p)));
+				if (!file) return name;
+				content.image = `/images/team/${file}`;
+			}
+			return null;
+		}).filter(i => i);
+
+		if (missing.length) throw new Error(`Missing Images for [${missing.join(', ')}]`);
+
 		break;
 	}
 	default: break;
@@ -73,6 +79,7 @@ for (const path in routes) {
 	});
 }
 
+// DO NOT CHANGE - this is required for website to update
 app.post('/webhook', (req, res) => {
 	const sig = `sha1=${crypto.createHmac('sha1', SECRET).update(JSON.stringify(req.body))
 		.digest('hex')}`;

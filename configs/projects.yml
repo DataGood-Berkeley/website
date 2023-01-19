@@ -1,5 +1,39 @@
 # Configuration for all projects
 
+# TODO copy paste for spring 2023 internal and external projects
+
+# - title: spring 2023 external projects
+#   projects:
+#     - link:
+#       title: TBA
+#       description: 
+#       color: blue
+#       image: 
+#     - link:
+#       title: TBA
+#       description: 
+#       color: pink
+#       image: 
+
+- title: spring 2023 internal projects
+  projects:
+    - link: 
+      title: Analysis of Education Equality and Income
+      description: 
+      image: /images/projects/detection.webp
+      color: yellow
+    - link:
+      title: Analysis of Pandemic and Unemployment
+      description: 
+      image:  /images/projects/sentiment.webp
+      color: green
+    - link: 
+      title: Cancer Detection with Data Analysis
+      description: 
+      image: /images/projects/unemployment.webp
+      color: blue
+
+
 - title: fall 2022 external projects
   projects:
     - link:
@@ -16,9 +50,9 @@
 - title: fall 2022 internal projects
   projects:
     - link: 
-      title: Anomaly Detection in Healthcare Providers
-      description: 'This project focuses on utilizing data science techniques such as data visualization and exploratory data analysis to find trends in climate data. We will examine the factors which affect the Earth’s temperature in various locations.'
-      image: /images/projects/detection.webp
+      title: Tracking Causes of Climate Change
+      description: 'This project focuses on using data science methods such as data visualization, regression, and classification to identify and predict fraudulent entries in healthcare provider data. Suggested prereq: Data 8'
+      image: /images/projects/anomaly.webp
       color: yellow
     - link:
       title: COVID sentiment analysis using NLP
@@ -43,19 +77,19 @@
       description: This project is an interactive map that layers data about demographics and environmental issues to detect inequities between communities.
       color: blue
       image: /images/projects/waternow.webp
+    - link: 
+      title: Anomaly Detection in Healthcare Providers
+      description: 'This project focuses on utilizing data science techniques such as data visualization and exploratory data analysis to find trends in climate data. We will examine the factors which affect the Earth’s temperature in various locations.'
+      image: /images/projects/detection.webp
+      color: yellow
     - link:
       title: NMDC
       description: This project will contribute to the NMDC's sample-annotator API for repairing biosample metadata that doesn't adhere to standards like MIxS. The repaired data will drive collaboration and open science.
       color: pink
-      image: /images/projects/fbccs.webp
+      image: /images/projects/nmdc.webp
 
 - title: spring 2022 internal projects
   projects:
-    - link: 
-      title: Tracking Causes of Climate Change
-      description: 'This project focuses on using data science methods such as data visualization, regression, and classification to identify and predict fraudulent entries in healthcare provider data. Suggested prereq: Data 8'
-      image: /images/projects/anomaly.webp
-      color: yellow
     - link:
       title: Climate Change Data Analysis
       description: 'This project aims to create a model to predict future CO2 levels globally, or other indicators of climate change, while reviewing important packages and tools for analyzing and visualizing data. Suggested prereq: Data 8'
