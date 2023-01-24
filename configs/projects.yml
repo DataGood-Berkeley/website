@@ -1,8 +1,8 @@
 # Configuration for all projects
 
-# TODO copy paste for spring 2023 internal and external projects
+# TODO copy paste for spring 2023 research and industry projects
 
-# - title: spring 2023 external projects
+# - title: spring 2023 industry projects
 #   projects:
 #     - link:
 #       title: TBA
@@ -15,7 +15,7 @@
 #       color: pink
 #       image: 
 
-- title: spring 2023 internal projects
+- title: spring 2023 research projects
   projects:
     - link: 
       title: Analysis of Education Equality and Income
@@ -34,7 +34,7 @@
       color: blue
 
 
-- title: fall 2022 external projects
+- title: fall 2022 industry projects
   projects:
     - link:
       title: Community Resources for Science (CRS)
@@ -47,7 +47,7 @@
       color: pink
       image: /images/projects/fbccs.webp
 
-- title: fall 2022 internal projects
+- title: fall 2022 research projects
   projects:
     - link: 
       title: Tracking Causes of Climate Change
@@ -70,7 +70,7 @@
       image: /images/projects/inequality.webp
       color: purple
 
-- title: spring 2022 external projects
+- title: spring 2022 industry projects
   projects:
     - link:
       title: Interactive Map to Detect Environmental Inequities in Communities
@@ -88,7 +88,7 @@
       color: pink
       image: /images/projects/nmdc.webp
 
-- title: spring 2022 internal projects
+- title: spring 2022 research projects
   projects:
     - link:
       title: Climate Change Data Analysis
@@ -107,7 +107,7 @@ Difficulty level: Easy to medium. Will cover the basics of everything. No prior 
       image: /images/projects/tracking.webp
       color: purple
 
-- title: fall 2021 external projects
+- title: fall 2021 industry projects
   projects:
     - link:
       title: Student Classifier
@@ -120,7 +120,7 @@ Difficulty level: Easy to medium. Will cover the basics of everything. No prior 
       image: /images/heart-logo.png
       color: blue
 
-- title: fall 2021 internal projects
+- title: fall 2021 research projects
   projects:
     - link:
       title: Bay Area Public and Environmental Health Analysis
@@ -139,7 +139,7 @@ Difficulty level: Easy to medium. Will cover the basics of everything. No prior 
       color: yellow
 
 
-- title: spring 2021 external projects
+- title: spring 2021 industry projects
   projects:
   - link: https://www.facebook.com/UC-Berkeley-SAFE-Chatbot-102005888779715
     title: Firewatch Chatbot
@@ -152,7 +152,7 @@ Difficulty level: Easy to medium. Will cover the basics of everything. No prior 
     image: /images/projects/transfer.webp
     color: purple
 
-- title: spring 2021 internal projects
+- title: spring 2021 research projects
   projects:
   - link:
     title: DC + Chicago Crime Analysis
