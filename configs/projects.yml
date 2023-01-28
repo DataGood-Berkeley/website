@@ -2,46 +2,46 @@
 
 # TODO copy paste for spring 2023 research and industry projects
 
-# - title: spring 2023 industry projects
-#   projects:
-#     - link:
-#       title: TBA
-#       description: 
-#       color: blue
-#       image: 
-#     - link:
-#       title: TBA
-#       description: 
-#       color: pink
-#       image: 
+- title: spring 2023 industry projects
+  projects:
+    - link:
+      title: League of Women Voters (LWV)
+      description: Using the League of Women Voters’ membership data, the team will be analyzing their performance in membership growth and community outreach. This will better guide their decision-making process of where to strengthen their efforts and allocate resources. Students will also be utilizing predictive models to project the organization’s growth give them metrics to measure their impact.
+      color: blue
+      image: /images/projects/leagueofwomenvoters.webp
+    - link:
+      title: Berkeley Disaster Preparedness Neighborhood (BPDNN)
+      description: Using BDPNN’s member list datasets and disaster preparedness zoning, students be cleaning the data and then perform data analysis to develop recommendations for helping BDPNN better mobilize volunteers and determine regions to improve deployment for responding to natural disasters. Technical tools include geospatial data analysis, database filtration, tableau visualizations, and scikit learn linreg.
+      color: pink
+      image: /images/projects/bdpnn.webp
 
 - title: spring 2023 research projects
-  projects:
+  projects: 
     - link: 
       title: Analysis of Education Equality and Income
-      description: 
-      image: /images/projects/detection.webp
+      description: In this project, students will use various datasets, like the US census, that contain information about education quality as well as income rate of American households in certain school districts. The team will use our findings to analyze the correlation between the quality of education and household income rates. Using those same findings students will be able to work together and create a project that will give us an opportunity to share with our peers any conclusions we have made based off the data.
+      image: /images/projects/education_equality.webp
       color: yellow
     - link:
       title: Analysis of Pandemic and Unemployment
-      description: 
-      image:  /images/projects/sentiment.webp
+      description: This project will use datasets on COVID-19 and unemployment rates in the United States to take a look at how different industries within the economy have responded to the economic decline caused by Covid-19, as well as understanding any patterns that may emerge. Members will ultimately create a final deliverable with data visualizations that detail any conclusions they may draw on the topic from their project.
+      image:  /images/projects/pandemic_unemployment.webp
       color: green
     - link: 
       title: Cancer Detection with Data Analysis
-      description: 
-      image: /images/projects/unemployment.webp
+      description: In this project, students will use healthcare datasets, such as cancer patients data, to examine the lifestyles of cancer patients, and members will be taking a look at how certain factors cause people to be more susceptible to cancer. Students will also explore the relationships between the characteristics and traits of individuals in different physical environments. This will culminate in members creating a project that draws patterns and reaches conclusions related to the topic at hand.
+      image: /images/projects/cancer.webp
       color: blue
 
 
 - title: fall 2022 industry projects
   projects:
-    - link:
+    - link: 
       title: Community Resources for Science (CRS)
       description: The main goal of this project is to help the Community Resources for Science (CRS) analyze survey data from 10+ years of surveys stored in CSV files, possibly selecting only certain years to look at. CRS anticipates looking at 6-8 key questions like teachers who are newer vs more experienced; teachers from 3 different school districts, teachers' level of confidence and amount of time spent on teaching science, etc. The primary reason for looking more into these key questions is to help CRS better understand the trends and differentiations among these key questions. 
       color: blue
       image: /images/projects/crs.webp
-    - link:
+    - link: https://docs.google.com/presentation/d/1DvHNqpZj_G23PwHlCKM5aM0El_d_TPgt-jy0mnZrBw4/edit?usp=sharing
       title: Food Bank of Contra Costa & Solano
       description: The main goal for this project is to help the Food Bank of Contra Costa & Solano better understand the communities they are serving. In order to accomplish this, we will add layers to the existing Tableau dashboard that is currently being used to map and visualize food distribution and needs. Adding more demographic layers to the map will allow the Food Bank of Contra Costa & Solano to better understand what specific communities they are reaching. Additionally, we would help analyze impact through more detailed visualizations in a dashboard. 
       color: pink
