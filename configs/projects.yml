@@ -11,7 +11,7 @@
       image: /images/projects/leagueofwomenvoters.webp
     - link:
       title: Berkeley Disaster Preparedness Neighborhood (BPDNN)
-      description: Using BDPNN’s member list datasets and disaster preparedness zoning, students be cleaning the data and then perform data analysis to develop recommendations for helping BDPNN better mobilize volunteers and determine regions to improve deployment for responding to natural disasters. Technical tools include geospatial data analysis, database filtration, tableau visualizations, and scikit learn linreg.
+      description: Using BDPNN’s member list datasets and disaster preparedness zoning, we’ll perform data analysis to develop recommendations for helping BDPNN better mobilize volunteers and determine regions to improve deployment for responding to natural disasters. Through overlaying the member data with demographic layers and zoning data, we’ll categorize members into zones for emergency responses. Additionally, we’ll analyze disasters and predict the relative risk. 
       color: pink
       image: /images/projects/bdpnn.webp
 
