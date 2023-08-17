@@ -4,7 +4,7 @@ name: datagood
 title: Data Good
 tagline: data science +
   social good.
-logo: /images/heart-logo.png
+logo: /images/datagood-logo.png
 email: datagood@berkeley.edu
 copyright: © 2023 DataGood at UC Berkeley
 socials:
@@ -25,9 +25,9 @@ headers:
     link: /about
   - name: Team
     link: /team
-  - name: Events
-    link: /events
   - name: Projects
     link: /projects
+  - name: Events
+    link: /events
   - name: Join
     link: /join
