@@ -43,7 +43,7 @@
     coffee: https://calendly.com/tiffanydai/
 
 - name: Maxmillion Song
-  position: VP of Finance
+  position: VP of Marketing
   Year: Sophomore
   majors: Data Science
   hobbies: piano, singing, watching tiktok, listening to k-pop
@@ -85,7 +85,7 @@
     coffee: https://calendly.com/riya-singhal/datagood-coffee-chat-riya-singhal?month=2023-01
  
 - name: Kenneth Nguyen
-  position: Cop-VP of Social
+  position: Co-VP of Social
   Year: Junior
   majors: Data Science
   hobbies: Going to the gym, mixing music, or playing pool with friends!
@@ -96,7 +96,7 @@
     coffee: https://calendly.com/kennethnguyen/datagood-coffee-chat-kenneth-nguyen
 
 - name: Akash Iyer
-  position: Cop-VP of Social
+  position: Co-VP of Social
   Year: Junior
   majors: Data Science
   hobbies: N/A
@@ -137,7 +137,7 @@
   bio: Besides data science, I'm passionate about biology, teaching, and debate. In my free time, I love to hike and play cooking games :)
   socials:
     linkedin: https://www.linkedin.com/in/elizzhou
-    coffee: calendly.com/elizzhou/datagood-coffee-chat
+    coffee: https://calendly.com/elizzhou/datagood-coffee-chat?month=2023-08
 
 - name: Bianca Poblano
   position: Industry PM
@@ -170,27 +170,26 @@
   socials:
     linkedin: https://www.linkedin.com/in/william-rathgeb-537708222/
     coffee: https://calendly.com/willrathgeb/datagood-coffee-chat
-
 - name: Kaan Taner
   position: Industry PM
   Year: Senior
   majors: Data Science
-  hobbies: Placeholder
-  fun-fact: Placeholder
+  hobbies: N/A
+  fun-fact: N/A
+  bio: I like hiking, swiming, and watching movies. I'm an avid traveler and try to squeeze something international in every  year and have recently been getting into more local trips too! Ionic is the best type of column.
   socials:
     linkedin: https://www.linkedin.com/in/kaantaner/
-    coffee: 
-
+    coffee: https://calendly.com/kaantaner/datagood-coffee-chat-kaan-taner
 - name: Shuhan Luo
   position: Industry PM
   Year: Senior
   majors: Data Science, Economics
-  hobbies: Placeholder
-  fun-fact: Placeholder
+  hobbies: N/A
+  fun-fact: N/A
+  bio: RSF Fanatic, Boxing&MMA, Videogames (CSGO, Val, League)
   socials:
     linkedin: https://www.linkedin.com/in/shuhan-luo/
-    coffee: 
-
+    coffee: https://calendly.com/mysterymeat/datagood-coffee-chat-shuhan-luo
 - name: Destiny Hursh
   position: Research PM
   Year: Junior
@@ -201,16 +200,16 @@
   socials:
     linkedin: https://www.linkedin.com/in/destiny-hursh-27792b194/ 
     coffee: https://calendly.com/destinyhursh/datagood-coffee-chat
-
 - name: Megan Dhingra
   position: Research PM
   Year: Junior
-  majors: Data Science
-  hobbies: Placeholder
-  fun-fact: Placeholder
+  majors: Data Science, Economics
+  hobbies: N/A
+  fun-fact: N/A
+  bio: I'm from Pleasanton, CA and you can catch me at the RSF climbing the new rock wall or weightlifting. 
   socials:
     linkedin: https://www.linkedin.com/in/megan-dhingra/ 
-    coffee: 
+    coffee: https://calendly.com/megandhingra/datagood-coffee-chat-megan-dhingra
 
 - name: Alaysha Zarate
   position: Research PM
@@ -226,12 +225,13 @@
 - name: Aidan Praytor
   position: Research PM
   Year: Junior
-  majors: Computer Science
-  hobbies: Placeholder
-  fun-fact: Placeholder
+  majors: Data Science
+  hobbies: N/A
+  fun-fact: N/A
+  bio: I like painting :)
   socials:
     linkedin: https://www.linkedin.com/in/aidanpraytor/ 
-    coffee: 
+    coffee: https://calendly.com/aidanpraytor/15min
 
 - name: Jasmine Ma
   position: Research PM
