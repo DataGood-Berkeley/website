@@ -248,4 +248,35 @@
     linkedin: https://www.linkedin.com/in/jasmine-ma10
     coffee: https://calendly.com/jasminema-1/datagood-coffee-chat-jasmine-ma
 
-# Add Aditi
+- name: Paulina Villasenor
+  position: Research PM
+  Year: Junior
+  majors: Data Science
+  hobbies: N/A
+  fun-fact: N/A
+  bio: I love traveling being wined and dined and discovering the intersection between analytics and creative spaces like fashion
+  socials:
+    linkedin: https://www.linkedin.com/in/paulina-villasenor/
+    coffee: https://calendly.com/paulinavillasenor/30min
+
+- name: Aditi Telang
+  position: Research PM
+  Year: Sophomore
+  majors: Computer Science, Business
+  hobbies: N/A
+  fun-fact: N/A
+  bio: Hi! I'm Aditi. I'm a sophomore majoring in CS and business. I worked on an internal project last semester and I'll be research PM this year! I like to paint, try new foods and play tennis. 
+  socials:
+    linkedin: https://www.linkedin.com/in/adititelang/
+    coffee: https://calendly.com/aditi-telang
+
+- name: Yasmin Ho
+  position: Research PM
+  Year: Junior
+  majors: Data Science
+  hobbies: N/A
+  fun-fact: N/A
+  bio: I was born and raised in South Africa! In my free time, I enjoy hiking and trying new restaurants and cafes!
+  socials:
+    linkedin: https://www.linkedin.com/in/yasmin-ho-112103226/
+    coffee: https://calendly.com/yasminho/datagood-coffee-chat-yasmin
