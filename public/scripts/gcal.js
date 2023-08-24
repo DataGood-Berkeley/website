@@ -1,7 +1,7 @@
 (function() {
 	const calendarElement = document.querySelector('#calendar');
 	const calendar = new FullCalendar.Calendar(calendarElement, {
-		googleCalendarApiKey: 'AIzaSyC6PvTXIr72umSHtDLbPR2C-IAHkxMRyPc',
+		googleCalendarApiKey: 'AIzaSyB3vZvSfCKsxqJKxyvizJ4dS6-08JXK83M',
 		events: {
 			googleCalendarId: 'c_b0b26s8rrvvv4um1kin6bbsqoo@group.calendar.google.com'
 		},
