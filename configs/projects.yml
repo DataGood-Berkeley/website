@@ -1,17 +1,39 @@
 # Configuration for all projects
 
-# TODO copy paste for spring 2023 research and industry projects
+- title: fall 2023 research projects
+  projects: 
+    - link: 
+      title: Real or Fake?
+      description: Through this project, students will learn the necessary data science fundamentals to distinguish between fake and real news by building and testing their own classifier model to evaluate the credibility of information sources. Students will have opportunities to explore topics such as feature engineering and machine learning while conducting their own exploratory data analysis.
+      image: /images/projects/fake-news.webp
+      color: yellow
+    - link:
+      title: Gun Violence & Gun Control
+      description: This project empowers students to deeply research and analyze a chosen subtopic within gun violence and control. They can explore areas such as violence trends, impact of control measures, predictive modeling, community engagement, firearm accessibility, victim support, and illegal firearm activities.
+      image:  /images/projects/gun_control.webp
+      color: blue
+    - link: 
+      title: Sustain AI - Sorting Trash for a Greener Future
+      description: Through this project, students will explore the world of machine learning and environmental sustainability as they build and test their own waste classification machine learning model. Students will explore how we can utilize cutting-edge models that are currently driving modern AI to sort waste, thus optimizing recycling processes, minimizing landfill waste, and mitigating ecological harm.
+      image: /images/projects/sustainability.webp
+      color: green
+    - link:
+      title: An Ideal Trip
+      description: The main goal of this project is to create a data model that makes planning weekend trips for college students seamless and stress-free. Based on their weather preferences, number of restaurants, and other metrics, this model will plan their ideal trip giving details like where they should stay and places they should visit. Students will be able to learn how to use multiple linear regression in a different language, R, and walk away with a better understanding of how they can use their data science skills in everyday life.
+      image: /images/projects/trip.webp
+      color: pink
+
 
 - title: spring 2023 industry projects
   projects:
     - link:
       title: League of Women Voters (LWV)
-      description: Using the League of Women Voters’ membership data, the team will be analyzing their performance in membership growth and community outreach. This will better guide their decision-making process of where to strengthen their efforts and allocate resources. Students will also be utilizing predictive models to project the organization’s growth give them metrics to measure their impact.
+      description: Using the League of Women Voters' membership data, the team will be analyzing their performance in membership growth and community outreach. This will better guide their decision-making process of where to strengthen their efforts and allocate resources. Students will also be utilizing predictive models to project the organization’s growth give them metrics to measure their impact.
       color: blue
       image: /images/projects/leagueofwomenvoters.webp
     - link:
       title: Berkeley Disaster Preparedness Neighborhood Network
-      description: Using BDPNN’s member list datasets and disaster preparedness zoning, we’ll perform data analysis to develop recommendations for helping BDPNN better mobilize volunteers and determine regions to improve deployment for responding to natural disasters. Through overlaying the member data with demographic layers and zoning data, we’ll categorize members into zones for emergency responses. Additionally, we’ll analyze disasters and predict the relative risk. 
+      description: Using BDPNN's member list datasets and disaster preparedness zoning, we'll perform data analysis to develop recommendations for helping BDPNN better mobilize volunteers and determine regions to improve deployment for responding to natural disasters. Through overlaying the member data with demographic layers and zoning data, we’ll categorize members into zones for emergency responses. Additionally, we’ll analyze disasters and predict the relative risk. 
       color: pink
       image: /images/projects/bdpnn.webp
 
