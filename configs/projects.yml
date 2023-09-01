@@ -1,5 +1,23 @@
 # Configuration for all projects
 
+- title: fall 2023 industry projects
+  projects: 
+    - link: 
+      title: Scientific Adventures for Girls
+      description: Using the Scientific Adventures for Girls' after-school program student and parent data from the last 8 years to create a dashboard and infographics for their website and marketing resources. 
+      image: /images/projects/scientific_adventures.webp
+      color: green
+    - link:
+      title: Young Women in Bio
+      description: By manipulating YWIB's national datasets in numerous ways, we will examine the factors that lead to more young women entering STEM, possibly how these factors can be increased, creating deliverables that help YWIB find the best locations to market to, and ways they can improve their workshops.
+      image:  /images/projects/ywib.webp
+      color: blue
+    - link: 
+      title: Roots of Success
+      description: This project aims to help Roots of Success better understand and communicate their impact by analyzing and visualizing data resulting from their environmental education programs, enhancing their ability to attract partners and donors, and set the organization up for continued success in the future.
+      image: /images/projects/roots.webp
+      color: yellow
+
 - title: fall 2023 research projects
   projects: 
     - link: 
@@ -14,12 +32,12 @@
       color: blue
     - link: 
       title: Sustain AI - Sorting Trash for a Greener Future
-      description: Through this project, students will explore the world of machine learning and environmental sustainability as they build and test their own waste classification machine learning model. Students will explore how we can utilize cutting-edge models that are currently driving modern AI to sort waste, thus optimizing recycling processes, minimizing landfill waste, and mitigating ecological harm.
+      description: Students will explore how we can utilize cutting-edge models to sort waste by building their own waste classification machine learning model, thus optimizing recycling processes, minimizing landfill waste, and mitigating ecological harm.
       image: /images/projects/sustainability.webp
       color: green
     - link:
       title: An Ideal Trip
-      description: The main goal of this project is to create a data model that makes planning weekend trips for college students seamless and stress-free. Based on their weather preferences, number of restaurants, and other metrics, this model will plan their ideal trip giving details like where they should stay and places they should visit. Students will be able to learn how to use multiple linear regression in a different language, R, and walk away with a better understanding of how they can use their data science skills in everyday life.
+      description: Students will create a data model that makes planning weekend trips for college students seamless and stress-free. Based on their weather preferences, number of restaurants, and other metrics, this model will plan their ideal trip location and itinerary. Students will be able to learn how to use multiple linear regression in R, and walk away with a better understanding of how they can use their data science skills in everyday life.
       image: /images/projects/trip.webp
       color: pink
 
@@ -33,7 +51,7 @@
       image: /images/projects/leagueofwomenvoters.webp
     - link:
       title: Berkeley Disaster Preparedness Neighborhood Network
-      description: Using BDPNN's member list datasets and disaster preparedness zoning, we'll perform data analysis to develop recommendations for helping BDPNN better mobilize volunteers and determine regions to improve deployment for responding to natural disasters. Through overlaying the member data with demographic layers and zoning data, we’ll categorize members into zones for emergency responses. Additionally, we’ll analyze disasters and predict the relative risk. 
+      description: Using BDPNN's member list datasets and disaster preparedness zoning, we'll perform data analysis to develop recommendations for helping BDPNN better mobilize volunteers and determine regions to improve deployment for responding to natural disasters. Through overlaying the member data with demographic layers and zoning data, we’ll categorize members into zones for emergency responses. Additionally, we'll analyze disasters and predict the relative risk. 
       color: pink
       image: /images/projects/bdpnn.webp
 
