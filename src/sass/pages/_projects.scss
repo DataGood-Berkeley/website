@@ -12,7 +12,7 @@
         margin-top: 20px;
 
         .card {
-            height: 25vw;
+            height: 20vw;
             width: 40vw;
             margin: 20px 0;
             position: relative;
@@ -22,20 +22,19 @@
                 width: 80vw;
             }
 
-            overflow: hidden;
+            overflow-y: auto;
             position: relative;
 
             .project-description {
                 transition: opacity 0.3s;
                 height: 100%;
-                overflow: hidden;
                 transition: max-width 0.3s;
                 transform: translateX(calc(-100% + 15px));
                 transition: transform 0.3s;
 
                 h2 {
                     font-family: Gotham, serif;
-                    @include fluid-type(300, 1535, 40, 50, px);
+                    @include fluid-type(300, 1535, 30, 45, px);
                     text-align: center;
                     margin: 0;
                     padding: 10px;
@@ -44,7 +43,11 @@
                 .description {
                     font-family: NotoSerifSC, serif;
                     @include fluid-type(300, 1535, 12, 20, px);
-                    padding: 20px;
+                    padding-right: 20px;
+                    padding-left: 20px;
+                    padding-bottom: 20px;
+                    overflow-y: auto;
+                    text-align: justify;
                 }
             }
 
@@ -97,17 +100,18 @@
 
                         .description {
                             color: $text-color;
+                            background-color: $background-color;
                         }
                     }
 
                     &:before {
-                        border-bottom: 0 solid $border-color;
-                        border-left: 0 solid $border-color;
+                        border-bottom: 0 solid transparent;
+                        border-left: 0 solid transparent;
                     }
 
                     &:after {
-                        border-top: 0 solid $border-color;
-                        border-right: 0 solid $border-color;
+                        border-top: 0 solid transparent;
+                        border-right: 0 solid transparent;
                     }
                 }
             }
@@ -128,6 +132,7 @@
                     height: 100%;
                     border-bottom-width: 4px;
                     border-left-width: 4px;
+                    scroll-behavior: auto;
                 }
 
                 &:after {
@@ -135,6 +140,7 @@
                     height: 100%;
                     border-top-width: 4px;
                     border-right-width: 4px;
+                    scroll-behavior: auto;
                 }
             }
         }
