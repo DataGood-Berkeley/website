@@ -190,7 +190,7 @@
   majors: Data Science, Computer Science
   hobbies: N/A
   fun-fact: N/A
-  bio: Hey I’m Alex and I’m from Manila, Philippines! I love playing video games, playing the violin, and baking. Currently looking for the best matcha place in Berkeley! 
+  bio: Hey I'm Alex and I'm from Manila, Philippines! I love playing video games, playing the violin, and baking. Currently looking for the best matcha place in Berkeley! 
   socials:
     linkedin: https://www.linkedin.com/in/alexandra-therese-manas-00744b230/
     coffee: https://calendly.com/alexmanas/datagood-coffee-chat-alex
@@ -216,6 +216,62 @@
   socials:
     linkedin: https://www.linkedin.com/in/rachel-skwersky/
     coffee: https://calendly.com/rskwersky/30min
+
+
+- name: Aidan Miles Cheng
+  position: Research PM
+  Year: N/A
+  majors: N/A
+  hobbies: N/A
+  fun-fact: N/A
+  bio: N/A
+  socials:
+    linkedin: https://www.linkedin.com/in/miles-cheng/
+    coffee: 
+
+- name: Aidan Siri Phaneendra
+  position: Research PM
+  Year: N/A
+  majors: N/A
+  hobbies: N/A
+  fun-fact: N/A
+  bio: N/A
+  socials:
+    linkedin: https://www.linkedin.com/in/siri-phaneendra/
+    coffee: 
+
+- name: Sushrut Garikiparthi
+  position: Research PM
+  Year: N/A
+  majors: N/A
+  hobbies: N/A
+  fun-fact: N/A
+  bio: N/A
+  socials:
+    linkedin: https://www.linkedin.com/in/sushrutg/
+    coffee: 
+
+- name: Vihaan Khandelwal
+  position: Research PM
+  Year: N/A
+  majors: N/A
+  hobbies: N/A
+  fun-fact: N/A
+  bio: N/A
+  socials:
+    linkedin: https://www.linkedin.com/in/vihaan-khandelwal/
+    coffee: 
+
+- name: Laura Ma
+  position: Research PM
+  Year: N/A
+  majors: N/A
+  hobbies: N/A
+  fun-fact: N/A
+  bio: N/A
+  socials:
+    linkedin: https://www.linkedin.com/in/laura-ma-280406248/
+    coffee: 
 
 - name: Aditi Telang
   position: Research PM

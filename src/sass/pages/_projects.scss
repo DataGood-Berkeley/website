@@ -1,3 +1,26 @@
+.team-image {
+	max-width: 100vw;
+	width: 600px;
+    padding-left: 30px;
+    flex-shrink: 0;
+	@include fluid(width, 300, 1535, 300, 600, px);
+	img {
+		width: 85%;
+		height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+	}
+
+	&.med {
+		max-width: 30vw;
+		width: 310px;
+		@media only screen and (max-width: 1150px) {
+			max-width: 70vw;
+		}
+	}
+}
+
+
 .project-group {
     flex-direction: column;
     max-width: 90vw;
