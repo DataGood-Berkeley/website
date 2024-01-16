@@ -13,7 +13,7 @@
       color: pink
     - link: 
       title: Forest Fire Prediction
-      description: The goal of this project is to use machine learning to predict forest fires in that particular area given a set of attributes within a dataset.
+      description: The ongoing rise of global warming and climate change have led to the increased need for more accurate and efficient forest fire detection. Using real-world data, this project will teach members fundamental data science and machine learning skills to analyze the predictability of forest fires. Members will have a chance to choose their attributes to look into to build their own machine learning model about the predictability of fires in a certain area, learning how to help minimize the environmental and humanitarian risks of forest fires. 
       image: /images/projects/forest_fire.webp
       color: green
 
