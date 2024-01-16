@@ -1,4 +1,21 @@
 # Configuration for all projects
+- title: spring 2024 research projects
+  projects: 
+    - link: 
+      title: Sustianable Space Debris Management
+      description: The growing concern over space debris has significant commercial implications, as the sustainability of space activities is crucial for both governmental and private sector stakeholders. With over 23,000 tracked objects 10cm or greater as of July 2023, and the incident in August 2023 where space debris came close to the International Space Station, there is an increasing recognition of the need for active debris removal. The Kessler Syndrome, which describes a cascade of collisions due to high object density in low Earth orbit, poses a direct threat to the infrastructure of space agencies like NASA, SpaceX, and the European Space Agency, both of whom are actively seeking solutions to combat this problem. The potential for commercial ventures in this area is substantial, as these agencies are looking to develop technologies for debris monitoring, mitigation, and removal.
+      image: /images/projects/space_debris.webp
+      color: purple
+    - link:
+      title: DetectAI
+      description: The goal of this project is to harness the power of Convolutional Neural Networks (CNNs) to revolutionize breast cancer detection. Breast cancer is a significant global health concern, and early diagnosis plays a pivotal role in improving patient outcomes. Our project aims to create a robust and sophisticated CNN model designed to analyze medical imaging data, specifically mammograms, with unparalleled accuracy.
+      image:  /images/projects/detectai.webp
+      color: pink
+    - link: 
+      title: Forest Fire Prediction
+      description: The goal of this project is to use machine learning to predict forest fires in that particular area given a set of attributes within a dataset.
+      image: /images/projects/forest_fire.webp
+      color: green
 
 - title: fall 2023 industry projects
   projects: 
