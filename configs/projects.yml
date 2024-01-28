@@ -1,4 +1,17 @@
 # Configuration for all projects
+- title: spring 2024 industry projects
+  projects: 
+    - link: 
+      title: Healthy Planet Project
+      description: This project will Use data from the Healthy Planet Project to analyze the most immediate needs in SF to improve the environmental health of the city and investigate what environmental causes SF residents donate to the most. 
+      image: /images/projects/healthy_planet.webp
+      color: pink
+    - link:
+      title: Multicultural Institute
+      description: Multicultural institute is a non-profit dedicated to empowering immigrants, especially those in the Latinx community. This project will use data analysis to identify areas for program improvement across their 3 chapters. Additionally, this program aims to showcase their impact and advocate for their support of immigrant communities.
+      image:  /images/projects/multicultural.webp
+      color: yellow
+
 - title: spring 2024 research projects
   projects: 
     - link: 
