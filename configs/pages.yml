@@ -13,8 +13,8 @@
   title: meet the team.
   members: members.yml
 
-/events:
-  title: upcoming events.
+#/events:
+#  title: upcoming events.
 
 /education:
   title: education.
