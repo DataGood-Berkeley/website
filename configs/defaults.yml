@@ -27,7 +27,7 @@ headers:
     link: /team
   - name: Projects
     link: /projects
-   #name: Events
-    #link: /events
+  - name: Events
+    link: /events
   - name: Join
     link: /join
