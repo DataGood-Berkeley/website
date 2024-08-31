@@ -1,89 +1,68 @@
-- name: Julia Sun
-  position: Co-President
-  Year: Junior
-  majors: Computer Science
-  hobbies: getting boba, cooking, watching kdramas, gymnastics
-  fun-fact: I hate all condiments except bbq sauce
-  bio: Hi! My name is Julia and I'm currently a junior studying computer and data science. I am born and raised in the Bay Area! In my free time, I love watching kdramas, going on sunset walks, and cooking. I also love boba!! Please hit me up if you ever want to go on random boba runs :))
-  socials:
-    linkedin: https://www.linkedin.com/in/julia-sun-1bb41b21a/
-    coffee: https://calendly.com/jsun28/datagood-coffee-chat-julia-sun
-
-- name: Manan Bhargava
-  position: Co-President
-  Year: Junior
-  majors: Computer Science, Data Science, Entrepreneurship & Technology
-  hobbies: Photography, Burn Pen Art (calligraphy with a 900 degree F tip on wood), hiking, traveling, and baking
-  fun-fact: I'm level 2500 (superstar class maximum) in Wii sports table tennis
-  bio: What's up! I'm a junior from the Bay Area and a startup nerd. In my free time, I enjoy photography, doing burn pen art, hiking, and baking. Fun fact I'm a max pro table tennis wii player and am a game pigeon word hunt master! Play me ⭐️ 
-  socials:
-    linkedin: https://www.linkedin.com/in/manan-bhargava/
-    coffee: https://calendly.com/manan-bhargava/datagood-coffee-chat-manan-bhargava
-
 - name: Jennifer Ly
-  position: Executive VP
-  Year: Sophomore
-  majors: Computer Science, Data Science
-  hobbies: Valorant, WordHunt, collecting stationery, boba, R&B music
-  fun-fact: I used to have pet peacocks
-  bio: Hi! I'm Jennifer, and I was born and raised in Las Vegas, Nevada! In my free time, I enjoy playing video games and trying new restaurants/boba shops! I also like doing arts & crafts! Super excited for the upcoming semester!
-  socials:
-    linkedin: https://www.linkedin.com/in/jennifertrinhly/
-    coffee: https://calendly.com/jennifertrinhly/datagood-coffee-chat-jennifer-ly-1
-
-- name: Riya Singhal
-  position: Co-VP of Industry
-  Year: Junior
-  majors: Computer Science
-  hobbies: Painting, Hiking, Listening to Taylor Swift, Calligraphy
-  fun-fact: I have a twin sister and love koalas!
-  socials:
-    linkedin: https://www.linkedin.com/in/riyasinghal-/
-    coffee: https://calendly.com/riya-singhal/datagood-coffee-chat-riya-singhal?month=2023-01
-
-- name: Jack Swenson
-  position: Co-VP of Industry
+  position: Co-President
   Year: Junior
   majors: Data Science
-  hobbies: N/A
-  fun-fact: N/A
-  bio: Hey I am Jack. I am from Arizona and like to play tennis and chess in my free time. I also like hiking, skiing, and watching films. 
+  hobbies: getting boba, cooking, watching kdramas, gymnastics
+  fun-fact: I hate all condiments except bbq sauce
+  bio: Hi! I'm Jennifer, and I'm a rising third-year from Las Vegas, Nevada! I love foodie adventures, video games, cute cafes/bakeries, RnB music, arts and crafts, and quality time with friends and family!
   socials:
-    linkedin: https://www.linkedin.com/in/jack-swenson/
-    coffee: https://calendly.com/jack-swenson/datagood-coffee-chat-jack-swenson
+    linkedin: https://www.linkedin.com/in/jennifertrinhly/
+    coffee: https://calendly.com/jennifertrinhly/datagood-coffee-chat-jennifer-ly
 
 - name: Jasmine Ma
-  position: Co-VP of Research
-  Year: Sophomore
-  majors: Data Science, Computer Science
-  hobbies: N/A
-  fun-fact: N/A
-  bio: My name is Jasmine, and I am a sophomore studying data science and computer science. I enjoy reading, painting, and watching kdramas. 
+  position: Co-President
+  Year: Junior
+  majors: Computer Science, Data Science
+  hobbies: Photography, Burn Pen Art (calligraphy with a 900 degree F tip on wood), hiking, traveling, and baking
+  fun-fact: I'm level 2500 (superstar class maximum) in Wii sports table tennis
+  bio: Hi everyone, I'm Jasmine, and I'm a junior majoring in CS and DS! In my free time, I like exploring new genres of music, watching random video essays when I should be studying, and reading (you'll get a high five from me if you give me a good book rec hehe). I look forward to meeting new datagoodies this fall!
   socials:
-    linkedin: https://www.linkedin.com/in/jasmine-ma10/
-    coffee: https://calendly.com/jasminema-1/datagood-coffee-chat-jasmine-ma-1
+    linkedin: https://www.linkedin.com/in/manan-bhargava/
+    coffee: https://calendly.com/jasminema-1/datagood-coffee-chat-jasmine-ma
 
-- name: Rose Lee
+- name: Tibet Yakut
+  position: Executive VP
+  Year: Sophomore
+  majors: Computer Science, Philosophy
+  hobbies: Valorant, WordHunt, collecting stationery, boba, R&B music
+  fun-fact: I used to have pet peacocks
+  bio: Hi, my name is Tibet and I'm the Executive Vice President of DataGood. I'm a Turkish-American student from New York. In my free time I like to DJ and produce music as well as play chess and cook.
+  socials:
+    linkedin: https://www.linkedin.com/in/jennifertrinhly/
+    coffee: https://calendly.com/tyakut/datagood-coffee-chat-tibet
+
+- name: Aidan Praytor
+  position: Co-VP of Industry
+  Year: Senior
+  majors: Data science major, city planning minor
+  hobbies: Painting, Hiking, Listening to Taylor Swift, Calligraphy
+  fun-fact: I have a twin sister and love koalas!
+  bio: Hey! I'm Aidan. I'm a senior studying data science and city planning. I like cereal but only at night.
+  socials:
+    linkedin: https://www.linkedin.com/in/riyasinghal-/
+    coffee: https://calendly.com/aidanpraytor/15min
+
+- name: Miles Chang
+  position: Co-VP of Industry
+  Year: Senior
+  majors: Business Administration and Data Science
+  hobbies: Painting, Hiking, Listening to Taylor Swift, Calligraphy
+  fun-fact: I have a twin sister and love koalas!
+  bio: I'm from the Bay Area and in my free time I love reading science fiction books, hiking, and making matcha lattes! A fun fact about me is that I don't own any long sleeve shirts!
+  socials:
+    linkedin: https://www.linkedin.com/in/riyasinghal-/
+    coffee: https://calendly.com/milescheng/datagood-coffee-chats
+
+- name: Laura Ma
   position: Co-VP of Research
   Year: Junior
-  majors: Data Science & Cognitive Science
-  hobbies: Getting Philz, Learning new recipes, Thrifting
-  fun-fact: I have damaged or broken every Apple product I own
-  bio: I'm a junior majoring in Data Science and Cognitive Science and I'm from Orange County! I love cats and want to adopt one in the future. 
-  socials:
-    linkedin: https://www.linkedin.com/in/rose-lee-0492141b5/
-    coffee: https://calendly.com/rroselee/datagood-coffee-chat-rose
-
-- name: Britney Dang
-  position: VP of Outreach
-  Year: Sophomore
-  majors: Data Science, Economics
+  majors: Data Science and Linguistics
   hobbies: N/A
   fun-fact: N/A
-  bio: Hi there! I'm Britney, a sophomore studying Data Science and Economics from Minnesota. I love photography, playing piano, listening to music, exploring great food spots, and going on all kinds of outdoor adventures. Feel free to reach out to me about anything—super excited to meet you all!
+  bio: Hallo! My name is Laura (she/her) and I am a junior studying Data Science and Linguistics! This is my third semester in DataGood, and I am the current VP of Research. I am from the Bay, and I love literary fiction, jellyfish, and martial arts.
   socials:
-    linkedin: https://www.linkedin.com/in/britney-dang-6ba95724a/
-    coffee: https://calendly.com/britney88/spring-24-coffee-chats
+    linkedin: https://www.linkedin.com/in/jasmine-ma10/
+    coffee: https://calendly.com/laura_lxm_ma/datagood-coffee-chat-laura-ma-1
 
 - name: Yasmin Ho
   position: VP of Education
@@ -96,171 +75,203 @@
     linkedin: https://www.linkedin.com/in/yasmin-ho-112103226/
     coffee: https://calendly.com/yasminho/datagood-coffee-chat-name
 
-- name: Megan Dhingra
+- name: Akash Lyer
   position: VP of Professional Development
-  Year: N/A
-  majors: N/A
+  Year: Senior
+  majors: Data Science
   hobbies: N/A
   fun-fact: N/A
-  bio: N/A
+  bio: Hey! I'm Akash, and this is my last semester in college! I'm from Morgan Hill (south of San Jose). This is my 4th semester in DataGood, now as the VP of Professional Development. I've been really into training brazilian jiu-jitsu and playing chess recently. Fun fact! I once held two world records in the game Mario & Sonic at the Beijing 2008 Olympic Games for the Wii.
   socials:
-    linkedin: https://www.linkedin.com/in/megan-dhingra/
-    coffee: https://calendly.com/megandhingra/datagood-coffee-chat-megan-dhingra-1
+    linkedin: https://www.linkedin.com/in/akash-v-iyer/
+    coffee: https://calendly.com/acashiyer/datagood-coffee-chat-akash-iyer-1
 
-- name: Murtaza Shiyaji
+- name: Esther Yang
   position: VP of Finance
-  Year: Junior
-  majors: Economics/Data Science
+  Year: Sophomore
+  majors: Data Science
   hobbies: N/A
   fun-fact: N/A
-  bio: I'm Murtaza, currently a third year Econ/DS major, and I'm super excited to be VP of Finance for DataGood this semester. I'm from the south bay, and I'm also a part of the Debate Society of Berkeley. In my free time, I enjoy reading and going down youtube rabbit holes. If you want to talk about technology, politics, or anything in between, don't hesistate to reach out. 
+  bio: Hi, my name is Esther Yang and I am a second-year studying Data Science. I'm from Sunnyvale, CA, but I grew up in Seoul, Korea. I love seeing how data and statistics can be integrated into daily life and exploring different fields that provide data-based solutions to social justice issues. In my free time, I love exploring different coffee shops to get my daily lattes, watching movies (La La Land is my favorite), and taking pictures with my film camera.
   socials:
     linkedin: https://www.linkedin.com/in/murtaza-shiyaji/
-    coffee: https://calendly.com/murtazashiyaji/datagood-coffee-chat-murtaza-shiyaji
+    coffee: https://calendly.com/daheeyang-berkeley/datagood-coffeechat
 
-- name: Tibet Yakut
-  position: Co-VP of Social
-  Year: Freshman
-  majors: Computer Science/Data Science and Philosophy
-  hobbies: N/A
+- name: Abigail Yeates
+  position: VP of Social
+  Year: Junior
+  majors:
+  hobbies: Data Science, Minor in Computer Science
   fun-fact: N/A
-  bio: Hi! My name is Tibet, I'm a first year intending to major in data science and philosophy. I'm from New York. My hobbies include DJing, playing chess, and cooking. A fun fact about me is that I enjoy traveling the world and experiencing new cultures.
+  bio: Hi there!! I am Abby, a junior from the Bay Area studying data science and planning on minoring in computer science!! I love all things nature, collecting CDs of my favorite artists, as well as zine-making. In terms of data science, I am passionate about the intersection of tech and environmentalism!
   socials:
     linkedin: https://www.linkedin.com/in/tibet-yakut/
-    coffee: https://calendly.com/tyakut/datagood-coffee-chat-tibet
+    coffee: https://calendly.com/abigail-yeates-berkeley/datagood-coffee-chat-abigail-yeates
 
-- name: Gursimar Rana
-  position: Co-VP of Social
+- name: Denise Nicole Avellana
+  position: VP of Marketing
   Year: Junior
-  majors: Data science, EECS minor 
+  majors: Data Science
   hobbies: N/A
   fun-fact: N/A
-  bio: Hey everyone, I'm Gursimar and this is my third year at Cal and my second semester in DataGood! I love to cook for my friends all the time and I love aviation! 
-  socials:
-    linkedin: https://www.linkedin.com/in/gursimarrana/
-    coffee: https://calendly.com/gursimardg/datagood-coffee-chat-gursimar-rana
-
-- name: Destiny Hursh
-  position: Co-VP of Marketing
-  Year: Junior
-  majors: Data Science, Psychology
-  hobbies: N/A
-  fun-fact: N/A
-  bio: Hi! My name is Destiny Hursh, and I'm from South Lake Tahoe, California. I love to go on road trips with my friends, explore new coffee places, and find the hidden gems in each town. I also love collecting crystals and watching or reading anything mystery-related.
+  bio: hi everyone, my name is denise! i am  from the bay. fun fact i really like brisket
   socials:
     linkedin: https://www.linkedin.com/in/destiny-hursh-025b30258/
-    coffee: https://calendly.com/destinyhursh/datagood-coffee-chat-destiny-hursh
+    coffee: https://calendly.com/deniseavellana-berkeley/datagood-coffee-chat-denise-avellana
 
 - name: Isabella Trejos
-  position: Co-VP of Marketing
-  Year: Freshman
-  majors: Cognitive Science and Data Science 
+  position: VP of D&I
+  Year: Sophomore
+  majors: Neuroscience and Data Science
   hobbies: N/A
   fun-fact: N/A
-  bio: Hey! My name is Isabella Trejos and I am from a little city in the LA area called San Dimas. I am super interested in the brain and machine learning. I also love music! Whether it’s old 90s rap or spanish rock i always have a song playing in my ear :)
+  bio: Hi! My name is Isabella and I love to bake, listen to new music, and go on hikes!
   socials:
     linkedin: https://www.linkedin.com/in/isabella-trejos-90696628a/
     coffee: https://calendly.com/chabela_24/datagood-coffee-chat-isabella-trejos
 
-- name: Sinead McCaffery
+- name: Kyle Chun
   position: VP of Technology
-  Year: Junior
-  majors: Computer Science, Data Science
+  Year: Senior
+  majors: Data Science, Statistics
   hobbies: dancing, traveling, working out, reading, animals, coffee
   fun-fact: I was an Irish dancer for 15 years!
-  bio: Hi I'm Sinead. I'm from the South Bay and love web dev, reading, and dance!
+  bio: Hi, my name is Kyle. I like to play piano, soccer, wstch youtube, or go to the gym for hobbies. I grew up in Korea and San Jose! One fun fact about me is that I have a really cute and active dog.
   socials:
     linkedin: https://www.linkedin.com/in/sineadmccaffery/
-    coffee: https://calendly.com/sineadmccaffery/datagood-coffee-chat-sinead-mccaffery
+    coffee: https://calendly.com/kc716-berkeley/datagood-coffee-chat-kyle-chun
 
-- name: Aidan Praytor
+- name: Sophie Niu
   position: Industry PM
   Year: Junior
-  majors: Data Science, City Planning
+  majors: Data Science, Economics
   hobbies: N/A
   fun-fact: N/A
-  bio: I'm Aidan (he/him). I'm a 3rd year from LA studying data science and city planning. I like cereal and art :)
+  bio: coffee, tennis, cooking
   socials:
     linkedin: https://www.linkedin.com/in/aidanpraytor/
-    coffee: https://calendly.com/aidanpraytor/15min
+    coffee: https://calendly.com/sniu-bthg/datagood-coffee-chat-sophie-niu
 
-- name: Alexandra Therese Manas
+- name: Rose Lee
   position: Industry PM
-  Year: Junior
-  majors: Data Science, Computer Science
+  Year: Senior
+  majors: Data Science, Cognitive Science
   hobbies: N/A
   fun-fact: N/A
-  bio: Hey I'm Alex and I'm from Manila, Philippines! I love playing video games, playing the violin, and baking. Currently looking for the best matcha place in Berkeley! 
+  bio: Hi! I'm a senior majoring in data science and cognitive science. I'm from Orange County and I like to go on walks and travel!
+  socials:
+    linkedin: https://www.linkedin.com/in/aidanpraytor/
+    coffee: https://calendly.com/event_types/175333397/edit
+
+- name: Sage Kasick
+  position: Industry PM
+  Year: Senior
+  majors: Data Science, Business Administration
+  hobbies: N/A
+  fun-fact: N/A
+  bio: Hi! My name is Sage and I'm a third-year studying Business Administration and Data Science. I'm originally from Los Angeles, and in my free time I enjoy reading, running, and playing the tuba.
   socials:
     linkedin: https://www.linkedin.com/in/alexandra-therese-manas-00744b230/
-    coffee: https://calendly.com/alexmanas/datagood-coffee-chat-alex
+    coffee: https://calendly.com/sagekasick/datagood-coffee-chat-sage-kasick?month=2024-08
 
-- name: Ria Raniwala
+- name: Hemani Patel
   position: Industry PM
-  Year: Sophomore
-  majors: Political Economy and Data Science
+  Year: Junior
+  majors: Data Science and Cognitive Science
   hobbies: N/A
   fun-fact: N/A
-  bio: My name is Ria, and I'm a sophomore from Connecticut! I'm currently majoring in Data Science and Political Economy, and I'm interested in the intersection of policy and data analysis. Aside from that, I love adventures with friends and the outdoors! Super stoked for this semester. 
+  bio: Hi my name is Hemani, I am a junior studying Data Science and Cognitive Science. I am from Los Gatos and some of my interests include enjoy trying new restaurants (especially brunch places and cafes), going to concerts, traveling, and making jewelry/doing anything creative!
   socials:
     linkedin: https://www.linkedin.com/in/ria-raniwala/
-    coffee: https://calendly.com/riaraniwala/datagood-coffee-chat-ria
+    coffee: https://calendly.com/hemani-berkeley/datagood-coffee-chat-hemani
 
-- name: Rachel Skwersky
+- name: Elena Lagrange
   position: Industry PM
-  Year: Junior
-  majors: Cognitive Science Major, Data Science Minor, Disability Studies Minor
-  hobbies: N/A
-  fun-fact: N/A
-  bio: Hi! My name is Rachel Skwersky and I am from Boston, Massachusetts. I am a junior majoring in Cognitive Science and pursuing minors in Data Science and Disability Studies. I currently do research on sign language linguistics and deaf-blind cognition, and I am a coda. I love reading, graphic design, painting, and going for long walks around Berkeley. 
-  socials:
-    linkedin: https://www.linkedin.com/in/rachel-skwersky/
-    coffee: https://calendly.com/rskwersky/30min
-
-
-- name: Miles Cheng
-  position: Research PM
-  Year: Junior
-  majors: Business Administration, Data Science
-  hobbies: N/A
-  fun-fact: N/A
-  bio: Hi! My name is Miles and I joined Datagood in Fall '23 where my team worked with a local education nonprofit in visualizing their donor information. I'm from the Bay Area and a couple fun facts about me is that my favorite bagel flavor is plain and that I've completed all NYT Mini puzzles for 2023.
-  socials:
-    linkedin: https://www.linkedin.com/in/miles-cheng/
-    coffee: https://calendly.com/milescheng/datagood-coffee-chats
-
-- name: Siri Phaneendra
-  position: Research PM
   Year: Senior
-  majors: Business Administration, Data Science
+  majors: Economics, Data Science
+  hobbies: Photography, Burn Pen Art (calligraphy with a 900 degree F tip on wood), hiking, traveling, and baking
+  fun-fact: I'm level 2500 (superstar class maximum) in Wii sports table tennis
+  bio: Hi there! I'm a fourth-year from the bay area studying economics and data science. Some things I love are the ocean, french roast coffee, Bernese mountain dogs, R&B, Thai curry, snowboarding, and the color powder blue. Fun fact about me is that I'm fluent in three languages!
+  socials:
+    linkedin: https://www.linkedin.com/in/manan-bhargava/
+    coffee: https://calendly.com/elena-lagrange/datagood-coffee-chat-elena-lagrange
+
+- name: Purbasha Majee
+  position: Industry PM
+  Year: Senior
+  majors: Data Science and Media Studies
   hobbies: N/A
   fun-fact: N/A
-  bio: I am from Dublin, CA. I love expressing myself through dancing, radio hosting, and playing the guitar. I also enjoy doing yoga and traveling.
+  bio: Hi I'm Purbasha! I'm a Data Science and Media Studies major! Last semester I got to be a part of the Healthy Planet Project industry team as a developer and I'm excited to continue to be apart of DataGood as a project manager! A fun fact about me could be that I once learned how to fly a small plane and I’m on the Deewani Bollywood fusion dance team! My hobbies include dancing, paddle boarding, Pilates, and just watching Netflix (I've recently been watching Royal Pains)!
   socials:
-    linkedin: https://www.linkedin.com/in/siri-phaneendra/
-    coffee: https://calendly.com/sirip/datagood-coffee-chat-siri
+    linkedin: https://www.linkedin.com/in/ria-raniwala/
+    coffee: https://calendly.com/pmajee-berkeley/datagood-coffee-chats-w-purbasha
 
-- name: Sushrut Garikiparthi
-  position: Research PM
-  Year: Freshman
+- name: Ashley Fung
+  position: Intermediate PM
+  Year: Junior
   majors: Data Science
   hobbies: N/A
   fun-fact: N/A
-  bio: Hey! My name is Sushrut and  I am a first year Data Science Major. I'm from the bay area and some of my interests include playing/watching sports and listening to music. I also love going on hikes and being outside in general.
+  bio: Hi Everyone! I'm Ashley and I'm currently a third year studying Data Science and Economics,  I grew up in Venezuela but I moved around to SoCal and Hong Kong. Some of my hobbies include swimming, reading fiction, playing ukulele and I'm also trying to learn how to play chess! A fun fact about me is that I once memorized an 8-minute rap song in spanish.
   socials:
-    linkedin: https://www.linkedin.com/in/sushrutg/
-    coffee: https://calendly.com/s-garikiparthi/datagood-coffee-chat-sushrut
+    linkedin: https://www.linkedin.com/in/rachel-skwersky/
+    coffee: https://calendly.com/ashleyfung-berkeley/datagood-coffee-chat-ashley-fung
 
-- name: Vihaan Khandelwal
-  position: Research PM
-  Year: N/A
-  majors: N/A
+- name: Andreas Kamangar
+  position: Intermediate PM
+  Year: Junior
+  majors: Data Science
   hobbies: N/A
   fun-fact: N/A
-  bio: N/A
+  bio: My name is Andreas Kamangar I am a Junior at UC Berkeley majoring in Data Science. I love to surf, skate, snowboard, play guitar, and play soccer and tennis. I am interested in going into Data Consulting after I graduate college.
+  socials:
+    linkedin: https://www.linkedin.com/in/rachel-skwersky/
+    coffee: https://calendly.com/app/availability/schedules
+
+- name: Ira Dabke
+  position: Research PM
+  Year: Sophomore
+  majors: Computer Science, Statistics
+  hobbies: N/A
+  fun-fact: N/A
+  bio: Hi! My name is Ira and I'm from the bay. I love word games, indie music, and hiking with my dog <3.
+  socials:
+    linkedin: https://www.linkedin.com/in/miles-cheng/
+    coffee: https://calendly.com/iradabke-berkeley/datagood-coffee-chat-ira
+
+- name: Juna Park
+  position: Research PM
+  Year: Sophomore
+  majors: Statistics
+  hobbies: N/A
+  fun-fact: N/A
+  bio: Hey, my name is Juna, and I am from Sacramento, CA. I am currently a second-year student planning to double major in statistics and data science. During my free time, I enjoy watching swimming, binging shows (e.g., k-dramas), napping, and getting sweet treats (I love TPT). A fun fact about me is that I like to practice calligraphy!
+  socials:
+    linkedin: https://www.linkedin.com/in/siri-phaneendra/
+    coffee: https://calendly.com/junapark/datagood-coffee-chat-juna-park
+
+- name: Michael Murphy
+  position: Research PM
+  Year: Sophomore
+  majors: Data Science, Statistics
+  hobbies: N/A
+  fun-fact: N/A
+  bio: Hello, I'm Michael and I'm a 2nd year Statistics and Data Science major from Palo Alto, California. I enjoy running, skiing, and exploring. My favorite music genres are rap, rock, and EDM. Fun fact! I can do a backflip.
+  socials:
+    linkedin: https://www.linkedin.com/in/sushrutg/
+    coffee: https://calendly.com/michaeltm365-berkeley/datagood-coffee-chat-michael-murphy
+
+- name: Rohan Kathuria
+  position: Research PM
+  Year: Sophomore
+  majors: Data Science, Economics
+  hobbies: N/A
+  fun-fact: N/A
+  bio: Hey! I’m Rohan - a sophomore from New Delhi, India. I love everything sports - playing and watching and I’m a big Seattle sports fan. A fun fact about me is that I’ve been to nearly 40 countries and I was stung by two jellyfish in the same day in Croatia!
   socials:
     linkedin: https://www.linkedin.com/in/vihaan-khandelwal/
-    coffee: https://calendly.com/vihaankhand/datagood-coffee-chat-vihaan-khandelwal
+    coffee: https://calendly.com/rohankathuria-berkeley/datagood-coffee-chat-rohan-kathuria
 
 - name: Laura Ma
   position: Research PM
@@ -268,7 +279,7 @@
   majors: Data Science, Linguistics
   hobbies: N/A
   fun-fact: N/A
-  bio: Laura Ma is a second year studying data science and linguistics. She is from the Bay, and she loves cute kaomojis, moon jellies, and photography. She writes poetry and watches anime in her free time. 
+  bio: Laura Ma is a second year studying data science and linguistics. She is from the Bay, and she loves cute kaomojis, moon jellies, and photography. She writes poetry and watches anime in her free time.
   socials:
     linkedin: https://www.linkedin.com/in/laura-ma-280406248/
     coffee: https://calendly.com/laura_lxm_ma/datagood-coffee-chat-laura-ma
