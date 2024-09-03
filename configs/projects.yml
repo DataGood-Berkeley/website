@@ -16,7 +16,7 @@
       title: Tenants Together
       description: Tenants Together is a non profit organization based in San Francisco, CA that is dedicated to defending and advancing the rights of California tenants to safe, decent and affordable housing. The purpose of this project is to analyze Tenants Together’s data as well as publicly available data (ie. census data) to understand the key metrics that make up ‘what an average Californian tenant’ looks like. We will do data analysis as well as machine learning such as regression analysis and causal inference in this project. 
       image:  /images/projects/tenants.webp
-      color: purple
+      color: green
     - link:
       title: Think of Us
       description: Think of Us is a nonprofit organization dedicated to transforming the nation’s child welfare system to improve the lives of millions of children and families each year. Our collaboration with Think of Us focuses on using natural language processing and data analytics to analyze and enhance the efficiency of their operations to help them achieve their mission within the child welfare sector. 
