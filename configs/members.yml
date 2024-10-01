@@ -75,7 +75,7 @@
     linkedin: https://www.linkedin.com/in/yasmin-ho-112103226/
     coffee: https://calendly.com/yasminho/datagood-coffee-chat-name
 
-- name: Akash Lyer
+- name: Akash Iyer
   position: VP of Professional Development
   Year: Senior
   majors: Data Science
@@ -185,7 +185,18 @@
     linkedin: https://www.linkedin.com/in/sagekasick/
     coffee: https://calendly.com/sagekasick/datagood-coffee-chat-sage-kasick?month=2024-08
 
-- name: Elena Langrange
+- name: Halasya Malladi
+  position: Industry PM
+  Year: Senior
+  majors: Statistics & Environmental Studies
+  hobbies: N/A
+  fun-fact: N/A
+  bio: Hi! I'm a senior majoring in data science and cognitive science. I'm from Orange County and I like to go on walks and travel!
+  socials:
+    linkedin: https://www.linkedin.com/in/halasya-malladi
+    coffee: https://calendly.com/
+
+- name: Elena Lagrange
   position: Industry PM
   Year: Senior
   majors: Data Science, Economics
@@ -283,4 +294,3 @@
   socials:
     linkedin: https://www.linkedin.com/in/rohan-kathuria-9b970a213/
     coffee: https://calendly.com/rohankathuria-berkeley/datagood-coffee-chat-rohan-kathuria
-
