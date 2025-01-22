@@ -1,5 +1,5 @@
 # Configuration for all projects
-- title: Fall 2024 industry projects
+- title: fall 2024 industry projects
   projects: 
     - link: 
       title: Oakland Promise
@@ -22,7 +22,7 @@
       image:  /images/projects/thinkofus.webp
       color: purple
 
-- title: Fall 2024 research projects
+- title: fall 2024 research projects
   projects: 
     - link: 
       title: Bias in Predictive Policing
