@@ -1,5 +1,5 @@
 # Configuration for all projects
-- title: fall 2024 industry projects
+- title: Fall 2024 industry projects
   projects: 
     - link: 
       title: Oakland Promise
@@ -22,7 +22,7 @@
       image:  /images/projects/thinkofus.webp
       color: purple
 
-- title: fall 2024 research projects
+- title: Fall 2024 research projects
   projects: 
     - link: 
       title: Bias in Predictive Policing
@@ -223,12 +223,12 @@ Difficulty level: Easy to medium. Will cover the basics of everything. No prior 
     - link:
       title: Student Classifier
       description: This project is a web application that Downtown College Prep can utilize to improve English learner reclassification and cohort identification for their students.
-      image: /images/projects/student.webp
+      image: /images/heart-logo.png
       color: purple
     - link:
       title: Ocean Trash Dashboard
       description: This project is a live dashboard with Pacifica Beach Coalition clean up data that’s deployed online for progress tracking  and education.
-      image: /images/projects/ocean.webp
+      image: /images/heart-logo.png
       color: blue
 
 - title: fall 2021 research projects
@@ -236,17 +236,17 @@ Difficulty level: Easy to medium. Will cover the basics of everything. No prior 
     - link:
       title: Bay Area Public and Environmental Health Analysis
       description: This project aims to introduce a variety of packages essential to analyzing and visualizing data, as well as exploring different sectors of social good.
-      image: /images/projects/environmental.webp
+      image: /images/heart-logo.png
       color: purple
     - link:
       title: COVID-19 Sentiment Analysis
       description: This project aims to use sentiment analysis on tweets about the COVID-19 vaccination to understand how people feel about it across the world.
-      image: /images/projects/covid.webp
+      image: /images/heart-logo.png
       color: pink
     - link:
       title: World Happiness Report
       description: This project is to understand data about the World Happiness Report and what factors impact global wellbeing.
-      image: /images/projects/happiness.webp
+      image: /images/heart-logo.png
       color: yellow
 
 
