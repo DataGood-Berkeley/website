@@ -5,7 +5,7 @@
       title: HealthTrust
       description: The HealthTrust project focused on building a data-driven risk assessment tool to evaluate the operational health of Bay Area nonprofits. Using survey data, the team identified key risk categories including leadership burnout, financial instability, and compliance challenges. A scoring model was developed to quantify organizational risk and help prioritize technical assistance and funding. Tableau dashboards and data visualizations were created to synthesize findings for HealthTrust’s internal strategy and grantee engagement. The final deliverable provides actionable insights to support capacity-building across the nonprofit ecosystem.
       image: /images/projects/healthtrust.webp
-      color: orange
+      color: green
     - link:
       title: Tilli
       description: The Tilli project aimed to develop an AI-powered tool that digitizes and grades handwritten K–5 math exams, with feedback delivered via WhatsApp. The team experimented with both public and HuggingFace OCR/LLM models to evaluate their performance on diverse handwriting styles. Key challenges included interpreting multilingual, messy handwriting and generating clear, SEL-aligned feedback. The final recommendation was a hybrid model strategy combining fast OCR with deep reasoning models like Claude and GPT. The deliverable provides a foundation for Tilli’s MVP, with a focus on scalability, low-bandwidth environments, and personalized learning insights.
@@ -15,16 +15,16 @@
       title: Team Rubicon
       description: The Team Rubicon project focused on developing a predictive and decision-support tool that identifies and prioritizes communities most vulnerable to extreme fire and flood events. This tool will enable more proactive and efficient deployment of mitigation services (e.g., brush removal, hazard home ignition zone assessments, sandbagging, etc.) by integrating publicly available data, historical event records, and county-level emergency services information. Ultimately, this project aims to improve the impact of Team Rubicon’s volunteer efforts and resource allocation by providing data-driven recommendations on where and how to intervene.
       image:  /images/projects/team_rubicon.webp
-      color: red
+      color: pink
     - link:
       title: Noora Health
       description: The project aims to develop a voice data pipeline for Noora Health, enabling automated ingestion of voice recordings, exploratory data analysis (EDA), and multi-language transcription. The DataGood team will build an ingestion pipeline to retrieve and store media files from turn.io and exotel, conduct EDA to extract key insights and patterns from the data, and implement a transcription pipeline to convert voice recordings into text across multiple languages.
       image:  /images/projects/noora_health.webp
-      color: pink
+      color: purple
     - link:
       title: Ashby Village
       description: DataGood’s partnership with Ashby Village (including Ashby Village’s Data Group) focused on improving event attendance tracking and creating a user-friendly dashboard for visualizing service utilization and event attendance data. This project aims to streamline attendance data entry for those who attend Ashby Village in-person events and provide insightful data visualizations for staff, board members, and volunteers.
-      image:  /images/projects/ashy_village.webp
+      image:  /images/projects/ashby_village.webp
       color: blue
 
 - title: spring 2025 research projects
@@ -33,7 +33,7 @@
       title: Heart Attack Analysis & Prediction
       description: Heart disease is the leading cause of death in the developed world, making early prediction and prevention crucial in reducing mortality rates. This project focuses on analyzing heart disease risk factors and developing a machine learning model to predict the likelihood of heart attacks. Using a dataset from Kaggle, we will apply data preprocessing, exploratory data analysis (EDA), and machine learning techniques to identify high-risk patients based on key health indicators. For the data analysis portion, we will leverage Data100 methodologies and industry-recognized libraries such as Pandas, Matplotlib, Seaborn, and more to explore trends and correlations within the dataset. Our machine learning pipeline will experiment with various models, including Logistic Regression, Random Forest, XGBoost, and other classification algorithms, to evaluate performance and optimize predictions.
       image: /images/projects/heart_attack.webp
-      color: red
+      color: pink
     - link:
       title: Food Desert Prediction
       description: Food deserts are areas where residents have limited access to affordable and nutritious food. Millions of households are impacted by food insecurity globally, especially in underserved or rural areas. Identifying and predicting food deserts can help policymakers allocate resources effectively, for example by opening grocery stores or providing food subsidies such as SNAP/EBT. This project aims to use K-Means clustering for geographical analysis and a Random Forest Classifier with feature engineering to uncover patterns in the data and predict food deserts.
