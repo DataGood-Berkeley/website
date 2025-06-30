@@ -1,7 +1,7 @@
 
 - name: Halasya Malladi
   position: Co-President
-  image: public/images/team/Halasya Malladi.webp
+  image: "public/images/team/Halasya Malladi.webp"
   Year: Senior
   majors: Environmental Science, Statistics
   hobbies: N/A
@@ -13,7 +13,7 @@
 
 - name: Kaashvi Singal
   position: Co-President
-  image: public/images/team/Kaashvi Singal.webp
+  image: "public/images/team/kaashvi.webp"
   Year: Senior
   majors: Data Science, MCB
   hobbies: N/A
@@ -25,7 +25,7 @@
 
 - name: Sophie Niu
   position: External Vice President
-  image: public/images/team/Sophie Niu.webp
+  image: "public/images/team/Sophie Niu.webp"
   Year: Senior
   majors: Data Science, Economics
   hobbies: N/A
@@ -37,7 +37,7 @@
 
 - name: Iana Mae Peralta
   position: Internal Vice President
-  image: public/images/team/Iana Mae Consolacion Peralta.webp
+  image: "public/images/team/iana.webp"
   Year: Senior
   majors: Data Science
   hobbies: N/A
@@ -49,7 +49,7 @@
 
 - name: Kennard Hou
   position: Co-VP of Projects
-  image: public/images/team/Kennard Hou.webp
+  image: "public/images/team/kennard.webp"
   Year: Junior
   majors: Data Science, Statistics
   hobbies: N/A
@@ -61,7 +61,7 @@
 
 - name: Max Song
   position: Co-VP of Projects, VP of Marketing
-  image: public/images/team/Max Song.webp
+  image: "public/images/team/max.webp"
   Year: Senior
   majors: Data Science, Business Analytics
   hobbies: N/A
@@ -73,7 +73,7 @@
 
 - name: Rohan Ganguli
   position: VP of Professional Development
-  image: public/images/team/Rohan Ganguli.webp
+  image: "public/images/team/rohan.webp"
   Year: Senior
   majors: Economics, Data Science
   hobbies: N/A
@@ -85,7 +85,7 @@
 
 - name: Jerry Zhang
   position: VP of Social
-  image: public/images/team/Jerry Zhang.webp
+  image: "public/images/team/Jerry Zhang.webp"
   Year: Sophomore
   majors: Statistics, Data Science
   hobbies: N/A
@@ -97,7 +97,7 @@
 
 - name: Saransh Jain
   position: VP of Finance
-  image: public/images/team/Saransh Jain.webp
+  image: "public/images/team/Saransh Jain.webp"
   Year: Sophomore
   majors: Data Science, Economics
   hobbies: N/A
@@ -109,7 +109,7 @@
 
 - name: Jess Pritchett
   position: VP of Technology
-  image: public/images/team/Jess Pritchett.webp
+  image: "public/images/team/Jess Pritchett.webp"
   Year: Senior
   majors: Data Science
   hobbies: N/A
@@ -121,7 +121,7 @@
 
 - name: Athena Chen
   position: VP of Outreach
-  image: public/images/team/Athena Chen.webp
+  image: "public/images/team/Athena Chen.webp"
   Year: Sophomore
   majors: Business Administration, Data Science
   hobbies: N/A
@@ -133,7 +133,7 @@
 
 - name: Juna Park
   position: Industry PM
-  image: public/images/team/Juna Young Park.webp
+  image: "public/images/team/juna.webp"
   Year: Junior
   majors: Data Science
   hobbies: N/A
@@ -145,7 +145,7 @@
 
 - name: Andreas Kamangar
   position: Industry PM
-  image: public/images/team/Andreas Cyrus Kamangar.webp
+  image: "public/images/team/Andreas Cyrus Kamangar.webp"
   Year: Senior
   majors: Data Science
   hobbies: N/A
@@ -157,7 +157,7 @@
 
 - name: Prajwala Maharjan
   position: Research PM
-  image: public/images/team/Prajwala maharjan.webp
+  image: "public/images/team/Prajwala maharjan.webp"
   Year: N/A
   majors: Data Science
   hobbies: N/A
