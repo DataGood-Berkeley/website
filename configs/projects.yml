@@ -21,11 +21,6 @@
       description: The project aims to develop a voice data pipeline for Noora Health, enabling automated ingestion of voice recordings, exploratory data analysis (EDA), and multi-language transcription. The DataGood team will build an ingestion pipeline to retrieve and store media files from turn.io and exotel, conduct EDA to extract key insights and patterns from the data, and implement a transcription pipeline to convert voice recordings into text across multiple languages.
       image:  /images/projects/noora_health.webp
       color: purple
-    - link:
-      title: Ashby Village
-      description: DataGood’s partnership with Ashby Village (including Ashby Village’s Data Group) focused on improving event attendance tracking and creating a user-friendly dashboard for visualizing service utilization and event attendance data. This project aims to streamline attendance data entry for those who attend Ashby Village in-person events and provide insightful data visualizations for staff, board members, and volunteers.
-      image:  /images/projects/ashby_village.webp
-      color: blue
 
 - title: spring 2025 research projects
   projects: 
