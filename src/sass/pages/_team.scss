@@ -1,15 +1,17 @@
 .member-gallery {
-	display: flex;
-	justify-content: space-around;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	gap: 30px;
 	margin-top: 20px;
-	flex-wrap: wrap;
+	justify-items: center;
+
 	.card {
 		border-radius: 20px;
 		background-color: $black;
 		padding: 20px;
-		margin: 20px;
-		width: 300px;
-		min-height: 440px;
+		width: 100%;
+		max-width: 300px;
+		aspect-ratio: 3 / 4;
 		position: relative;
 
 		.card-top {
