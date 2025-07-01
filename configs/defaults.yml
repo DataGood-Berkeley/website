@@ -17,9 +17,6 @@ socials:
   - logo: /images/socials/linkedin.png
     link: https://www.linkedin.com/groups/13889217/
     name: Linkedin
-  - logo: /images/socials/github.png
-    link: https://github.com/datagood-berkeley/
-    name: Github
 headers:
   - name: About
     link: /about

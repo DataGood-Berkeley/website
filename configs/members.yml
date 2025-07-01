@@ -1,7 +1,7 @@
 
 - name: Halasya Malladi
   position: Co-President
-  image: "/images/team/Halasya Malladi.webp"
+  image: "/images/team/halasya.webp"
   Year: Senior
   majors: Environmental Science, Statistics
   hobbies: N/A
@@ -25,7 +25,7 @@
 
 - name: Sophie Niu
   position: External Vice President
-  image: "/images/team/Sophie Niu.webp"
+  image: "/images/team/sophie.webp"
   Year: Senior
   majors: Data Science, Economics
   hobbies: N/A
@@ -85,7 +85,7 @@
 
 - name: Jerry Zhang
   position: VP of Social
-  image: "/images/team/Jerry Zhang.webp"
+  image: "/images/team/jerry.webp"
   Year: Sophomore
   majors: Statistics, Data Science
   hobbies: N/A
@@ -97,7 +97,7 @@
 
 - name: Saransh Jain
   position: VP of Finance
-  image: "/images/team/Saransh Jain.webp"
+  image: "/images/team/saransh.webp"
   Year: Sophomore
   majors: Data Science, Economics
   hobbies: N/A
@@ -109,7 +109,7 @@
 
 - name: Jess Pritchett
   position: VP of Technology
-  image: "/images/team/Jess Pritchett.webp"
+  image: "/images/team/jess.webp"
   Year: Senior
   majors: Data Science
   hobbies: N/A
@@ -121,7 +121,7 @@
 
 - name: Athena Chen
   position: VP of Outreach
-  image: "/images/team/Athena Chen.webp"
+  image: "/images/team/athena.webp"
   Year: Sophomore
   majors: Business Administration, Data Science
   hobbies: N/A
@@ -145,7 +145,7 @@
 
 - name: Andreas Kamangar
   position: Industry PM
-  image: "/images/team/Andreas Cyrus Kamangar.webp"
+  image: "/images/team/andreas.webp"
   Year: Senior
   majors: Data Science
   hobbies: N/A
@@ -156,8 +156,8 @@
     coffee: https://calendly.com/andreas-kamangar-berkeley/data-good-coffee-chat-andreas-kamangar
 
 - name: Prajwala Maharjan
-  position: Research PM
-  image: "/images/team/Prajwala maharjan.webp"
+  position: Industry PM
+  image: "/images/team/prajwala.webp"
   Year: N/A
   majors: Data Science
   hobbies: N/A
