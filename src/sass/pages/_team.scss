@@ -1,24 +1,17 @@
 .member-gallery {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 	gap: 30px;
-	padding: 20px;
-	justify-items: stretch;
+	padding: 40px;
+	justify-items: center;
 	align-items: stretch;
-	box-sizing: border-box;
 
 	.card {
+		max-width: 300px;
 		width: 100%;
-		aspect-ratio: 3 / 4;
-		max-width: unset;
-		padding: 20px;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		border-radius: 20px;
-		background-color: $black;
-		overflow: hidden;
+		aspect-ratio: 3/4;
 		box-sizing: border-box;
+		outline: 2px dashed red;
 
 		.card-top {
 			.img-container {
