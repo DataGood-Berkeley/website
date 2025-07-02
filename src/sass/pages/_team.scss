@@ -4,21 +4,22 @@
 	gap: 30px;
 	margin-top: 20px;
 	align-items: stretch;
-	justify-items: center;
+	justify-items: stretch;
 
 	.card {
 		border-radius: 20px;
 		background-color: $black;
 		padding: 20px;
 		width: 100%;
-		max-width: 300px;
+		max-width: unset;
 		aspect-ratio: 3 / 4;
 		position: relative;
 
 		.card-top {
 			.img-container {
 				height: 260px;
-				width: 260px;
+				width: 100%;
+				max-width: 260px;
 				background-color: white;
 				border-radius: 100%;
 				margin: 0 auto;
