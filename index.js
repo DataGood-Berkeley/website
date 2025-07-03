@@ -80,9 +80,9 @@ for (const path in routes) {
 }
 
 // DO NOT CHANGE - this is required for website to update
-app.post('/webhook', (req, res) => {
-	res.status(200).send('Success!');
-	process.exit(0);
+app.post('/webhook', express.json({ verify: (req, res, buf) => req.rawBody = buf }), (req, res) => {
+  console.log('Webhook POST received');
+  res.status(200).send('Received!');
 });
 
 app.get('*', (req, res) => {
