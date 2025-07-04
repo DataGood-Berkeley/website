@@ -80,15 +80,9 @@ for (const path in routes) {
 }
 
 // DO NOT CHANGE - this is required for website to update
-app.post('/webhook', (req, res) => {
-	const sig = `sha1=${crypto.createHmac('sha1', SECRET).update(JSON.stringify(req.body))
-		.digest('hex')}`;
-	if (req.headers['x-hub-signature'] === sig && req.body.ref === 'refs/heads/master') {
-		res.status(200).send('Success!');
-		process.exit(0);
-	} else {
-		res.status(403).send('Forbidden!');
-	}
+app.post('/webhook', express.json({ verify: (req, res, buf) => req.rawBody = buf }), (req, res) => {
+  console.log('Webhook POST received');
+  res.status(200).send('Received!');
 });
 
 app.get('*', (req, res) => {
