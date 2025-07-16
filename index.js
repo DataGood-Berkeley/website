@@ -16,6 +16,13 @@ const hbs = exphbs.create({
 	extname: '.hbs'
 });
 
+console.log('Logger middleware is loaded');
+
+app.use((req, res, next) => {
+  console.log(`Incoming request: ${req.method} ${req.url}`);
+  next();
+});
+
 const CONFIG_FOLDER = path.join(__dirname, 'configs');
 
 function readConfig(file) {
@@ -101,6 +108,8 @@ app.post('/webhook', (req, res) => {
   }
 });
 
+console.log('Server started!');
+
 app.get('*', (req, res) => {
 	res.status(404).render('error', {
 		code: 404,
@@ -114,6 +123,8 @@ app.use((err, req, res) => {
 		msg: err.message
 	});
 });
+
+console.log('Loaded members:', readConfig('members.yml').map(m => m.name));
 
 app.listen(PORT, () => {
 	console.log('Active on port:', PORT);
