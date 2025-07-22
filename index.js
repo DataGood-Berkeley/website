@@ -16,13 +16,6 @@ const hbs = exphbs.create({
 	extname: '.hbs'
 });
 
-console.log('Logger middleware is loaded');
-
-app.use((req, res, next) => {
-  console.log(`Incoming request: ${req.method} ${req.url}`);
-  next();
-});
-
 const CONFIG_FOLDER = path.join(__dirname, 'configs');
 
 function readConfig(file) {
@@ -88,27 +81,15 @@ for (const path in routes) {
 
 // DO NOT CHANGE - this is required for website to update
 app.post('/webhook', (req, res) => {
-  const rawBody = JSON.stringify(req.body);
-  const receivedSig = req.headers['x-hub-signature'];
-
-  let valid = false;
-
-  if (SECRET) {
-    const sig = `sha1=${crypto.createHmac('sha1', SECRET).update(rawBody).digest('hex')}`;
-    valid = receivedSig === sig;
-  } else {
-    valid = true;
-  }
-
-  if (valid && req.body.ref === 'refs/heads/master') {
-    res.status(200).send('Success!');
-    process.exit(0);
-  } else {
-    res.status(403).send('Forbidden!');
-  }
+	const sig = `sha1=${crypto.createHmac('sha1', SECRET).update(JSON.stringify(req.body))
+		.digest('hex')}`;
+	if (req.headers['x-hub-signature'] === sig && req.body.ref === 'refs/heads/master') {
+		res.status(200).send('Success!');
+		process.exit(0);
+	} else {
+		res.status(403).send('Forbidden!');
+	}
 });
-
-console.log('Server started!');
 
 app.get('*', (req, res) => {
 	res.status(404).render('error', {
@@ -123,8 +104,6 @@ app.use((err, req, res) => {
 		msg: err.message
 	});
 });
-
-console.log('Loaded members:', readConfig('members.yml').map(m => m.name));
 
 app.listen(PORT, () => {
 	console.log('Active on port:', PORT);
