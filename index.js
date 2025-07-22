@@ -1,7 +1,9 @@
 require('dotenv').config();
+const SECRET = process.env.SECRET;
+
+console.log("Loaded webhook secret:", SECRET ? "YES" : "NO");
 
 const PORT = process.env.PORT || 8080;
-const SECRET = process.env.SECRET;
 
 const yaml = require('js-yaml');
 const fs = require('fs');
