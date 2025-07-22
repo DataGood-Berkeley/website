@@ -169,7 +169,7 @@
 
 - name: Michelle Li
   position: Industry PM
-  image: "/images/team/prajwala.webp"
+  image: "/images/team/michelle.webp"
   Year: Junior
   majors: Data Science, Computer Science
   hobbies: N/A
@@ -178,3 +178,15 @@
   socials:
     linkedin: https://www.linkedin.com/in/michelle-li-154515287/
     coffee: https://calendly.com/mmli/30min
+
+- name: Soumily Maji
+  position: Industry PM
+  image: "/images/team/soumily.webp"
+  Year: Junior
+  majors: Data Science, Environmental Economics and Policy
+  hobbies: N/A
+  fun-fact: N/A
+  bio: Hi! I'm Soumily and I'm a junior studying Data Science and Environmental Economics and Policy! I'm originally from the Bay Area and I'm interested in environmental sustainability, education, and social justice. My hobbies include baking, reading, and trying new restaurants! I'm super excited to meet everyone!
+  socials:
+    linkedin: https://www.linkedin.com/in/soumily-maji/
+    coffee: https://calendly.com/smaji31-berkeley

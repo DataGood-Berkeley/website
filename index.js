@@ -124,8 +124,6 @@ app.use((err, req, res) => {
 	});
 });
 
-console.log('Loaded members:', readConfig('members.yml').map(m => m.name));
-
 app.listen(PORT, () => {
 	console.log('Active on port:', PORT);
 });
