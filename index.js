@@ -83,14 +83,17 @@ for (const path in routes) {
 
 // DO NOT CHANGE - this is required for website to update
 app.post('/webhook', (req, res) => {
-	const sig = `sha1=${crypto.createHmac('sha1', SECRET).update(JSON.stringify(req.body))
-		.digest('hex')}`;
-	if (req.headers['x-hub-signature'] === sig && req.body.ref === 'refs/heads/master') {
-		res.status(200).send('Success!');
-		process.exit(0);
-	} else {
-		res.status(403).send('Forbidden!');
-	}
+  console.log('Webhook received:', req.body);
+
+  const sig = `sha1=${crypto.createHmac('sha1', SECRET).update(JSON.stringify(req.body)).digest('hex')}`;
+  if (req.headers['x-hub-signature'] === sig && req.body.ref === 'refs/heads/master') {
+    console.log('Webhook signature verified, exiting process to update site');
+    res.status(200).send('Success!');
+    process.exit(0);
+  } else {
+    console.log('Webhook signature invalid or wrong ref:', req.headers['x-hub-signature'], req.body.ref);
+    res.status(403).send('Forbidden!');
+  }
 });
 
 app.get('*', (req, res) => {
