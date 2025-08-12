@@ -39,9 +39,6 @@ function readConfig(file) {
         }
         return null;
       }).filter(i => i);
-
-      if (missing.length) throw new Error(`Missing Images for [${missing.join(', ')}]`);
-
       break;
     }
     default: break;
@@ -63,7 +60,9 @@ for (const route in pages) {
   page.page = page.page || (route.substring(1).replace(/\//g, '-').toLowerCase());
   for (const key in page) {
     if (key === 'title') continue;
-    if (page[key].includes('.yml')) page[key] = readConfig(page[key]);
+    if (typeof page[key] === 'string' && page[key].includes('.yml')) {
+      page[key] = readConfig(page[key]);
+    }
   }
   app.get(route, (req, res) => {
     res.status(200).render(page.page, page);
@@ -71,15 +70,15 @@ for (const route in pages) {
 }
 
 const routes = readConfig('routes.yml');
-for (const path in routes) {
-  app.get(path, (req, res) => {
-    res.redirect(routes[path]);
+for (const pathKey in routes) {
+  app.get(pathKey, (req, res) => {
+    res.redirect(routes[pathKey]);
   });
 }
 
-// DO NOT CHANGE - this is required for website to update
+// Webhook handler
 app.post('/webhook', (req, res) => {
-  console.log('Webhook received:', req.body);
+  console.log('Webhook received');
 
   const payload = JSON.stringify(req.body);
   const sig = `sha1=${crypto.createHmac('sha1', SECRET).update(payload).digest('hex')}`;
@@ -101,7 +100,7 @@ app.post('/webhook', (req, res) => {
     });
 
   } else {
-    console.log('Webhook signature invalid or wrong ref:', req.headers['x-hub-signature'], req.body.ref);
+    console.log('Webhook signature invalid or wrong ref');
     res.status(403).send('Forbidden!');
   }
 });
@@ -121,5 +120,5 @@ app.use((err, req, res) => {
 });
 
 app.listen(PORT, '0.0.0.0', () => {
-  console.log('Active on port:', PORT);
+  console.log(`Active on port: ${PORT}`);
 });
