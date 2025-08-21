@@ -1,0 +1,82 @@
+.mission-section {
+  padding: 40px 8px;              
+  max-width: min(1200px, 96vw);   
+  margin: 0 auto;
+  text-align: center;
+
+  .text-container {
+    margin-bottom: 36px;
+
+    p {
+      font-family: NotoSerif, serif;
+      font-size: 22px;  // fixed size
+      line-height: 1.7;
+      color: #333;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); // tiles wrap automatically
+    gap: 1rem;                 
+    justify-items: center;
+    width: 100%;
+    padding: 0 6px;
+  }
+
+  .tile {
+    background: #FFA69E;
+    border-radius: 18px;
+    padding: 20px 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    max-width: 320px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+
+    .text-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    .large-text {
+      font-family: Gotham, serif;
+      font-size: 56px;  // fixed size
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1;
+    }
+
+    .description-text {
+      font-family: NotoSerif, serif;
+      font-size: 24px;  // fixed size
+      font-weight: 300;
+      color: #fff;
+      line-height: 1.6;
+    }
+  }
+
+  // Only adjust padding for small screens, do NOT change font size
+  @media (max-width: 900px) {
+    padding: 32px 12px;
+    .stats-grid { gap: 14px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+    .tile { padding: 18px 12px; }
+  }
+
+  @media (max-width: 480px) {
+    padding: 28px 10px;
+    .text-container p { max-width: 90%; }
+    .stats-grid { gap: 12px; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
+  }
+}

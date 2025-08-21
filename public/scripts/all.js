@@ -51,3 +51,15 @@
 		});
 	});
 }());
+
+document.addEventListener("DOMContentLoaded", function() {
+	const dropdowns = document.querySelectorAll(".dropdown.dropbtn, .dropdown .dropbtn");
+
+	dropdowns.forEach(drop => {
+		const button = drop.querySelector(".dropbtn");
+		button.addEventListener("click", function(e) {
+			e.preventDefault();
+			drop.classList.toggle("active");
+		});
+	});
+});
