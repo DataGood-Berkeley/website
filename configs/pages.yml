@@ -5,9 +5,21 @@
 /:
   page: home
 
-/about:
-  title: about us.
-  sponsors: sponsors.yml
+/mission:
+  title: our mission.
+  mission: mission.yml
+
+/values:
+  title: our values.
+  values: values.yml
+
+/culture:
+  title: our culture & community.
+  culture: culture.yml
+
+/careers:
+  title: where we end up.
+  careers: careers.yml
 
 /team:
   title: meet the team.

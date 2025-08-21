@@ -24,9 +24,11 @@ header {
 		position: relative;
 		margin-top: 4px;
 		z-index: 2;
+
 		& > * {
 			z-index: 2;
 		}
+
 		svg {
 			height: 160%;
 			width: auto;
@@ -46,6 +48,7 @@ header {
 				transition: stroke-dashoffset 0.3s linear;
 			}
 		}
+
 		.cover {
 			position: absolute;
 			top: 50%;
@@ -59,11 +62,13 @@ header {
 			height: 2px;
 			transition: box-shadow 0.3s;
 		}
+
 		&.is-active {
 			.cover {
 				box-shadow: 0 0 0 18vw $white, 0 0 0 150vw $pink, 0 0 0 200vw $white;
 			}
 		}
+
 		&:hover {
 			svg {
 				.svg-heart {
@@ -72,8 +77,10 @@ header {
 			}
 		}
 	}
+
 	nav {
 		display: flex;
+
 		.nav-btn {
 			position: relative;
 			cursor: pointer;
@@ -81,12 +88,14 @@ header {
 			@include fluid-type(300, 1535, 18, 24, px);
 			line-height: 27px;
 			color: $grey;
+
 			.nav-txt {
 				background-color: transparent;			
 				margin-top: 20px;
 				margin-bottom: 8px;
 				padding: 0 22px;
 				padding-bottom: 12px;
+
 				&:after {
 					bottom: 13px;
 					width: 0;
@@ -136,7 +145,51 @@ header {
 				}
 			}
 		}
+
+		.dropdown {
+			position: relative;
+
+			.dropdown-menu {
+				display: none;
+				position: absolute;
+				top: 100%;  
+				left: 50%;
+				transform: translateX(-50%);
+				background: $white;
+				border-radius: 12px;
+				box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+				min-width: 180px;
+				padding: 10px 0;
+				z-index: 10;
+				text-align: left;
+
+				a {
+					display: block;
+					padding: 18px 22px;
+					color: $grey;
+					font-family: NotoSerif, serif;
+					@include fluid-type(300, 1535, 18, 24, px);
+					line-height: 27px;
+					text-decoration: none;
+					transition: background-color 0.3s, color 0.3s;
+
+					&:hover {
+						background-color: $pink;
+						color: $white;
+					}
+				}
+			}
+
+			&:hover .dropdown-menu {
+				display: block; // desktop hover
+			}
+
+			&.active .dropdown-menu {
+				display: block; // mobile click
+			}
+		}
 	}
+
 	nav:not([reveal]) {
 		.nav-btn {
 			&:hover {
@@ -150,10 +203,12 @@ header {
 			}		
 		}
 	}
+
 	@media only screen and (max-width: 1060px) {
 		.hamburger {
 			display: block;
 		}
+
 		nav {
 			opacity: 0;
 			transition: opacity 0.3s;
@@ -165,6 +220,7 @@ header {
 			transform: translate(-50%, -50%);
 			z-index: 2;
 			text-align: center;
+
 			.nav-btn {
 				.nav-txt {
 					transition: background-color 0.3s linear 0.3s;
@@ -173,6 +229,21 @@ header {
 				}
 			}
 		}
+
+		.dropdown {
+			.dropdown-menu {
+				position: static;
+				transform: none;
+				box-shadow: none;
+				min-width: auto;
+				padding: 0;
+			}
+
+			a {
+				padding: 12px 0;
+			}
+		}
+
 		@media only screen and (max-height: 400px) {
 			nav {
 				display: flex;
@@ -205,6 +276,7 @@ body[menu-active] {
 nav[reveal] {
 	pointer-events: auto;
 	opacity: 1;
+
 	.nav-btn {
 		.nav-txt {
 			@include inline-animation(1s forwards) {
@@ -217,6 +289,7 @@ nav[reveal] {
 			}			
 			color: $black;
 		}
+
 		svg {
 			.svg-heart {
 				stroke: $white;

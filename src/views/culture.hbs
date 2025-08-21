@@ -1,0 +1,18 @@
+{{> title-section}}
+
+<section class="culture-section alone">
+  <div class="text-container">
+    <p>{{values.text}}</p>
+    
+    {{#if values.highlights}}
+      <div class="stats-grid">
+        {{#each values.highlights}}
+          <div class="tile">
+            <div class="large-text">{{this.title}}</div>
+            <div class="description-text">{{this.description}}</div>
+          </div>
+        {{/each}}
+      </div>
+    {{/if}}
+  </div>
+</section>
