@@ -9,7 +9,7 @@
 <section class="right-enter">
 	<div class="text-container">
 		<h1 class="green-back">members.</h1>
-		<p> Meet the team and the driving force behind DataGood @ Berkeley! If you have any questions about DataGood or any of the specific roles, please don't hesitate to contact any of the members below. Coffee chat a member by clicking on the coffee icon in the top right corner!</p>
+		<p> Meet the team and the driving force behind DataGood @ Berkeley! If you have any questions about DataGood or any of the specific roles, please don't hesitate to contact any of the members below. Click / hover over the member cards to see the back of each card. Coffee chat a member by clicking on the coffee icon at the bottom of the back of each member card!</p>
 	</div>
 	<div class="img-container hover">
 		<img src="/images/pages/executives.png" alt="Executives">
@@ -17,51 +17,43 @@
 </section>
 
 <section class="member-gallery alone">
-	{{#each members}}
-		<div class="card">
-			<div class="card-top">
-				<div class="img-container rounded">
-					<img src="{{image}}" alt="{{name}}">
-				</div>
-				<div class="position">{{position}}</div>
-				<div class="name">{{name}}</div>
-				{{#if socials.coffee}}
-					<a class="coffee" href="{{socials.coffee}}" target="_blank" rel="noreferrer noopener"><img src="/images/coffee-cup.png"></a>
-				{{/if}}
-				<div class="social-links">
-					{{#if socials.linkedin}}
-						<a class="social linkedin" href="{{socials.linkedin}}" target="_blank" rel="noreferrer noopener"></a>
-					{{/if}}
-				</div>
-			</div>
-			{{!-- <div class="card-bot">
-				<div class="content-bot">
-					{{#if year}}
-						<div class="year">Year: {{year}}</div>
-					{{/if}}
-					{{#if majors}}
-						<div class="majors">Major(s): {{majors}}</div>
-					{{/if}}
-					{{#if interests}}
-						<div class="interests">Social Good interests: {{interests}}</div>
-					{{/if}}
-					{{#if hobbies}}
-						<div class="hobbies">Hobbies: {{hobbies}}</div>
-					{{/if}}
-					{{#if fun_fact}}
-						<div class="fun_fact">Fun fact: {{fun_fact}}</div>
-					{{/if}}
-					{{#if project_title}}
-						<div class="project_title">Project title: {{project_title}}</div>
-					{{/if}}
-					{{#if project_description}}
-						<div class="project_description">Project description: {{project_description}}</div>
-					{{/if}}
-					{{#if description}}
-						<div class="description">{{description}}</div>
-					{{/if}}
-				</div>
-			</div> --}}
-		</div>
-	{{/each}}
+  {{#each members}}
+    <div class="card">
+      <div class="card-inner">
+        
+        <!-- FRONT -->
+        <div class="card-front">
+          <div class="card-top">
+            <div class="img-container rounded">
+              <img src="{{image}}" alt="{{name}}">
+            </div>
+            <div class="position">{{position}}</div>
+            <div class="name">{{name}}</div>
+          </div>
+        </div>
+
+        <!-- BACK -->
+        <div class="card-back">
+          <h3 class="name">{{name}}</h3>
+          <div class="year-majors">
+            {{#if Year}}<span>{{Year}}</span>{{/if}}
+            {{#if Year}}{{#if majors}}<span class="separator">·</span>{{/if}}{{/if}}
+            {{#if majors}}<span>{{majors}}</span>{{/if}}
+          </div>
+          <p class="bio">{{bio}}</p>
+          <div class="social-links">
+            {{#if socials.linkedin}}
+              <a class="social linkedin" href="{{socials.linkedin}}" target="_blank" rel="noreferrer noopener"></a>
+            {{/if}}
+            {{#if socials.coffee}}
+              <a class="coffee" href="{{socials.coffee}}" target="_blank" rel="noreferrer noopener">
+                <img src="/images/coffee-cup.png" alt="coffee chat">
+              </a>
+            {{/if}}
+          </div>
+        </div>
+
+      </div>
+    </div>
+  {{/each}}
 </section>

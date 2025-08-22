@@ -1,0 +1,48 @@
+.culture-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+
+  .culture-block {
+    display: flex;
+    flex-direction: column; // stack text on top of photos
+    gap: 2rem;
+    margin-bottom: 5rem;
+
+    .text-container {
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+      }
+    }
+
+    .photo-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: flex-start;
+
+      img {
+        flex: 1 1 calc(33% - 1rem); // 3 photos per row
+        max-height: 250px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      }
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .culture-block {
+      .photo-grid img {
+        flex: 1 1 100%; // full width on mobile
+        max-height: none;
+      }
+    }
+  }
+}
