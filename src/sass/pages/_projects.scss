@@ -30,7 +30,7 @@
 
   .project-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     margin-top: 20px;
     width: 100%;
@@ -85,10 +85,6 @@
         }
       }
 
-      &:hover .project-description {
-        transform: translateX(0);
-      }
-
       // Color theme variants
       @mixin coloring($name, $text-color, $background-color) {
         &.#{$name}-back {
@@ -115,6 +111,10 @@
       @include coloring(blue, $white, $blue);
       @include coloring(purple, $white, $purple);
       @include coloring(yellow, $grey, $yellow);
+    }
+    .card:hover .project-description,
+    .card.active .project-description {
+        transform: translateX(0);
     }
   }
 }

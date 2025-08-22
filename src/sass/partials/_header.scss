@@ -165,10 +165,10 @@ header {
 
 				a {
 					display: block;
-					padding: 18px 22px;
+					padding: 18px 24px;
 					color: $grey;
 					font-family: NotoSerif, serif;
-					@include fluid-type(300, 1535, 18, 24, px);
+					@include fluid-type(300, 1535, 15, 20, px);
 					line-height: 27px;
 					text-decoration: none;
 					transition: background-color 0.3s, color 0.3s;

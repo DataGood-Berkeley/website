@@ -14,7 +14,7 @@
   values: values.yml
 
 /culture:
-  title: our culture & community.
+  title: our culture.
   culture: culture.yml
 
 /careers:
@@ -24,9 +24,6 @@
 /team:
   title: meet the team.
   members: members.yml
-
-/events:
-  title: upcoming events.
 
 /education:
   title: education.

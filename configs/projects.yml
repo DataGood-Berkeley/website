@@ -13,7 +13,7 @@
       color: yellow
     - link:
       title: Team Rubicon
-      description: The Team Rubicon project focused on developing a predictive and decision-support tool that identifies and prioritizes communities most vulnerable to extreme fire and flood events. This tool will enable more proactive and efficient deployment of mitigation services (e.g., brush removal, hazard home ignition zone assessments, sandbagging, etc.) by integrating publicly available data, historical event records, and county-level emergency services information. Ultimately, this project aims to improve the impact of Team Rubicon’s volunteer efforts and resource allocation by providing data-driven recommendations on where and how to intervene.
+      description: "The Team Rubicon project focused on developing a predictive and decision-support tool that identifies and prioritizes communities most vulnerable to extreme fire and flood events. This tool will enable more proactive and efficient deployment of mitigation services (e.g., brush removal, hazard home ignition zone assessments, sandbagging, etc.) by integrating publicly available data, historical event records, and county-level emergency services information. Ultimately, this project aims to improve the impact of Team Rubicon’s volunteer efforts and resource allocation by providing data-driven recommendations on where and how to intervene."
       image:  /images/projects/teamrubicon.webp
       color: pink
     - link:

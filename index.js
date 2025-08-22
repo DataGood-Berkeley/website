@@ -23,31 +23,11 @@ const CONFIG_FOLDER = path.join(__dirname, 'configs');
 
 function readConfig(file) {
   const contents = yaml.load(fs.readFileSync(path.join(CONFIG_FOLDER, file), 'utf8'));
-
-  switch (path.basename(file)) {
-    case 'members.yml': {
-      const teamFolder = path.join(__dirname, '/public/images/team');
-
-      const missing = contents.map(content => {
-        const { name } = content;
-        if (!content.image) {
-          const names = name.toLowerCase().split(' ');
-          const paths = [`${names.join('_')}.webp`, `${names[0]}.webp`];
-          const file = paths.find(p => fs.existsSync(path.join(teamFolder, p)));
-          if (!file) return name;
-          content.image = `/images/team/${file}`;
-        }
-        return null;
-      }).filter(i => i);
-      break;
-    }
-    default: break;
-  }
   return contents;
 }
 
 app.use(compression());
-app.use(express.json());
+app.use(express.json({ verify: (req, res, buf) => { req.rawBody = buf } }));
 app.engine('hbs', hbs.engine);
 app.set('view engine', 'hbs');
 app.set('views', `${__dirname}/src/views`);
@@ -76,26 +56,35 @@ for (const pathKey in routes) {
   });
 }
 
-// Webhook handler
+// --- Webhook handler ---
 app.post('/webhook', (req, res) => {
   console.log('Webhook received');
 
-  const payload = JSON.stringify(req.body);
-  const sig = `sha1=${crypto.createHmac('sha1', SECRET).update(payload).digest('hex')}`;
+  const payload = req.rawBody.toString();
 
-  if (req.headers['x-hub-signature'] === sig && req.body.ref === 'refs/heads/master') {
+  const sigSha1 = 'sha1=' + crypto.createHmac('sha1', SECRET).update(payload).digest('hex');
+  const sigSha256 = 'sha256=' + crypto.createHmac('sha256', SECRET).update(payload).digest('hex');
+
+  const githubSha1 = req.headers['x-hub-signature'];
+  const githubSha256 = req.headers['x-hub-signature-256'];
+
+  const sigOk = 
+    (githubSha1 && crypto.timingSafeEqual(Buffer.from(sigSha1), Buffer.from(githubSha1))) ||
+    (githubSha256 && crypto.timingSafeEqual(Buffer.from(sigSha256), Buffer.from(githubSha256)));
+
+  if (sigOk && (req.body.ref === 'refs/heads/master' || req.body.ref === 'refs/heads/main')) {
     console.log('Webhook signature verified. Pulling latest changes...');
-    
-    exec('git pull origin master', (err, stdout, stderr) => {
+
+    exec('git pull origin && npm install && npm run build:sass', (err, stdout, stderr) => {
       if (err) {
-        console.error('Git pull failed:', stderr);
-        res.status(500).send('Git pull failed');
+        console.error('Deployment failed:', stderr);
+        res.status(500).send('Deployment failed');
         return;
       }
-      
-      console.log('Git pull successful:', stdout);
+
+      console.log('Deployment successful:', stdout);
       res.status(200).send('Updated! Restarting server...');
-      
+
       setTimeout(() => process.exit(0), 1000);
     });
 
@@ -105,6 +94,7 @@ app.post('/webhook', (req, res) => {
   }
 });
 
+// Catch-all routes
 app.get('*', (req, res) => {
   res.status(404).render('error', {
     code: 404,
