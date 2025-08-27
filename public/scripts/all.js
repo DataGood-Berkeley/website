@@ -2,7 +2,6 @@
   const hamburger = document.querySelector('.hamburger');
   const nav = document.querySelector('nav');
   const MIN_WIDTH = 1060;
-  const MIN_HOVER_WIDTH = 1060;
 
   // Hamburger menu toggle
   hamburger.onclick = () => {
@@ -54,15 +53,25 @@
 })();
 
 document.addEventListener("DOMContentLoaded", function() {
-  const dropdowns = document.querySelectorAll(".dropdown.dropbtn, .dropdown .dropbtn");
-  dropdowns.forEach(drop => {
-    const button = drop.querySelector(".dropbtn");
+  // Mobile dropdown toggle
+  document.querySelectorAll(".dropdown").forEach(drop => {
+    const button = drop.querySelector(".nav-txt"); // clickable text
     button.addEventListener("click", function(e) {
-      e.preventDefault();
+      e.stopPropagation(); // prevent body click
       drop.classList.toggle("active");
     });
   });
 
+  // Close dropdown if clicking outside
+  document.addEventListener("click", function(e) {
+    document.querySelectorAll(".dropdown.active").forEach(drop => {
+      if (!drop.contains(e.target)) {
+        drop.classList.remove("active");
+      }
+    });
+  });
+
+  // Member card flip on mobile
   const memberCards = document.querySelectorAll(".member-gallery .card");
   memberCards.forEach(card => {
     card.addEventListener("click", () => {
@@ -72,6 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
+  // Project card toggle on mobile
   const projectCards = document.querySelectorAll(".project-gallery .card");
   projectCards.forEach(card => {
     card.addEventListener("click", () => {
