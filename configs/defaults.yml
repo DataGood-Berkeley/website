@@ -26,8 +26,6 @@ headers:
         link: /values 
       - name: Culture
         link: /culture
-      - name: Where We End up
-        link: /careers
   - name: Team
     link: /team
   - name: Projects
