@@ -58,3 +58,5 @@ https://datagood.berkeley.edu/
 # Deploy Instructions
 
 ssh into vampires.ocf.berkeley.edu
+
+change to test deploy
