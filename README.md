@@ -54,3 +54,7 @@ NOTE: When you do `git commit`, the pre-commit lint will attempt to run. If the 
 # Website
 
 https://datagood.berkeley.edu/
+
+# Deploy Instructions
+
+ssh into vampires.ocf.berkeley.edu
