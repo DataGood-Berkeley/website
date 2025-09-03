@@ -105,6 +105,6 @@ app.use((err, req, res) => {
 	});
 });
 
-app.listen(PORT, '127.0.0.1', () => {
-  console.log('Active on port:', PORT);
+app.listen(PORT, () => {
+	console.log('Active on port:', PORT);
 });
