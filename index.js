@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 require('dotenv').config();
 
 const PORT = process.env.PORT || 8080;
@@ -106,16 +105,6 @@ app.use((err, req, res) => {
 	});
 });
 
-const listenTarget = process.env.PORT || 8080;
-
-if (listenTarget.endsWith('.sock')) {
-    const sockPath = listenTarget;
-    if (fs.existsSync(sockPath)) fs.unlinkSync(sockPath);
-    app.listen(sockPath, () => {
-        console.log('Active on Unix socket:', sockPath);
-    });
-} else {
-    app.listen(listenTarget, '127.0.0.1', () => {
-        console.log('Active on port:', listenTarget);
-    });
-}
+app.listen(PORT, '127.0.0.1', () => {
+  console.log('Active on port:', PORT);
+});
