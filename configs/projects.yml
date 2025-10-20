@@ -1,4 +1,45 @@
 # Configuration for all projects
+- title: fall 2025 industry projects
+  projects: 
+    - link: 
+      title: Synopsys
+      description: "We're harnessing advanced ML pipelines to revolutionize chip design by predicting power use early, eliminating slow, energy-intensive simulations. We're accelerating chip design while cutting computational waste and driving greener, more sustainable hardware engineering. By partnering with Synopsys, our project helps pioneer energy efficiency, while setting a new standard for responsible semiconductor innovation."
+      image: /images/projects/synopsys.webp
+      color: purple
+    - link:
+      title: Teach for America
+      description: "We're partnering with Teach for America to explore how to diversify the teacher workforce and close representation gaps in classrooms nationwide. By spotlighting BIPOC leadership within TFA and elevating stories of teachers of color, we're helping pave the way toward more equitable classrooms. Our work empowers education leaders with data-driven insights to reimagine representation and bring lasting impact to schools across the country."
+      image:  /images/projects/teachforamerica.webp
+      color: pink
+    - link:
+      title: The Nature Conservancy
+      description: "We're developing a machine learning-based snowpack modeling project focused on Arizona forests, combining LiDAR forest data with climate datasets! We'll deliver practical, data-driven insights to guide forest and water management efforts. We want to help spread awareness and inform how different forest treatments impact snowpack across different regions and conditions, and better understand water resilience."
+      image:  /images/projects/thenatureconservancy.webp
+      color: green
+    - link:
+      title: Stride
+      description: "Our project involves building an AI-powered text and emoji analytics framework that makes online communities safer, more inclusive, and more engaging. We're helping brands, students, and organizations foster healthier digital interactions through our actionable insights!"
+      image:  /images/projects/stride.webp
+      color: blue
+
+- title: fall 2025 research projects
+  projects: 
+    - link: 
+      title: Modeling Behavioral Biases in E-Commerce
+      description: "This project investigates behavioral biases in online shopping by analyzing how factors such as product reviews, pricing strategies, and scarcity cues influence consumer purchase decisions. The team conducts exploratory data analysis (EDA) and statistical tests to quantify the effects of these biases, identifying which factors most strongly shape purchase likelihood and consumer decision-making. Predictive models, such as regressions, are developed to forecast purchasing behavior, and findings are visualized through a dashboard highlighting key behavioral insights."
+      image: /images/projects/ecommerce.webp
+      color: blue
+    - link:
+      title: AI for Smarter Healthcare
+      description: "This project develops an intelligent healthcare resource management system designed to forecast hospital capacity demands and optimize resource allocation. By leveraging predictive modeling and optimization techniques, the project supports healthcare providers in responding effectively to surges in patient needs, ultimately enhancing patient care and operational efficiency. The work encompasses the full data science pipeline, including data preprocessing, exploratory data analysis (EDA), and machine learning modeling using libraries such as PyTorch."
+      image:  /images/projects/aihealthcare.webp
+      color: yellow
+    - link:
+      title: Urban Health and Predictive Analysis
+      description: "This project explores the relationship between urban walkability and mental health outcomes across the United States. Using data from the EPA Walkability Index and CDC PLACES Project, the team examines whether cities with more walkable neighborhoods exhibit lower rates of poor mental health. The project involves data cleaning and transformation, exploratory data analysis (EDA), and the construction of predictive models to estimate mental health outcomes at the census tract level. Results are presented through an interactive dashboard built with industry-standard visualization tools such as Tableau."
+      image:  /images/projects/urbanhealth.webp
+      color: green
+
 - title: spring 2025 industry projects
   projects: 
     - link: 
