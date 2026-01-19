@@ -13,14 +13,14 @@
 
 - name: Kennard Hou
   position: Co-President
-  image: "/images/team/kennard.webp"
+  image: "/images/team/ken.webp"
   Year: Junior
   majors: Data Science, Statistics
   hobbies: N/A
   fun-fact: N/A
   bio: Hi, I'm Ken. I'm a junior majoring in Data Science and Stats. I grew up in eastern WA but currently live in the Chicago suburbs (Naperville). this is my fourth sem in DG. I like badminton, pickleball, ping pong, chess, catan, cats, poker, violin, cooking, movies, tv shows (almost any genre). As you can see im just happy to be here.
     linkedin: https://www.linkedin.com/in/kennardhou/
-    coffee: https://calendly.com/khou561/datagood
+    coffee: https://calendly.com/kennard-berkeley/datagood-coffee-chat
 
 - name: Athena Chen
   position: External Vice President
@@ -84,7 +84,7 @@
 
 - name: Mahika Bhan
   position: VP of Social
-  image: "/images/team/jerry.webp"
+  image: "/images/team/mahi.webp"
   Year: Freshman
   majors: MCB, Data Science
   hobbies: N/A
@@ -154,6 +154,18 @@
     linkedin: www.linkedin.com/in/yatindran
     coffee: https://calendly.com/yatindran-dilip-berkeley/30min
 
+- name: Saransh Jain
+  position: Data Science, Economics
+  image: "/images/team/yatin.webp"
+  Year: Sophomore
+  majors: Data Science + Economics
+  hobbies: N/A
+  fun-fact: N/A
+  bio: Hey everyone! I'm Saransh, a sophomore studying Data Science and Economics, originally from Fremont, CA! My social impact interests lie in finance, healthcare, and social justice. In my free time, I enjoy biking, playing pickleball, watching competitive cooking shows, and learning about architecture. Super excited for this semester :)
+  socials:
+    linkedin: https://www.linkedin.com/in/saranshjain-/
+    coffee: https://calendly.com/saranshjain-berkeley/30min?month=2026-01
+  
 - name: Tanushri Pinjala
   position: Industry PM
   image: "/images/team/tanushri.webp"
@@ -214,6 +226,18 @@
     linkedin: https://www.linkedin.com/in/andersonmao1/
     coffee: https://calendly.com/andersonmao-berkeley/30min
 
+  - name: Devah Schaefers
+  position: Industry PM
+  image: "/images/team/devah.webp"
+  Year: Sophomore
+  majors: Data Science
+  hobbies: N/A
+  fun-fact: N/A
+  bio: Hi! I'm Devah and moved here from Germany 7 years ago. In my free time I love to play soccer, ski or go on spontaneous excursions with friends. I love music (currently really into Frank Ocean, Billie Eilish, The Marías and any trap artist but my music taste lowk changes alot). I'm always up for an adventure, whether it’s a spontaneous road trip or trying the weirdest thing on the menu.
+  socials:
+    linkedin: https://www.linkedin.com/in/andersonmao1/
+    coffee: https://calendly.com/andersonmao-berkeley/30min
+
 - name: Khushi Kolte
   position: Research PM
   image: "/images/team/khushi.webp"
@@ -231,6 +255,18 @@
   image: "/images/team/vrajesh.webp"
   Year: Junior
   majors: Statistics, Data Science
+  hobbies: N/A
+  fun-fact: N/A
+  bio: Hi! I’m Kristen, a junior studying Statistics and Data Science. I’m passionate about applying data analysis to real-world questions in finance, healthcare, and education. In my free time, I love hiking, creative writing, dancing, and playing badminton.
+  socials:
+    linkedin: https://www.linkedin.com/in/kristenyli/
+    coffee: https://calendly.com/kristenyli
+
+- name: Zen Huang
+  position: Research PM
+  image: "/images/team/vrajesh.webp"
+  Year: Junior
+  majors: Statistics
   hobbies: N/A
   fun-fact: N/A
   bio: Hi! I’m Kristen, a junior studying Statistics and Data Science. I’m passionate about applying data analysis to real-world questions in finance, healthcare, and education. In my free time, I love hiking, creative writing, dancing, and playing badminton.
@@ -262,3 +298,15 @@
     linkedin: https://www.linkedin.com/in/ianmting/
     coffee: https://calendly.com/iting-berkeley/30min
 
+  
+- name: Madhav Donthula
+  position: Research PM
+  image: "/images/team/madhav.webp"
+  Year: Freshman
+  majors: Data Science
+  hobbies: N/A
+  fun-fact: N/A
+  bio: Hi, I'm Ian! I'm a freshman studying Data Science and Applied Mathematics. I'm from socal, and my main social impact interests lie in sustainability, ethics, and education. Some of the things I love include fashion, shopping (online), scrolling, cats, and general tomfoolery. I'm extremely excited for this upcoming semester at DataGood !!
+  socials:
+    linkedin: https://www.linkedin.com/in/ianmting/
+    coffee: https://calendly.com/iting-berkeley/30min
