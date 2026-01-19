@@ -105,6 +105,8 @@ app.use((err, req, res) => {
 	});
 });
 
-app.listen(PORT, () => {
-	console.log('Active on port:', PORT);
+const HOST = process.env.HOST || '127.0.0.1';
+
+app.listen(PORT, HOST, () => {
+    console.log(`Active on host ${HOST}, port ${PORT}`);
 });
