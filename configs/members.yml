@@ -151,12 +151,12 @@
   fun-fact: N/A
   bio: Hello! My name is Yatindran and I'm currently a Sophomore pursuing Electrical Engineering and Computer Science. In my free time, I love going to the gym,  playing pool, and trying new coffees. Super excited for DataGood this semester!
   socials:
-    linkedin: www.linkedin.com/in/yatindran
+    linkedin: https://www.linkedin.com/in/yatindran/
     coffee: https://calendly.com/yatindran-dilip-berkeley/30min
 
 - name: Saransh Jain
   position: Data Science, Economics
-  image: "/images/team/yatin.webp"
+  image: "/images/team/saransh.webp"
   Year: Sophomore
   majors: Data Science + Economics
   hobbies: N/A
@@ -264,15 +264,15 @@
 
 - name: Zen Huang
   position: Research PM
-  image: "/images/team/vrajesh.webp"
+  image: "/images/team/zen.webp"
   Year: Junior
   majors: Statistics
   hobbies: N/A
   fun-fact: N/A
-  bio: Hi! I’m Kristen, a junior studying Statistics and Data Science. I’m passionate about applying data analysis to real-world questions in finance, healthcare, and education. In my free time, I love hiking, creative writing, dancing, and playing badminton.
+  bio: Hi, I am Zen, a junior studying statistics and this is my third semester in DataGood. My interest lies in the intersection of healthcare, risk, and data science. In my free time, I like to go to coffee shops, watch sunsets, and explore with my friends. 
   socials:
-    linkedin: https://www.linkedin.com/in/kristenyli/
-    coffee: https://calendly.com/kristenyli
+    linkedin: https://www.linkedin.com/in/zen1816
+    coffee: https://calendly.com/zen05-berkeley/30min
 
 - name: Lawrenze Vigo
   position: Research PM
