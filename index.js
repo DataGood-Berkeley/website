@@ -105,13 +105,6 @@ app.use((err, req, res) => {
 	});
 });
 
-const SOCKET_PATH = '/srv/apps/datagood/datagood.sock';
-
-if (fs.existsSync(SOCKET_PATH)) {
-    fs.unlinkSync(SOCKET_PATH);
-}
-
-app.listen(SOCKET_PATH, () => {
-    fs.chmodSync(SOCKET_PATH, 0o766);
-    console.log(`Active on UNIX socket: ${SOCKET_PATH}`);
+app.listen(PORT, () => {
+	console.log('Active on port:', PORT);
 });
