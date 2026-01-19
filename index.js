@@ -105,8 +105,13 @@ app.use((err, req, res) => {
 	});
 });
 
-const HOST = process.env.HOST || '127.0.0.1';
+const SOCKET_PATH = '/srv/apps/datagood/datagood.sock';
 
-app.listen(PORT, HOST, () => {
-    console.log(`Active on host ${HOST}, port ${PORT}`);
+const fs = require('fs');
+if (fs.existsSync(SOCKET_PATH)) {
+    fs.unlinkSync(SOCKET_PATH);
+}
+
+app.listen(SOCKET_PATH, () => {
+    console.log(`Active on UNIX socket: ${SOCKET_PATH}`);
 });
