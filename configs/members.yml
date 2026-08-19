@@ -251,9 +251,9 @@
 
 - name: Christine Ren
   position: Research PM
-  image: "/images/team/khushi.webp"
-  Year: Freshman
-  majors: Data Science, Cognitive Science
+  image: "/images/team/christine-ren.webp"
+  Year: Sophomore
+  majors: Data Science
   hobbies: N/A
   fun-fact: N/A
   bio: "N/A"
@@ -261,62 +261,39 @@
     linkedin: https://www.linkedin.com/in/christinerenbe/
     coffee: 
 
-- name: Kristen Li
+- name: Mirabelle Anderson
   position: Research PM
-  image: "/images/team/kristen.webp"
-  Year: Junior
-  majors: Statistics, Data Science
+  image: "/images/team/mirabelle-anderson.webp"
+  Year: Sophomore
+  majors: Data Science
   hobbies: N/A
   fun-fact: N/A
-  bio: "Hi! I’m Kristen, a junior studying Statistics and Data Science. I’m passionate about applying data analysis to real-world questions in finance, healthcare, and education. In my free time, I love hiking, creative writing, dancing, and playing badminton."
+  bio: "N/A"
   socials:
-    linkedin: https://www.linkedin.com/in/kristenyli/
-    coffee: https://calendly.com/kristenyli
+    linkedin: https://www.linkedin.com/in/mirabelle-anderson/
+    coffee: 
 
-- name: Zen Huang
+- name: Jillian Noblejas
   position: Research PM
-  image: "/images/team/zen.webp"
-  Year: Junior
+  image: "/images/team/jillian-noblejas.webp"
+  Year: Sophomore
   majors: Statistics
   hobbies: N/A
   fun-fact: N/A
   bio: "Hi, I am Zen, a junior studying statistics and this is my third semester in DataGood. My interest lies in the intersection of healthcare, risk, and data science. In my free time, I like to go to coffee shops, watch sunsets, and explore with my friends."
   socials:
-    linkedin: https://www.linkedin.com/in/zen1816
-    coffee: https://calendly.com/zen05-berkeley/30min
+    linkedin: https://www.linkedin.com/in/jillian-rae-noblejas-301061381/
+    coffee: 
 
-- name: Lawrenze Vigo
+- name: Victor Chen
   position: Research PM
-  image: "/images/team/lawrenze.webp"
+  image: "/images/team/victor-chen.webp"
   Year: Sophomore
-  majors: Data Science, Urban Studies
-  hobbies: N/A
-  fun-fact: N/A
-  bio: "Hi everyone, I'm Lawrenze! I'm a second-year student studying Urban Studies and Data Science from San Jose, CA. I love coffee, music, and exploring cities, and I enjoy using BayPass to visit local cafes and restaurants in my free time. I'm interested in sustainability, environmental justice, and equity as my social impact areas of focus. I'm excited for this upcoming semester with DataGood as a project manager!"
-  socials:
-    linkedin: https://www.linkedin.com/in/lawrenzevigo/
-    coffee: https://calendly.com/lawrenze-berkeley/20min
-
-- name: Ian Ting
-  position: Research PM
-  image: "/images/team/ian.webp"
-  Year: Freshman
-  majors: Data Science, Applied Mathematics
-  hobbies: N/A
-  fun-fact: N/A
-  bio: "Hi, I'm Ian! I'm a freshman studying Data Science and Applied Mathematics. I'm from socal, and my main social impact interests lie in sustainability, ethics, and education. Some of the things I love include fashion, shopping (online), scrolling, cats, and general tomfoolery. I'm extremely excited for this upcoming semester at DataGood !!"
-  socials:
-    linkedin: https://www.linkedin.com/in/ianmting/
-    coffee: https://calendly.com/iting-berkeley/30min
-
-- name: Madhav Donthula
-  position: Research PM
-  image: "/images/team/madhav.webp"
-  Year: Freshman
   majors: Data Science
   hobbies: N/A
   fun-fact: N/A
-  bio: "Hi, I’m Madhav. I am a freshman studying Data Science. I’m from Mountain House, CA. In my free time I love to watch and read psychological thrillers, shutter island and silent patient are some of my favorites. I also love to play/watch all types of sports and discover new recipes."
+  bio: "N/A"
   socials:
-    linkedin: https://www.linkedin.com/in/madhav-donthula/
-    coffee: https://calendly.com/madhavdonthula-berkeley/30min?month=2026-01
+    linkedin: https://www.linkedin.com/in/victor-chen26/
+    coffee: 
+
