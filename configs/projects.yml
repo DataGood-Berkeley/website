@@ -166,104 +166,104 @@
 - title: past projects
   projects:
   # spring 24
-  - link: 
-    title: Healthy Planet Project
-    description: This project will Use data from the Healthy Planet Project to analyze the most immediate needs in SF to improve the environmental health of the city and investigate what environmental causes SF residents donate to the most. 
-    image: /images/projects/healthy_planet.webp
-    color: pink
-  - link:
-    title: Multicultural Institute
-    description: Multicultural institute is a non-profit dedicated to empowering immigrants, especially those in the Latinx community. This project will use data analysis to identify areas for program improvement across their 3 chapters. Additionally, this program aims to showcase their impact and advocate for their support of immigrant communities.
-    image:  /images/projects/multicultural.webp
-    color: yellow
+    - link: 
+      title: Healthy Planet Project
+      description: This project will Use data from the Healthy Planet Project to analyze the most immediate needs in SF to improve the environmental health of the city and investigate what environmental causes SF residents donate to the most. 
+      image: /images/projects/healthy_planet.webp
+      color: pink
+    - link:
+      title: Multicultural Institute
+      description: Multicultural institute is a non-profit dedicated to empowering immigrants, especially those in the Latinx community. This project will use data analysis to identify areas for program improvement across their 3 chapters. Additionally, this program aims to showcase their impact and advocate for their support of immigrant communities.
+      image:  /images/projects/multicultural.webp
+      color: yellow
   # fa 23
-  - link: 
-    title: Scientific Adventures for Girls
-    description: Using the Scientific Adventures for Girls' after-school program student and parent data from the last 8 years to create a dashboard and infographics for their website and marketing resources. 
-    image: /images/projects/scientific_adventures.webp
-    color: green
-  - link:
-    title: Young Women in Bio
-    description: By manipulating YWIB's national datasets in numerous ways, we will examine the factors that lead to more young women entering STEM, possibly how these factors can be increased, creating deliverables that help YWIB find the best locations to market to, and ways they can improve their workshops.
-    image:  /images/projects/ywib.webp
-    color: blue
-  - link: 
-    title: Roots of Success
-    description: This project aims to help Roots of Success better understand and communicate their impact by analyzing and visualizing data resulting from their environmental education programs, enhancing their ability to attract partners and donors, and set the organization up for continued success in the future.
-    image: /images/projects/roots.webp
-    color: yellow
+    - link: 
+      title: Scientific Adventures for Girls
+      description: Using the Scientific Adventures for Girls' after-school program student and parent data from the last 8 years to create a dashboard and infographics for their website and marketing resources. 
+      image: /images/projects/scientific_adventures.webp
+      color: green
+    - link:
+      title: Young Women in Bio
+      description: By manipulating YWIB's national datasets in numerous ways, we will examine the factors that lead to more young women entering STEM, possibly how these factors can be increased, creating deliverables that help YWIB find the best locations to market to, and ways they can improve their workshops.
+      image:  /images/projects/ywib.webp
+      color: blue
+    - link: 
+      title: Roots of Success
+      description: This project aims to help Roots of Success better understand and communicate their impact by analyzing and visualizing data resulting from their environmental education programs, enhancing their ability to attract partners and donors, and set the organization up for continued success in the future.
+      image: /images/projects/roots.webp
+      color: yellow
 # sp 23
-  - link:
-    title: League of Women Voters (LWV)
-    description: Using the League of Women Voters' membership data, the team will be analyzing their performance in membership growth and community outreach. This will better guide their decision-making process of where to strengthen their efforts and allocate resources. Students will also be utilizing predictive models to project the organization’s growth give them metrics to measure their impact.
-    color: blue
-    image: /images/projects/leagueofwomenvoters.webp
-  - link:
-    title: Berkeley Disaster Preparedness Neighborhood Network
-    description: Using BDPNN's member list datasets and disaster preparedness zoning, we'll perform data analysis to develop recommendations for helping BDPNN better mobilize volunteers and determine regions to improve deployment for responding to natural disasters. Through overlaying the member data with demographic layers and zoning data, we’ll categorize members into zones for emergency responses. Additionally, we'll analyze disasters and predict the relative risk. 
-    color: pink
-    image: /images/projects/bdpnn.webp
+    - link:
+      title: League of Women Voters (LWV)
+      description: Using the League of Women Voters' membership data, the team will be analyzing their performance in membership growth and community outreach. This will better guide their decision-making process of where to strengthen their efforts and allocate resources. Students will also be utilizing predictive models to project the organization’s growth give them metrics to measure their impact.
+      color: blue
+      image: /images/projects/leagueofwomenvoters.webp
+    - link:
+      title: Berkeley Disaster Preparedness Neighborhood Network
+      description: Using BDPNN's member list datasets and disaster preparedness zoning, we'll perform data analysis to develop recommendations for helping BDPNN better mobilize volunteers and determine regions to improve deployment for responding to natural disasters. Through overlaying the member data with demographic layers and zoning data, we’ll categorize members into zones for emergency responses. Additionally, we'll analyze disasters and predict the relative risk. 
+      color: pink
+      image: /images/projects/bdpnn.webp
 # fa 22
-  - link: 
-    title: Community Resources for Science (CRS)
-    description: The main goal of this project is to help the Community Resources for Science (CRS) analyze survey data from 10+ years of surveys stored in CSV files, possibly selecting only certain years to look at. CRS anticipates looking at 6-8 key questions like teachers who are newer vs more experienced; teachers from 3 different school districts, teachers' level of confidence and amount of time spent on teaching science, etc. The primary reason for looking more into these key questions is to help CRS better understand the trends and differentiations among these key questions. 
-    color: blue
-    image: /images/projects/crs.webp
-   - link: https://docs.google.com/presentation/d/1DvHNqpZj_G23PwHlCKM5aM0El_d_TPgt-jy0mnZrBw4/edit?usp=sharing
-    title: Food Bank of Contra Costa & Solano
-    description: The main goal for this project is to help the Food Bank of Contra Costa & Solano better understand the communities they are serving. In order to accomplish this, we will add layers to the existing Tableau dashboard that is currently being used to map and visualize food distribution and needs. Adding more demographic layers to the map will allow the Food Bank of Contra Costa & Solano to better understand what specific communities they are reaching. Additionally, we would help analyze impact through more detailed visualizations in a dashboard. 
-    color: pink
-    image: /images/projects/fbccs.webp
+    - link: 
+      title: Community Resources for Science (CRS)
+      description: The main goal of this project is to help the Community Resources for Science (CRS) analyze survey data from 10+ years of surveys stored in CSV files, possibly selecting only certain years to look at. CRS anticipates looking at 6-8 key questions like teachers who are newer vs more experienced; teachers from 3 different school districts, teachers' level of confidence and amount of time spent on teaching science, etc. The primary reason for looking more into these key questions is to help CRS better understand the trends and differentiations among these key questions. 
+      color: blue
+      image: /images/projects/crs.webp
+     - link: https://docs.google.com/presentation/d/1DvHNqpZj_G23PwHlCKM5aM0El_d_TPgt-jy0mnZrBw4/edit?usp=sharing
+      title: Food Bank of Contra Costa & Solano
+      description: The main goal for this project is to help the Food Bank of Contra Costa & Solano better understand the communities they are serving. In order to accomplish this, we will add layers to the existing Tableau dashboard that is currently being used to map and visualize food distribution and needs. Adding more demographic layers to the map will allow the Food Bank of Contra Costa & Solano to better understand what specific communities they are reaching. Additionally, we would help analyze impact through more detailed visualizations in a dashboard. 
+      color: pink
+      image: /images/projects/fbccs.webp
 # sp 22
-  - link:
-    title: Interactive Map to Detect Environmental Inequities in Communities
-    description: This project is an interactive map that layers data about demographics and environmental issues to detect inequities between communities.
-    color: blue
-    image: /images/projects/waternow.webp
-  - link: 
-    title: Anomaly Detection in Healthcare Providers
-    description: 'This project focuses on utilizing data science techniques such as data visualization and exploratory data analysis to find trends in climate data. We will examine the factors which affect the Earth’s temperature in various locations.'
-    image: /images/projects/detection.webp
-    color: yellow
-  - link:
-    title: NMDC
-    description: This project will contribute to the NMDC's sample-annotator API for repairing biosample metadata that doesn't adhere to standards like MIxS. The repaired data will drive collaboration and open science.
-    color: pink
-    image: /images/projects/nmdc.webp
+    - link:
+      title: Interactive Map to Detect Environmental Inequities in Communities
+      description: This project is an interactive map that layers data about demographics and environmental issues to detect inequities between communities.
+      color: blue
+      image: /images/projects/waternow.webp
+    - link: 
+      title: Anomaly Detection in Healthcare Providers
+      description: 'This project focuses on utilizing data science techniques such as data visualization and exploratory data analysis to find trends in climate data. We will examine the factors which affect the Earth’s temperature in various locations.'
+      image: /images/projects/detection.webp
+      color: yellow
+    - link:
+      title: NMDC
+      description: This project will contribute to the NMDC's sample-annotator API for repairing biosample metadata that doesn't adhere to standards like MIxS. The repaired data will drive collaboration and open science.
+      color: pink
+      image: /images/projects/nmdc.webp
 # fa 21
-  - link:
-    title: Student Classifier
-    description: This project is a web application that Downtown College Prep can utilize to improve English learner reclassification and cohort identification for their students.
-    image: /images/dcplogo.webp
-    color: purple
-  - link:
-    title: Ocean Trash Dashboard
-    description: This project is a live dashboard with Pacifica Beach Coalition clean up data that’s deployed online for progress tracking  and education.
-    image: /images/pacificbeach.webp
-    color: blue
+    - link:
+      title: Student Classifier
+      description: This project is a web application that Downtown College Prep can utilize to improve English learner reclassification and cohort identification for their students.
+      image: /images/dcplogo.webp
+      color: purple
+    - link:
+      title: Ocean Trash Dashboard
+      description: This project is a live dashboard with Pacifica Beach Coalition clean up data that’s deployed online for progress tracking  and education.
+      image: /images/pacificbeach.webp
+      color: blue
 # sp 21
-- link: https://www.facebook.com/UC-Berkeley-SAFE-Chatbot-102005888779715
-  title: Firewatch Chatbot
-  description: "The Firewatch Chatbot aims to: provide reliable info on fires close by, answer fire preparedness questions, and aid CalSAFE’s donor engagement and outreach"
-  image: /images/projects/fire.webp
-  color: yellow
-- link: https://www.ptk.org/
-  title: Transfer Student Classification
-  description: Building an NLU topic model using over 10 years of scholarship submissions to both identify the problems students speak about in an unsupervised manner and analyze growth and evolution of them in time-series text data.
-  image: /images/projects/transfer.webp
-  color: purple
+    - link: https://www.facebook.com/UC-Berkeley-SAFE-Chatbot-102005888779715
+      title: Firewatch Chatbot
+      description: "The Firewatch Chatbot aims to: provide reliable info on fires close by, answer fire preparedness questions, and aid CalSAFE’s donor engagement and outreach"
+      image: /images/projects/fire.webp
+      color: yellow
+    - link: https://www.ptk.org/
+      title: Transfer Student Classification
+      description: Building an NLU topic model using over 10 years of scholarship submissions to both identify the problems students speak about in an unsupervised manner and analyze growth and evolution of them in time-series text data.
+      image: /images/projects/transfer.webp
+      color: purple
 
 # idk
-  - link: https://ng-usa.org/
-    title: Nehemiah Gateway USA
-    description: Provide actionable information that will increase donor reach and engagement using data science and NLP
-    image: /images/projects/nehemiah_gateway.webp
-    color: yellow
+    - link: https://ng-usa.org/
+      title: Nehemiah Gateway USA
+      description: Provide actionable information that will increase donor reach and engagement using data science and NLP
+      image: /images/projects/nehemiah_gateway.webp
+      color: yellow
 
-  - link: https://uc-ciee.org/
-    title: California Institute For Energy And Environment
-    description: Exploring racial biases/implications in solar energy and equity with respect to credit score data
-    image: /images/projects/ciee.webp
-    color: blue
+    - link: https://uc-ciee.org/
+      title: California Institute For Energy And Environment
+      description: Exploring racial biases/implications in solar energy and equity with respect to credit score data
+      image: /images/projects/ciee.webp
+      color: blue
 
 
