@@ -41,7 +41,7 @@
       title: Synopsys
       description: "We're harnessing advanced ML pipelines to revolutionize chip design by predicting power use early, eliminating slow, energy-intensive simulations. We're accelerating chip design while cutting computational waste and driving greener, more sustainable hardware engineering. By partnering with Synopsys, our project helps pioneer energy efficiency, while setting a new standard for responsible semiconductor innovation."
       image: /images/projects/synopsys.webp
-      color: purple
+      color: pink
     - link:
       title: Teach for America
       description: "We're partnering with Teach for America to explore how to diversify the teacher workforce and close representation gaps in classrooms nationwide. By spotlighting BIPOC leadership within TFA and elevating stories of teachers of color, we're helping pave the way toward more equitable classrooms. Our work empowers education leaders with data-driven insights to reimagine representation and bring lasting impact to schools across the country."
@@ -51,12 +51,12 @@
       title: The Nature Conservancy
       description: "We're developing a machine learning-based snowpack modeling project focused on Arizona forests, combining LiDAR forest data with climate datasets! We'll deliver practical, data-driven insights to guide forest and water management efforts. We want to help spread awareness and inform how different forest treatments impact snowpack across different regions and conditions, and better understand water resilience."
       image:  /images/projects/thenatureconservancy.webp
-      color: green
+      color: pink
     - link:
       title: Stride
       description: "Our project involves building an AI-powered text and emoji analytics framework that makes online communities safer, more inclusive, and more engaging. We're helping brands, students, and organizations foster healthier digital interactions through our actionable insights!"
       image:  /images/projects/stride.webp
-      color: blue
+      color: pink
 
 - title: fall 2025 research projects
   projects: 
@@ -64,17 +64,17 @@
       title: Modeling Behavioral Biases in E-Commerce
       description: "This project investigates behavioral biases in online shopping by analyzing how factors such as product reviews, pricing strategies, and scarcity cues influence consumer purchase decisions. The team conducts exploratory data analysis (EDA) and statistical tests to quantify the effects of these biases, identifying which factors most strongly shape purchase likelihood and consumer decision-making. Predictive models, such as regressions, are developed to forecast purchasing behavior, and findings are visualized through a dashboard highlighting key behavioral insights."
       image: /images/projects/ecommerce.webp
-      color: blue
+      color: pink
     - link:
       title: AI for Smarter Healthcare
       description: "This project develops an intelligent healthcare resource management system designed to forecast hospital capacity demands and optimize resource allocation. By leveraging predictive modeling and optimization techniques, the project supports healthcare providers in responding effectively to surges in patient needs, ultimately enhancing patient care and operational efficiency. The work encompasses the full data science pipeline, including data preprocessing, exploratory data analysis (EDA), and machine learning modeling using libraries such as PyTorch."
       image:  /images/projects/aihealthcare.webp
-      color: yellow
+      color: pink
     - link:
       title: Urban Health and Predictive Analysis
       description: "This project explores the relationship between urban walkability and mental health outcomes across the United States. Using data from the EPA Walkability Index and CDC PLACES Project, the team examines whether cities with more walkable neighborhoods exhibit lower rates of poor mental health. The project involves data cleaning and transformation, exploratory data analysis (EDA), and the construction of predictive models to estimate mental health outcomes at the census tract level. Results are presented through an interactive dashboard built with industry-standard visualization tools such as Tableau."
       image:  /images/projects/urbanhealth.webp
-      color: green
+      color: pink
 
 - title: spring 2025 industry projects
   projects: 
@@ -82,12 +82,12 @@
       title: HealthTrust
       description: The HealthTrust project focused on building a data-driven risk assessment tool to evaluate the operational health of Bay Area nonprofits. Using survey data, the team identified key risk categories including leadership burnout, financial instability, and compliance challenges. A scoring model was developed to quantify organizational risk and help prioritize technical assistance and funding. Tableau dashboards and data visualizations were created to synthesize findings for HealthTrust’s internal strategy and grantee engagement. The final deliverable provides actionable insights to support capacity-building across the nonprofit ecosystem.
       image: /images/projects/healthtrust.webp
-      color: green
+      color: pink
     - link:
       title: Tilli
       description: The Tilli project aimed to develop an AI-powered tool that digitizes and grades handwritten K–5 math exams, with feedback delivered via WhatsApp. The team experimented with both public and HuggingFace OCR/LLM models to evaluate their performance on diverse handwriting styles. Key challenges included interpreting multilingual, messy handwriting and generating clear, SEL-aligned feedback. The final recommendation was a hybrid model strategy combining fast OCR with deep reasoning models like Claude and GPT. The deliverable provides a foundation for Tilli’s MVP, with a focus on scalability, low-bandwidth environments, and personalized learning insights.
       image:  /images/projects/tilli.webp
-      color: yellow
+      color: pink
     - link:
       title: Team Rubicon
       description: "The Team Rubicon project focused on developing a predictive and decision-support tool that identifies and prioritizes communities most vulnerable to extreme fire and flood events. This tool will enable more proactive and efficient deployment of mitigation services (e.g., brush removal, hazard home ignition zone assessments, sandbagging, etc.) by integrating publicly available data, historical event records, and county-level emergency services information. Ultimately, this project aims to improve the impact of Team Rubicon’s volunteer efforts and resource allocation by providing data-driven recommendations on where and how to intervene."
@@ -97,12 +97,12 @@
       title: Noora Health
       description: The project aims to develop a voice data pipeline for Noora Health, enabling automated ingestion of voice recordings, exploratory data analysis (EDA), and multi-language transcription. The DataGood team will build an ingestion pipeline to retrieve and store media files from turn.io and exotel, conduct EDA to extract key insights and patterns from the data, and implement a transcription pipeline to convert voice recordings into text across multiple languages.
       image:  /images/projects/noorahealth.webp
-      color: purple
+      color: pink
     - link:
       title: Ashby Village
       description: DataGood’s partnership with Ashby Village (including Ashby Village’s Data Group) focused on improving event attendance tracking and creating a user-friendly dashboard for visualizing service utilization and event attendance data. This project aims to streamline attendance data entry for those who attend Ashby Village in-person events and provide insightful data visualizations for staff, board members, and volunteers.
       image: /images/projects/ashby_village.webp
-      color: blue
+      color: pink
 
 - title: spring 2025 research projects
   projects: 
@@ -115,12 +115,12 @@
       title: Food Desert Prediction
       description: Food deserts are areas where residents have limited access to affordable and nutritious food. Millions of households are impacted by food insecurity globally, especially in underserved or rural areas. Identifying and predicting food deserts can help policymakers allocate resources effectively, for example by opening grocery stores or providing food subsidies such as SNAP/EBT. This project aims to use K-Means clustering for geographical analysis and a Random Forest Classifier with feature engineering to uncover patterns in the data and predict food deserts.
       image:  /images/projects/food_desert_prediction.webp
-      color: yellow
+      color: pink
     - link: 
       title: Wildfire Impact and Resource Allocation
       description: The mission of this project is to analyze social media data in California to identify trends using natural language processing (NLP). The goal is to assess personal needs and assist users affected by fires through data science techniques. This project will cover exploratory data analysis and visualizations to effectively present findings. Research members will learn to use the Twitter API to collect text data and apply various NLP techniques to gain insights into resource allocation and user impact. By the end of the project, research members will create and present a dashboard that showcases key entities and insights from sentiment analysis related to this research.
       image: /images/projects/wildfire_impact_and_resource_allocation.webp
-      color: green
+      color: pink
 
 - title: fall 2024 industry projects
   projects: 
@@ -128,22 +128,22 @@
       title: Oakland Promise
       description: Oakland Promise empowers Oakland students through offering financial resources, educational programming, mentorship, and a supportive community. The main goal of this project is to determine metrics to assess college affordability, develop survey questions and conceptual framework to measure the impact of Oakland Promise’s College Access scholarships on college affordability, administer the survey to current scholars, and analyze the results. 
       image: /images/projects/oakland_promise.webp
-      color: blue
+      color: pink
     - link:
       title: Point Blue Conservation Science
       description: Point Blue is a nonprofit organization focused on climate-smart conservation to help ensure that wildlife and communities continue to thrive in decades to come. As leaders and innovators in conservation science, Point Blue is filled with scientists, educators, and habitat restoration specialists. Data Good’s collaboration with Point Blue focuses on the Antarctic Wildlife Program in which we use data driven tools to access Adélie penguin ecology. This project is mainly focused on computer vision models.
       image:  /images/projects/point_blue.webp
-      color: yellow
+      color: pink
     - link:
       title: Tenants Together
       description: Tenants Together is a non profit organization based in San Francisco, CA that is dedicated to defending and advancing the rights of California tenants to safe, decent and affordable housing. The purpose of this project is to analyze Tenants Together’s data as well as publicly available data (ie. census data) to understand the key metrics that make up ‘what an average Californian tenant’ looks like. We will do data analysis as well as machine learning such as regression analysis and causal inference in this project. 
       image:  /images/projects/tenants.webp
-      color: green
+      color: pink
     - link:
       title: Think of Us
       description: Think of Us is a nonprofit organization dedicated to transforming the nation’s child welfare system to improve the lives of millions of children and families each year. Our collaboration with Think of Us focuses on using natural language processing and data analytics to analyze and enhance the efficiency of their operations to help them achieve their mission within the child welfare sector. 
       image:  /images/projects/thinkofus.webp
-      color: purple
+      color: pink
 
 - title: fall 2024 research projects
   projects: 
@@ -151,12 +151,12 @@
       title: Bias in Predictive Policing
       description: With data science becoming a large part of policing in America in the form of predictive policing, it is imperative to ensure that these models are not discriminative against certain groups. Recent analyses, however, show that such policing models can be harmful to the criminal justice system. This project will teach and utilize prevalent data analysis techniques, such as data cleaning and building data models, to create and evaluate models for predictive policing based on the COMPAS algorithm. Finally, an interactive Bokeh dashboard will be incorporated to demonstrate the findings of the research analysis. 
       image: /images/projects/bias_in_predictive_policing.webp
-      color: yellow
+      color: pink
     - link:
       title: Financial Vulnerability Assessment
       description: The goal of the Financial Vulnerability Assessment project is to create a KNN (K-Nearest Neighbors) model capable of forecasting high and low financial risks based on demographic factors. By leveraging machine learning techniques, the project aims to educate the general public on insights into their financial vulnerabilities, thereby fostering a more informed approach to managing finances. By the end of this project, you will provide an algorithm that uses personalized risk assessments to ultimately enable better decision-making in the face of economic challenges.
       image:  /images/projects/financial_vulnerability.webp
-      color: green
+      color: pink
     - link: 
       title: Data-Driven Insights(Returning DataGood Members Only)
       description: The mission of the Intermediate Track is to bridge the gap between Research and Industry projects by providing developers with a controlled environment to learn the soft and professional skills they need to succeed in data consulting. The Intermediate Track combines a preliminary curriculum on strategy, communications, and essential data tools with a fabricated client scenario to prepare developers for working with real clients in Industry, and beyond. 
@@ -175,28 +175,28 @@
       title: Multicultural Institute
       description: Multicultural institute is a non-profit dedicated to empowering immigrants, especially those in the Latinx community. This project will use data analysis to identify areas for program improvement across their 3 chapters. Additionally, this program aims to showcase their impact and advocate for their support of immigrant communities.
       image:  /images/projects/multicultural.webp
-      color: yellow
+      color: pink
   # fa 23
     - link: 
       title: Scientific Adventures for Girls
       description: Using the Scientific Adventures for Girls' after-school program student and parent data from the last 8 years to create a dashboard and infographics for their website and marketing resources. 
       image: /images/projects/scientific_adventures.webp
-      color: green
+      color: pink
     - link:
       title: Young Women in Bio
       description: By manipulating YWIB's national datasets in numerous ways, we will examine the factors that lead to more young women entering STEM, possibly how these factors can be increased, creating deliverables that help YWIB find the best locations to market to, and ways they can improve their workshops.
       image:  /images/projects/ywib.webp
-      color: blue
+      color: pink
     - link: 
       title: Roots of Success
       description: This project aims to help Roots of Success better understand and communicate their impact by analyzing and visualizing data resulting from their environmental education programs, enhancing their ability to attract partners and donors, and set the organization up for continued success in the future.
       image: /images/projects/roots.webp
-      color: yellow
+      color: pink
 # sp 23
     - link:
       title: League of Women Voters (LWV)
       description: Using the League of Women Voters' membership data, the team will be analyzing their performance in membership growth and community outreach. This will better guide their decision-making process of where to strengthen their efforts and allocate resources. Students will also be utilizing predictive models to project the organization’s growth give them metrics to measure their impact.
-      color: blue
+      color: pink
       image: /images/projects/leagueofwomenvoters.webp
     - link:
       title: Berkeley Disaster Preparedness Neighborhood Network
@@ -207,7 +207,7 @@
     - link: 
       title: Community Resources for Science (CRS)
       description: The main goal of this project is to help the Community Resources for Science (CRS) analyze survey data from 10+ years of surveys stored in CSV files, possibly selecting only certain years to look at. CRS anticipates looking at 6-8 key questions like teachers who are newer vs more experienced; teachers from 3 different school districts, teachers' level of confidence and amount of time spent on teaching science, etc. The primary reason for looking more into these key questions is to help CRS better understand the trends and differentiations among these key questions. 
-      color: blue
+      color: pink
       image: /images/projects/crs.webp
     - link: https://docs.google.com/presentation/d/1DvHNqpZj_G23PwHlCKM5aM0El_d_TPgt-jy0mnZrBw4/edit?usp=sharing
       title: Food Bank of Contra Costa & Solano
@@ -218,13 +218,13 @@
     - link:
       title: Interactive Map to Detect Environmental Inequities in Communities
       description: This project is an interactive map that layers data about demographics and environmental issues to detect inequities between communities.
-      color: blue
+      color: pink
       image: /images/projects/waternow.webp
     - link: 
       title: Anomaly Detection in Healthcare Providers
       description: 'This project focuses on utilizing data science techniques such as data visualization and exploratory data analysis to find trends in climate data. We will examine the factors which affect the Earth’s temperature in various locations.'
       image: /images/projects/detection.webp
-      color: yellow
+      color: pink
     - link:
       title: NMDC
       description: This project will contribute to the NMDC's sample-annotator API for repairing biosample metadata that doesn't adhere to standards like MIxS. The repaired data will drive collaboration and open science.
@@ -235,35 +235,35 @@
       title: Student Classifier
       description: This project is a web application that Downtown College Prep can utilize to improve English learner reclassification and cohort identification for their students.
       image: /images/projects/dcplogo.webp
-      color: purple
+      color: pink
     - link:
       title: Ocean Trash Dashboard
       description: This project is a live dashboard with Pacifica Beach Coalition clean up data that’s deployed online for progress tracking  and education.
       image: /images/projects/pacificbeach.webp
-      color: blue
+      color: pink
 # sp 21
     - link: https://www.facebook.com/UC-Berkeley-SAFE-Chatbot-102005888779715
       title: Firewatch Chatbot
       description: "The Firewatch Chatbot aims to: provide reliable info on fires close by, answer fire preparedness questions, and aid CalSAFE’s donor engagement and outreach"
       image: /images/projects/fire.webp
-      color: yellow
+      color: pink
     - link: https://www.ptk.org/
       title: Transfer Student Classification
       description: Building an NLU topic model using over 10 years of scholarship submissions to both identify the problems students speak about in an unsupervised manner and analyze growth and evolution of them in time-series text data.
       image: /images/projects/transfer.webp
-      color: purple
+      color: pink
 
 # idk
     - link: https://ng-usa.org/
       title: Nehemiah Gateway USA
       description: Provide actionable information that will increase donor reach and engagement using data science and NLP
       image: /images/projects/nehemiah_gateway.webp
-      color: yellow
+      color: pink
 
     - link: https://uc-ciee.org/
       title: California Institute For Energy And Environment
       description: Exploring racial biases/implications in solar energy and equity with respect to credit score data
       image: /images/projects/ciee.webp
-      color: blue
+      color: pink
 
 
