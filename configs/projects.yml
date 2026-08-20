@@ -234,12 +234,12 @@
     - link:
       title: Student Classifier
       description: This project is a web application that Downtown College Prep can utilize to improve English learner reclassification and cohort identification for their students.
-      image: /images/dcplogo.webp
+      image: /images/projects/dcplogo.webp
       color: purple
     - link:
       title: Ocean Trash Dashboard
       description: This project is a live dashboard with Pacifica Beach Coalition clean up data that’s deployed online for progress tracking  and education.
-      image: /images/pacificbeach.webp
+      image: /images/projects/pacificbeach.webp
       color: blue
 # sp 21
     - link: https://www.facebook.com/UC-Berkeley-SAFE-Chatbot-102005888779715
