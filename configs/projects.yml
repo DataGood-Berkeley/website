@@ -163,249 +163,97 @@
       image: /images/projects/datadriven.webp
       color: pink
 
-- title: spring 2024 industry projects
-  projects: 
-    - link: 
-      title: Healthy Planet Project
-      description: This project will Use data from the Healthy Planet Project to analyze the most immediate needs in SF to improve the environmental health of the city and investigate what environmental causes SF residents donate to the most. 
-      image: /images/projects/healthy_planet.webp
-      color: pink
-    - link:
-      title: Multicultural Institute
-      description: Multicultural institute is a non-profit dedicated to empowering immigrants, especially those in the Latinx community. This project will use data analysis to identify areas for program improvement across their 3 chapters. Additionally, this program aims to showcase their impact and advocate for their support of immigrant communities.
-      image:  /images/projects/multicultural.webp
-      color: yellow
-
-- title: spring 2024 research projects
-  projects: 
-    - link: 
-      title: Sustianable Space Debris Management
-      description: The growing concern over space debris has significant commercial implications, as the sustainability of space activities is crucial for both governmental and private sector stakeholders. With over 23,000 tracked objects 10cm or greater as of July 2023, and the incident in August 2023 where space debris came close to the International Space Station, there is an increasing recognition of the need for active debris removal. The Kessler Syndrome, which describes a cascade of collisions due to high object density in low Earth orbit, poses a direct threat to the infrastructure of space agencies like NASA, SpaceX, and the European Space Agency, both of whom are actively seeking solutions to combat this problem. The potential for commercial ventures in this area is substantial, as these agencies are looking to develop technologies for debris monitoring, mitigation, and removal.
-      image: /images/projects/space_debris.webp
-      color: purple
-    - link:
-      title: DetectAI
-      description: The goal of this project is to harness the power of Convolutional Neural Networks (CNNs) to revolutionize breast cancer detection. Breast cancer is a significant global health concern, and early diagnosis plays a pivotal role in improving patient outcomes. Our project aims to create a robust and sophisticated CNN model designed to analyze medical imaging data, specifically mammograms, with unparalleled accuracy.
-      image:  /images/projects/detectai.webp
-      color: pink
-    - link: 
-      title: Forest Fire Prediction
-      description: The ongoing rise of global warming and climate change have led to the increased need for more accurate and efficient forest fire detection. Using real-world data, this project will teach members fundamental data science and machine learning skills to analyze the predictability of forest fires. Members will have a chance to choose their attributes to look into to build their own machine learning model about the predictability of fires in a certain area, learning how to help minimize the environmental and humanitarian risks of forest fires. 
-      image: /images/projects/forest_fire.webp
-      color: green
-
-- title: fall 2023 industry projects
-  projects: 
-    - link: 
-      title: Scientific Adventures for Girls
-      description: Using the Scientific Adventures for Girls' after-school program student and parent data from the last 8 years to create a dashboard and infographics for their website and marketing resources. 
-      image: /images/projects/scientific_adventures.webp
-      color: green
-    - link:
-      title: Young Women in Bio
-      description: By manipulating YWIB's national datasets in numerous ways, we will examine the factors that lead to more young women entering STEM, possibly how these factors can be increased, creating deliverables that help YWIB find the best locations to market to, and ways they can improve their workshops.
-      image:  /images/projects/ywib.webp
-      color: blue
-    - link: 
-      title: Roots of Success
-      description: This project aims to help Roots of Success better understand and communicate their impact by analyzing and visualizing data resulting from their environmental education programs, enhancing their ability to attract partners and donors, and set the organization up for continued success in the future.
-      image: /images/projects/roots.webp
-      color: yellow
-
-- title: fall 2023 research projects
-  projects: 
-    - link: 
-      title: Real or Fake?
-      description: Through this project, students will learn the necessary data science fundamentals to distinguish between fake and real news by building and testing their own classifier model to evaluate the credibility of information sources. Students will have opportunities to explore topics such as feature engineering and machine learning while conducting their own exploratory data analysis.
-      image: /images/projects/fake-news.webp
-      color: yellow
-    - link:
-      title: Gun Violence & Gun Control
-      description: This project empowers students to deeply research and analyze a chosen subtopic within gun violence and control. They can explore areas such as violence trends, impact of control measures, predictive modeling, community engagement, firearm accessibility, victim support, and illegal firearm activities.
-      image:  /images/projects/gun_control.webp
-      color: blue
-    - link: 
-      title: Sustain AI - Sorting Trash for a Greener Future
-      description: Students will explore how we can utilize cutting-edge models to sort waste by building their own waste classification machine learning model, thus optimizing recycling processes, minimizing landfill waste, and mitigating ecological harm.
-      image: /images/projects/sustainability.webp
-      color: green
-    - link:
-      title: An Ideal Trip
-      description: Students will create a data model that makes planning weekend trips for college students seamless and stress-free. Based on their weather preferences, number of restaurants, and other metrics, this model will plan their ideal trip location and itinerary. Students will be able to learn how to use multiple linear regression in R, and walk away with a better understanding of how they can use their data science skills in everyday life.
-      image: /images/projects/trip.webp
-      color: pink
-
-
-- title: spring 2023 industry projects
-  projects:
-    - link:
-      title: League of Women Voters (LWV)
-      description: Using the League of Women Voters' membership data, the team will be analyzing their performance in membership growth and community outreach. This will better guide their decision-making process of where to strengthen their efforts and allocate resources. Students will also be utilizing predictive models to project the organization’s growth give them metrics to measure their impact.
-      color: blue
-      image: /images/projects/leagueofwomenvoters.webp
-    - link:
-      title: Berkeley Disaster Preparedness Neighborhood Network
-      description: Using BDPNN's member list datasets and disaster preparedness zoning, we'll perform data analysis to develop recommendations for helping BDPNN better mobilize volunteers and determine regions to improve deployment for responding to natural disasters. Through overlaying the member data with demographic layers and zoning data, we’ll categorize members into zones for emergency responses. Additionally, we'll analyze disasters and predict the relative risk. 
-      color: pink
-      image: /images/projects/bdpnn.webp
-
-- title: spring 2023 research projects
-  projects: 
-    - link: 
-      title: Analysis of Education Equality and Income
-      description: In this project, students will use various datasets, like the US census, that contain information about education quality as well as income rate of American households in certain school districts. The team will use our findings to analyze the correlation between the quality of education and household income rates. Using those same findings students will be able to work together and create a project that will give us an opportunity to share with our peers any conclusions we have made based off the data.
-      image: /images/projects/education_equality.webp
-      color: yellow
-    - link:
-      title: Analysis of Pandemic and Unemployment
-      description: This project will use datasets on COVID-19 and unemployment rates in the United States to take a look at how different industries within the economy have responded to the economic decline caused by Covid-19, as well as understanding any patterns that may emerge. Members will ultimately create a final deliverable with data visualizations that detail any conclusions they may draw on the topic from their project.
-      image:  /images/projects/pandemic_unemployment.webp
-      color: green
-    - link: 
-      title: Cancer Detection with Data Analysis
-      description: In this project, students will use healthcare datasets, such as cancer patients data, to examine the lifestyles of cancer patients, and members will be taking a look at how certain factors cause people to be more susceptible to cancer. Students will also explore the relationships between the characteristics and traits of individuals in different physical environments. This will culminate in members creating a project that draws patterns and reaches conclusions related to the topic at hand.
-      image: /images/projects/cancer.webp
-      color: blue
-
-
-- title: fall 2022 industry projects
-  projects:
-    - link: 
-      title: Community Resources for Science (CRS)
-      description: The main goal of this project is to help the Community Resources for Science (CRS) analyze survey data from 10+ years of surveys stored in CSV files, possibly selecting only certain years to look at. CRS anticipates looking at 6-8 key questions like teachers who are newer vs more experienced; teachers from 3 different school districts, teachers' level of confidence and amount of time spent on teaching science, etc. The primary reason for looking more into these key questions is to help CRS better understand the trends and differentiations among these key questions. 
-      color: blue
-      image: /images/projects/crs.webp
-    - link: https://docs.google.com/presentation/d/1DvHNqpZj_G23PwHlCKM5aM0El_d_TPgt-jy0mnZrBw4/edit?usp=sharing
-      title: Food Bank of Contra Costa & Solano
-      description: The main goal for this project is to help the Food Bank of Contra Costa & Solano better understand the communities they are serving. In order to accomplish this, we will add layers to the existing Tableau dashboard that is currently being used to map and visualize food distribution and needs. Adding more demographic layers to the map will allow the Food Bank of Contra Costa & Solano to better understand what specific communities they are reaching. Additionally, we would help analyze impact through more detailed visualizations in a dashboard. 
-      color: pink
-      image: /images/projects/fbccs.webp
-
-- title: fall 2022 research projects
-  projects:
-    - link: 
-      title: Tracking Causes of Climate Change
-      description: 'This project focuses on using data science methods such as data visualization, regression, and classification to identify and predict fraudulent entries in healthcare provider data. Suggested prereq: Data 8'
-      image: /images/projects/anomaly.webp
-      color: yellow
-    - link:
-      title: COVID sentiment analysis using NLP
-      description: 'As we move into a world that has seen the numerous waves of COVID-19, we want to learn more about how people have adjusted to the global pandemic we are enduring. Topics of interest include: mental health, healthcare, politics, vaccines, employment etc.'
-      image:  /images/projects/sentiment.webp
-      color: green
-    - link: 
-      title: Unemployment Rate Analysis
-      description: 'The goal of this project is to utilize multiple datasets to learn important techniques in data science, and educate students on how to provide clear, presentable data. The final project will use datasets on the general US unemployment rate from 1948 to 2022 and more detailed percentages classified based on age, race, education level.'
-      image: /images/projects/unemployment.webp
-      color: blue
-    - link:
-      title: Gender Income Inequality
-      description: 'The goal of this project is to utilize multiple datasets to learn important techniques in data science, and educate students on how to provide clear, presentable data. The final project will use datasets on the income of men and women in various tech jobs where members will be taking a look at how various factors such as seniority, level of education and age can contribute to gender inequality in income.'
-      image: /images/projects/inequality.webp
-      color: purple
-
-- title: spring 2022 industry projects
-  projects:
-    - link:
-      title: Interactive Map to Detect Environmental Inequities in Communities
-      description: This project is an interactive map that layers data about demographics and environmental issues to detect inequities between communities.
-      color: blue
-      image: /images/projects/waternow.webp
-    - link: 
-      title: Anomaly Detection in Healthcare Providers
-      description: 'This project focuses on utilizing data science techniques such as data visualization and exploratory data analysis to find trends in climate data. We will examine the factors which affect the Earth’s temperature in various locations.'
-      image: /images/projects/detection.webp
-      color: yellow
-    - link:
-      title: NMDC
-      description: This project will contribute to the NMDC's sample-annotator API for repairing biosample metadata that doesn't adhere to standards like MIxS. The repaired data will drive collaboration and open science.
-      color: pink
-      image: /images/projects/nmdc.webp
-
-- title: spring 2022 research projects
-  projects:
-    - link:
-      title: Climate Change Data Analysis
-      description: 'This project aims to create a model to predict future CO2 levels globally, or other indicators of climate change, while reviewing important packages and tools for analyzing and visualizing data. Suggested prereq: Data 8'
-      image:  /images/projects/climate.webp
-      color: green
-    - link: 
-      title: Online Learning Effect on Student Performance
-      description: 'This project aims to understand the effects of online learning on student performance. Using important data science techniques such as regression, we will look at how various factors affect student performance in both online and in-person learning environments. Suggested prereq: Data 8'
-      image: /images/projects/online.webp
-      color: blue
-    - link:
-      title: Tracking COVID-19 Vaccine Equity
-      description: 'In this project, we aim to employ national vaccination data to analyze COVID-19 vaccination programs in different countries. We would like to answer important questions about how the world is dealing with the surging virus. Do richer and poorer countries have very differing access to COVID-19 vaccines? Which country has the most efficient vaccination program? Does the type of vaccine being used matter? Or are there any geopolitical factors in play? Thanks to the comprehensive dataset from Our World in Data (OWID), there’s plenty of room for us to track COVID-19 vaccine equity across the globe.
-Difficulty level: Easy to medium. Will cover the basics of everything. No prior technical experience required.'
-      image: /images/projects/tracking.webp
-      color: purple
-
-- title: fall 2021 industry projects
-  projects:
-    - link:
-      title: Student Classifier
-      description: This project is a web application that Downtown College Prep can utilize to improve English learner reclassification and cohort identification for their students.
-      image: /images/heart-logo.png
-      color: purple
-    - link:
-      title: Ocean Trash Dashboard
-      description: This project is a live dashboard with Pacifica Beach Coalition clean up data that’s deployed online for progress tracking  and education.
-      image: /images/heart-logo.png
-      color: blue
-
-- title: fall 2021 research projects
-  projects:
-    - link:
-      title: Bay Area Public and Environmental Health Analysis
-      description: This project aims to introduce a variety of packages essential to analyzing and visualizing data, as well as exploring different sectors of social good.
-      image: /images/heart-logo.png
-      color: purple
-    - link:
-      title: COVID-19 Sentiment Analysis
-      description: This project aims to use sentiment analysis on tweets about the COVID-19 vaccination to understand how people feel about it across the world.
-      image: /images/heart-logo.png
-      color: pink
-    - link:
-      title: World Happiness Report
-      description: This project is to understand data about the World Happiness Report and what factors impact global wellbeing.
-      image: /images/heart-logo.png
-      color: yellow
-
-
-- title: spring 2021 industry projects
-  projects:
-  - link: https://www.facebook.com/UC-Berkeley-SAFE-Chatbot-102005888779715
-    title: Firewatch Chatbot
-    description: "The Firewatch Chatbot aims to: provide reliable info on fires close by, answer fire preparedness questions, and aid CalSAFE’s donor engagement and outreach"
-    image: /images/projects/fire.webp
-    color: yellow
-  - link: https://www.ptk.org/
-    title: Transfer Student Classification
-    description: Building an NLU topic model using over 10 years of scholarship submissions to both identify the problems students speak about in an unsupervised manner and analyze growth and evolution of them in time-series text data.
-    image: /images/projects/transfer.webp
-    color: purple
-
-- title: spring 2021 research projects
-  projects:
-  - link:
-    title: DC + Chicago Crime Analysis
-    description: Leveraging DC + Chicago crime data to visualize trends across factors such as race, socioeconomic status using regression and geospatial analysis
-    image: /images/projects/crime.webp
-    color: pink
-  - link:
-    title: Natural Language Processing on US Legislature
-    description: This project aims to analyze Pennsylvania legislature using NLP techniques such as TF-IDF, Part of Speech tagging, and more
-    image: /images/projects/legislature.webp
-    color: yellow
-  - link:
-    title: Cardiovascular Disease Classifer
-    description: Building a classifer to predict various severities of cardiovascular disease in patients
-    image: /images/projects/disease.webp
-    color: pink
-
 - title: past projects
   projects:
+  # spring 24
+  - link: 
+    title: Healthy Planet Project
+    description: This project will Use data from the Healthy Planet Project to analyze the most immediate needs in SF to improve the environmental health of the city and investigate what environmental causes SF residents donate to the most. 
+    image: /images/projects/healthy_planet.webp
+    color: pink
+  - link:
+    title: Multicultural Institute
+    description: Multicultural institute is a non-profit dedicated to empowering immigrants, especially those in the Latinx community. This project will use data analysis to identify areas for program improvement across their 3 chapters. Additionally, this program aims to showcase their impact and advocate for their support of immigrant communities.
+    image:  /images/projects/multicultural.webp
+    color: yellow
+  # fa 23
+  - link: 
+    title: Scientific Adventures for Girls
+    description: Using the Scientific Adventures for Girls' after-school program student and parent data from the last 8 years to create a dashboard and infographics for their website and marketing resources. 
+    image: /images/projects/scientific_adventures.webp
+    color: green
+  - link:
+    title: Young Women in Bio
+    description: By manipulating YWIB's national datasets in numerous ways, we will examine the factors that lead to more young women entering STEM, possibly how these factors can be increased, creating deliverables that help YWIB find the best locations to market to, and ways they can improve their workshops.
+    image:  /images/projects/ywib.webp
+    color: blue
+  - link: 
+    title: Roots of Success
+    description: This project aims to help Roots of Success better understand and communicate their impact by analyzing and visualizing data resulting from their environmental education programs, enhancing their ability to attract partners and donors, and set the organization up for continued success in the future.
+    image: /images/projects/roots.webp
+    color: yellow
+# sp 23
+  - link:
+    title: League of Women Voters (LWV)
+    description: Using the League of Women Voters' membership data, the team will be analyzing their performance in membership growth and community outreach. This will better guide their decision-making process of where to strengthen their efforts and allocate resources. Students will also be utilizing predictive models to project the organization’s growth give them metrics to measure their impact.
+    color: blue
+    image: /images/projects/leagueofwomenvoters.webp
+  - link:
+    title: Berkeley Disaster Preparedness Neighborhood Network
+    description: Using BDPNN's member list datasets and disaster preparedness zoning, we'll perform data analysis to develop recommendations for helping BDPNN better mobilize volunteers and determine regions to improve deployment for responding to natural disasters. Through overlaying the member data with demographic layers and zoning data, we’ll categorize members into zones for emergency responses. Additionally, we'll analyze disasters and predict the relative risk. 
+    color: pink
+    image: /images/projects/bdpnn.webp
+# fa 22
+  - link: 
+    title: Community Resources for Science (CRS)
+    description: The main goal of this project is to help the Community Resources for Science (CRS) analyze survey data from 10+ years of surveys stored in CSV files, possibly selecting only certain years to look at. CRS anticipates looking at 6-8 key questions like teachers who are newer vs more experienced; teachers from 3 different school districts, teachers' level of confidence and amount of time spent on teaching science, etc. The primary reason for looking more into these key questions is to help CRS better understand the trends and differentiations among these key questions. 
+    color: blue
+    image: /images/projects/crs.webp
+   - link: https://docs.google.com/presentation/d/1DvHNqpZj_G23PwHlCKM5aM0El_d_TPgt-jy0mnZrBw4/edit?usp=sharing
+    title: Food Bank of Contra Costa & Solano
+    description: The main goal for this project is to help the Food Bank of Contra Costa & Solano better understand the communities they are serving. In order to accomplish this, we will add layers to the existing Tableau dashboard that is currently being used to map and visualize food distribution and needs. Adding more demographic layers to the map will allow the Food Bank of Contra Costa & Solano to better understand what specific communities they are reaching. Additionally, we would help analyze impact through more detailed visualizations in a dashboard. 
+    color: pink
+    image: /images/projects/fbccs.webp
+# sp 22
+  - link:
+    title: Interactive Map to Detect Environmental Inequities in Communities
+    description: This project is an interactive map that layers data about demographics and environmental issues to detect inequities between communities.
+    color: blue
+    image: /images/projects/waternow.webp
+  - link: 
+    title: Anomaly Detection in Healthcare Providers
+    description: 'This project focuses on utilizing data science techniques such as data visualization and exploratory data analysis to find trends in climate data. We will examine the factors which affect the Earth’s temperature in various locations.'
+    image: /images/projects/detection.webp
+    color: yellow
+  - link:
+    title: NMDC
+    description: This project will contribute to the NMDC's sample-annotator API for repairing biosample metadata that doesn't adhere to standards like MIxS. The repaired data will drive collaboration and open science.
+    color: pink
+    image: /images/projects/nmdc.webp
+# fa 21
+  - link:
+    title: Student Classifier
+    description: This project is a web application that Downtown College Prep can utilize to improve English learner reclassification and cohort identification for their students.
+    image: /images/heart-logo.png
+    color: purple
+  - link:
+    title: Ocean Trash Dashboard
+    description: This project is a live dashboard with Pacifica Beach Coalition clean up data that’s deployed online for progress tracking  and education.
+    image: /images/heart-logo.png
+    color: blue
+# sp 21
+- link: https://www.facebook.com/UC-Berkeley-SAFE-Chatbot-102005888779715
+  title: Firewatch Chatbot
+  description: "The Firewatch Chatbot aims to: provide reliable info on fires close by, answer fire preparedness questions, and aid CalSAFE’s donor engagement and outreach"
+  image: /images/projects/fire.webp
+  color: yellow
+- link: https://www.ptk.org/
+  title: Transfer Student Classification
+  description: Building an NLU topic model using over 10 years of scholarship submissions to both identify the problems students speak about in an unsupervised manner and analyze growth and evolution of them in time-series text data.
+  image: /images/projects/transfer.webp
+  color: purple
+
+# idk
   - link: https://ng-usa.org/
     title: Nehemiah Gateway USA
     description: Provide actionable information that will increase donor reach and engagement using data science and NLP
@@ -418,20 +266,4 @@ Difficulty level: Easy to medium. Will cover the basics of everything. No prior 
     image: /images/projects/ciee.webp
     color: blue
 
-  - link:
-    title: Medical Insurance Analysis and Classifer
-    description: Created data science project that utilized a Python GUI to visualize different data science techniques on insurance health charges data using Pandas, Sklearn, and Tkinter
-    image: /images/projects/insurance.webp
-    color: green
 
-  - link: https://gspp.berkeley.edu/centers/cepp/projects/mapping-for-environmental-justice
-    title: Mapping for Environmental Justice
-    description: Mapping for Environmental Justice (MEJ) is an initiative to create interactive and publicly-accessible maps displaying environmental justice data for individual states. With guidance from the residents of impacted communities, MEJ combines environmental, public health, and demographic data into an indicator of vulnerability for communities in every state.
-    image: /images/projects/mapping.webp
-    color: green
-
-  - link: https://docs.google.com/presentation/d/1srR26ON6Vu-ygoowqm9AqW7AJcM6NW0Y03QRXd-njM4/edit#slide=id.g8292d9be50_0_1663
-    title: Electronic Pathology Report Classification
-    description: In partnership with the Cancer Registry of Greater California, this project uses ML and NLP on electronic pathology records to identify reports missing critical diagnostic information especially for ethinic minorities in the state of California.
-    image: /images/projects/pathology.webp
-    color: pink
