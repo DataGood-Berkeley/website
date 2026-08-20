@@ -4,7 +4,7 @@
     - link: 
       title: National Geographic Society
       description: "In partnership with the National Geographic Society, this project developed a reproducible R package that transforms Wedge-tailed Shearwater GPS data into policy-relevant spatial outputs, integrating environmental, fisheries, and jurisdictional data to support marine conservation, fisheries assessment, and spatial planning."
-      image: /images/projects/natgeo.webp
+      image: /images/projects/natgeographic.webp
       color: pink
     - link:
       title: The Nature Conservancy
@@ -14,7 +14,7 @@
     - link:
       title: ClimateVoice
       description: "In partnership with ClimateVoice, this project developed a replicable framework combining NLP, sustainability reports, lobbying data, and policy positions to assess corporate climate accountability, identify gaps between commitments and advocacy, and strengthen ClimateVoice’s Climate Policy Obstruction Scorecard."
-      image:  /images/projects/climatevoice.webp
+      image:  /images/projects/climatev.webp
       color: pink
 
 - title: spring 2026 research projects
