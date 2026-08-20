@@ -1,4 +1,40 @@
 # Configuration for all projects
+- title: spring 2026 industry projects
+  projects: 
+    - link: 
+      title: National Geographic Society
+      description: "In partnership with the National Geographic Society, this project developed a reproducible R package that transforms Wedge-tailed Shearwater GPS data into policy-relevant spatial outputs, integrating environmental, fisheries, and jurisdictional data to support marine conservation, fisheries assessment, and spatial planning."
+      image: /images/projects/natgeo.webp
+      color: pink
+    - link:
+      title: The Nature Conservancy
+      description: "In partnership with The Nature Conservancy, this project developed a reproducible machine learning pipeline to predict key snowpack and hydrological measures using environmental features. The scalable workflow supports multi-year analysis of forest–snow interactions and spatial predictions across diverse study areas."
+      image:  /images/projects/thenatureconservancy.webp
+      color: pink
+    - link:
+      title: ClimateVoice
+      description: "In partnership with ClimateVoice, this project developed a replicable framework combining NLP, sustainability reports, lobbying data, and policy positions to assess corporate climate accountability, identify gaps between commitments and advocacy, and strengthen ClimateVoice’s Climate Policy Obstruction Scorecard."
+      image:  /images/projects/climatevoice.webp
+      color: pink
+
+- title: spring 2026 research projects
+  projects: 
+    - link: 
+      title: AI for Fintech/Sustainability
+      description: "This project investigated sustainability and ethics in e-commerce by analyzing environmental impacts, product materials, corporate transparency, governance, and user reviews. The team applied exploratory data analysis and machine learning to identify patterns associated with fraudulent, unsustainable, and unethical businesses."
+      image: /images/projects/ai-fintech.webp
+      color: pink
+    - link:
+      title: Heat Burden and Health Equity Analysis
+      description: "This project uses machine learning to predict urban heat vulnerability and evaluate equity tradeoffs across policy strategies. By integrating environmental, health, and socioeconomic data, the team identifies vulnerable communities and communicates findings through an interactive Tableau dashboard."
+      image:  /images/projects/healthequity.webp
+      color: pink
+    - link:
+      title: Predictive Analytics for Healthcare Fraud
+      description: "This project develops a healthcare fraud detection pipeline to identify abnormal provider behavior and spending patterns. Using regression, kNN, time-series analysis, hypothesis testing, and A/B testing, the team aims to detect potential fraud and support a fairer, more accountable healthcare system."
+      image:  /images/projects/healthfraud.webp
+      color: pink
+
 - title: fall 2025 industry projects
   projects: 
     - link: 
