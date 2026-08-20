@@ -55,11 +55,11 @@
 			}
 		}
 	}
-	@include back(green, $green);
-	@include back(blue, $blue);
-	@include back(yellow, $yellow);
 	@include back(pink, $pink);
-	@include back(purple, $purple);
+	@include back(pink, $pink);
+	@include back(pink, $pink);
+	@include back(pink, $pink);
+	@include back(pink, $pink);
 	&:hover {
       background-color: $white;
       &:after {
