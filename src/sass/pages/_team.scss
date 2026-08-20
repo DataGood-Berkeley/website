@@ -136,15 +136,11 @@
         &:hover {
           transform: scale(1.15);
         }
-      }
-
-      .social.linkedin {
-        background-image: url("/images/socials/linkedin.png");
-      }
-
-      .coffee img {
-        height: 100%;
-        width: 100%;
+				img {
+					height: 100%;
+					width: 100%;
+					object-fit: cover;
+				}
       }
     }
   }
